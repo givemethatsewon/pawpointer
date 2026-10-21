@@ -28,7 +28,7 @@ Downloaded source images at up to 1800 pixels, preserving the full composition a
 
 - New assets: same-dimension AVIF/WebP alternatives plus WebP thumbnails. No new runtime dependency or stock API call.
 - Preferred image payloads for all 16 additions total **2,133,205 bytes**. Only the selected image loads; the collection is not eagerly downloaded.
-- Gzipped startup catalog grows by **764 bytes**. Existing six-image decoded cache and Cloudflare Pages cache policy are preserved.
+- Gzipped startup catalog grows by **763 bytes**. Existing six-image decoded cache and Cloudflare Pages cache policy are preserved.
 - All 413 full-image file hashes are unique; AVIF and WebP files decode with catalog-matching dimensions. This is not a claim that similar poses cannot appear.
 - Unit tests check catalog integrity, alignment across viewport sizes and edges, nearby selection and repeat exclusion.
 - [browser.json](browser.json) records every new photo at its annotated target on desktop and mobile. These geometry-only checks disable toolbar pointer interception so top-left target coordinates remain testable; the normal browser suite separately checks the working logo link. [production.json](production.json) records the equivalent deployed checks.

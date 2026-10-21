@@ -1124,7 +1124,7 @@
       "x": 1.0,
       "y": 0.5,
       "within015": 7,
-      "eighthDistance": 0.16401
+      "eighthDistance": 0.17205
     },
     {
       "x": 0.0,
@@ -1458,7 +1458,7 @@
     }
   ],
   "catalogGzipBefore": 18521,
-  "catalogGzipAfter": 19285,
+  "catalogGzipAfter": 19284,
   "assets": [
     {
       "id": "pexels-24809820",

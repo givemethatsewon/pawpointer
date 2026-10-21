@@ -46,17 +46,17 @@
       "overflow": false
     },
     {
-      "id": "pexels-24809820",
-      "mobile": false,
-      "loaded": true,
-      "error": 0.01187500000014552,
-      "overflow": false
-    },
-    {
       "id": "pexels-4858813",
       "mobile": true,
       "loaded": true,
       "error": 0.011015624999998863,
+      "overflow": false
+    },
+    {
+      "id": "pexels-24809820",
+      "mobile": false,
+      "loaded": true,
+      "error": 0.01187500000014552,
       "overflow": false
     },
     {
@@ -147,7 +147,7 @@
       "id": "pexels-27488668",
       "mobile": false,
       "loaded": true,
-      "error": 0.01328125000009095,
+      "error": 0.012500000000045475,
       "overflow": false
     },
     {
