@@ -11,7 +11,7 @@ export default function App() {
   return <div className={`app ${shot ? 'has-photo' : ''}`}>
     <PhotoStage {...gallery} paused={false} />
     <header className="toolbar" aria-label="Paw Pointer controls">
-      <a className="wordmark" data-ui href="https://github.com/givemethatsewon" target="_blank" rel="me noreferrer" aria-label="Paw Pointer — Sewon on GitHub"><PawPrint size={22} strokeWidth={2.4} /><span>paw pointer</span></a>
+      <a className="wordmark" data-ui href="https://github.com/givemethatsewon/pawpointer" target="_blank" rel="noreferrer" aria-label="Paw Pointer on GitHub"><PawPrint size={22} strokeWidth={2.4} /><span>paw pointer</span></a>
     </header>
     <footer className="bottom-bar">
       <div className="status" role="status" aria-live="polite" aria-atomic="true"><span className={`status-dot ${phase === 'loading' ? 'pulsing' : ''}`} /><span>{status}</span></div>

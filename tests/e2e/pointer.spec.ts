@@ -75,13 +75,13 @@ test('small mobile reduced motion is usable',async({page})=>{
  expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBe(320);
 });
 
-test('creator link uses the main GitHub profile; canvas has no photo credit',async({page})=>{
+test('logo links to the GitHub repository; canvas has no photo credit',async({page})=>{
  await page.goto('/');await startPlay(page);
- await expect(page.getByRole('link',{name:'Paw Pointer — Sewon on GitHub'})).toHaveAttribute('href','https://github.com/givemethatsewon');
+ await expect(page.getByRole('link',{name:'Paw Pointer on GitHub'})).toHaveAttribute('href','https://github.com/givemethatsewon/pawpointer');
  await expect(page.locator('.photo-credit, .creator-link')).toHaveCount(0);
  await expect(page.getByRole('button',{name:'Meet the cats',exact:true})).toHaveCount(0);
  await expect(page.getByRole('button',{name:'Show another cat',exact:true})).toHaveCount(0);
- await expect(page.getByRole('link',{name:'Paw Pointer — Sewon on GitHub'})).toBeInViewport();
+ await expect(page.getByRole('link',{name:'Paw Pointer on GitHub'})).toBeInViewport();
 });
 
 test('AVIF is preferred and a broken AVIF falls back to the same WebP photo',async({page})=>{
