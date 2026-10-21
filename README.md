@@ -70,7 +70,7 @@ Therefore `translation + q × R = P`: the annotated paw stays exactly on target.
 
 ## Photography
 
-400 visually reviewed Pexels photographs, stored locally with same-dimension AVIF alternatives, WebP fallbacks, and compact WebP thumbnails. All photographer names, source pages and license links are preserved in [`src/photos.json`](src/photos.json) and [CREDITS.md](CREDITS.md). The top-left logo links to Sewon’s GitHub profile. Photography credits are preserved in CREDITS.md and the catalog, with source and license links in this README. The canvas has no collection or next-photo buttons; Space remains available.
+397 active Pexels photographs (400 reviewed; 3 excluded because their front toes are cropped or obscured), stored locally with same-dimension AVIF alternatives, WebP fallbacks, and compact WebP thumbnails. All photographer names, source pages and license links are preserved in [`src/photos.json`](src/photos.json) and [CREDITS.md](CREDITS.md). The top-left logo links to Sewon’s GitHub profile. Photography credits are preserved in CREDITS.md and the catalog, with source and license links in this README. The canvas has no collection or next-photo buttons; Space remains available.
 
 Photos were discovered with the authorized Pexels API during authoring. **The API key is not in this repository or the browser bundle.** No API access is required for the published site.
 
@@ -106,7 +106,7 @@ tests/                       Geometry/catalog and browser regression tests
 
 The final visual direction is documented in [DESIGN.md](docs/DESIGN.md). The original welcome-screen concept is superseded: the shipped product opens directly into the interactive canvas.
 
-The latest [200-to-400-photo expansion](docs/expansion-400/README.md) includes annotation review sheets and byte measurements. The earlier 60-to-200-photo expansion and its measurements are recorded in [photo curation](docs/photo-curation.md) and [performance comparison](docs/performance/README.md). The archived benchmark scripts target that earlier UI, including its collection button.
+The [full 400-photo coordinate audit](docs/paw-audit-400/README.md) records 47 corrected annotations and 3 exclusions. The latest [200-to-400-photo expansion](docs/expansion-400/README.md) includes annotation review sheets and byte measurements. The earlier 60-to-200-photo expansion and its measurements are recorded in [photo curation](docs/photo-curation.md) and [performance comparison](docs/performance/README.md). The archived benchmark scripts target that earlier UI, including its collection button.
 
 The latency optimization is documented in [performance v2](docs/performance/v2/README.md), with an alternating before/after benchmark and raw samples. The measurements describe the earlier UI; the collection and About controls have since been removed, and their explanatory content now lives here.
 

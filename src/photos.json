@@ -102,23 +102,6 @@
     "licenseUrl": "https://www.pexels.com/license/"
   },
   {
-    "id": "pexels-2064110",
-    "title": "Golden-hour grab",
-    "src": "photos/pexels-2064110.webp",
-    "thumbnail": "photos/pexels-2064110-thumb.webp",
-    "width": 1800,
-    "height": 1200,
-    "paw": {
-      "x": 0.15,
-      "y": 0.065
-    },
-    "alt": "Close-up of a tabby cat curiously reaching out in a sunlit indoor setting.",
-    "photographer": "Halil İbrahim  ÇETİN",
-    "source": "Pexels",
-    "sourceUrl": "https://www.pexels.com/photo/close-up-photo-of-a-curious-calico-cat-2064110/",
-    "licenseUrl": "https://www.pexels.com/license/"
-  },
-  {
     "id": "pexels-18831976",
     "title": "Personal space?",
     "src": "photos/pexels-18831976.webp",
@@ -228,8 +211,8 @@
     "width": 1800,
     "height": 1202,
     "paw": {
-      "x": 0.255,
-      "y": 0.245
+      "x": 0.20769,
+      "y": 0.45385
     },
     "alt": "Adorable close-up of a tabby cat's paws resting on a surface, showcasing its soft fur.",
     "photographer": "Arina Krasnikova",
@@ -534,8 +517,8 @@
     "width": 1440,
     "height": 1800,
     "paw": {
-      "x": 0.51,
-      "y": 0.72
+      "x": 0.47179,
+      "y": 0.67623
     },
     "alt": "Cute ginger and white cat stretching on a patio in Kraków, Poland, enjoying a sunny day.",
     "photographer": "Annashoots 📷",
@@ -772,8 +755,8 @@
     "width": 1012,
     "height": 1800,
     "paw": {
-      "x": 0.2797,
-      "y": 0.3118
+      "x": 0.66032,
+      "y": 0.48036
     },
     "alt": "Adorable white kitten playfully reaching for a dangling toy indoors.",
     "photographer": "frank minjarez",
@@ -1010,30 +993,13 @@
     "width": 1200,
     "height": 1800,
     "paw": {
-      "x": 0.12,
-      "y": 0.73
+      "x": 0.04021,
+      "y": 0.58214
     },
     "alt": "Close-up black and white photo of a playful kitten reaching its paws upwards.",
     "photographer": "ATHENEA CODJAMBASSIS ROSSITTO",
     "source": "Pexels",
     "sourceUrl": "https://www.pexels.com/photo/black-and-white-close-up-photo-of-a-cat-24809843/",
-    "licenseUrl": "https://www.pexels.com/license/"
-  },
-  {
-    "id": "pexels-28874308",
-    "title": "High five",
-    "src": "photos/pexels-28874308.webp",
-    "thumbnail": "photos/pexels-28874308-thumb.webp",
-    "width": 1200,
-    "height": 1800,
-    "paw": {
-      "x": 0.4798,
-      "y": 0.15
-    },
-    "alt": "Cute stray kitten playing outdoors in an Istanbul garden, capturing its playful nature.",
-    "photographer": "Büşranur Aydın",
-    "source": "Pexels",
-    "sourceUrl": "https://www.pexels.com/photo/playful-stray-kitten-in-istanbul-garden-28874308/",
     "licenseUrl": "https://www.pexels.com/license/"
   },
   {
@@ -1078,8 +1044,8 @@
     "width": 1800,
     "height": 1205,
     "paw": {
-      "x": 0.8217,
-      "y": 0.6299
+      "x": 0.92308,
+      "y": 0.67816
     },
     "alt": "Adorable close-up of an orange tabby cat peeking over a white surface, full of curiosity.",
     "photographer": "Karina Badura",
@@ -1095,8 +1061,8 @@
     "width": 1800,
     "height": 1200,
     "paw": {
-      "x": 0.6565,
-      "y": 0.5621
+      "x": 0.69487,
+      "y": 0.65385
     },
     "alt": "A close-up shot of a fluffy white cat resting indoors, focusing on its paw.",
     "photographer": "Iren Polishchuk",
@@ -1265,8 +1231,8 @@
     "width": 1800,
     "height": 1350,
     "paw": {
-      "x": 0.1513,
-      "y": 0.4897
+      "x": 0.18974,
+      "y": 0.53242
     },
     "alt": "A cute grey cat stretching lazily on a yellow concrete surface outdoors.",
     "photographer": "Leonardo Tavares",
@@ -1367,8 +1333,8 @@
     "width": 1800,
     "height": 1800,
     "paw": {
-      "x": 0.4565,
-      "y": 0.7739
+      "x": 0.43333,
+      "y": 0.70256
     },
     "alt": "Adorable ragdoll kitten playing with a colorful feather toy indoors.",
     "photographer": "David Yu",
@@ -1520,8 +1486,8 @@
     "width": 1800,
     "height": 1200,
     "paw": {
-      "x": 0.5522,
-      "y": 0.6013
+      "x": 0.525,
+      "y": 0.516
     },
     "alt": "A cute Bengal kitten playing with a pink feather toy on a colorful rug indoors.",
     "photographer": "Helena Jankovičová Kováčová",
@@ -1537,8 +1503,8 @@
     "width": 1200,
     "height": 1800,
     "paw": {
-      "x": 0.515,
-      "y": 0.2943
+      "x": 0.5592,
+      "y": 0.352
     },
     "alt": "Two playful kittens climbing a chain-link fence in Istanbul, capturing a moment of curiosity.",
     "photographer": "Leila Abboud",
@@ -1588,8 +1554,8 @@
     "width": 1118,
     "height": 1800,
     "paw": {
-      "x": 0.3825,
-      "y": 0.6657
+      "x": 0.44253,
+      "y": 0.60714
     },
     "alt": "Adorable orange and white kitten playing with a black string indoors on a cozy couch.",
     "photographer": "Muzin Kahraman",
@@ -1622,8 +1588,8 @@
     "width": 1200,
     "height": 1800,
     "paw": {
-      "x": 0.6323,
-      "y": 0.5763
+      "x": 0.64075,
+      "y": 0.60893
     },
     "alt": "Cute tabby kitten indoors, playfully reaching for a toy on the floor.",
     "photographer": "Nuray",
@@ -1673,8 +1639,8 @@
     "width": 1440,
     "height": 1800,
     "paw": {
-      "x": 0.7452,
-      "y": 0.7808
+      "x": 0.8359,
+      "y": 0.74795
     },
     "alt": "Curious kitten reaching through illuminated ring against dark backdrop in studio setting.",
     "photographer": "Gustavo Denuncio",
@@ -1724,8 +1690,8 @@
     "width": 1193,
     "height": 1800,
     "paw": {
-      "x": 0.8319,
-      "y": 0.4486
+      "x": 0.87332,
+      "y": 0.43214
     },
     "alt": "Adorable kitten giving a high five to a human hand indoors.",
     "photographer": "Nazila Azimzada",
@@ -1792,8 +1758,8 @@
     "width": 1800,
     "height": 1350,
     "paw": {
-      "x": 0.6944,
-      "y": 0.5519
+      "x": 0.86154,
+      "y": 0.33106
     },
     "alt": "A black and white cat lounges on a blue mat in sunlight streaming through a window.",
     "photographer": "Shuaizhi Tian",
@@ -1877,8 +1843,8 @@
     "width": 1799,
     "height": 1800,
     "paw": {
-      "x": 0.4174,
-      "y": 0.8435
+      "x": 0.41795,
+      "y": 0.91026
     },
     "alt": "A monochrome image of a tabby cat stretching on stone pavement, capturing a playful and relaxed moment.",
     "photographer": "Talha Güney",
@@ -1962,8 +1928,8 @@
     "width": 1350,
     "height": 1800,
     "paw": {
-      "x": 0.5487,
-      "y": 0.9192
+      "x": 0.47179,
+      "y": 0.93654
     },
     "alt": "A curious tuxedo cat stretching playfully on a soft carpet in a cozy home setting.",
     "photographer": "Lisa Fotios",
@@ -1979,8 +1945,8 @@
     "width": 1800,
     "height": 1201,
     "paw": {
-      "x": 0.9028,
-      "y": 0.8125
+      "x": 0.9359,
+      "y": 0.91154
     },
     "alt": "Peaceful cat lounging and stretching on grass, enjoying a sunny day.",
     "photographer": "Engin Akyurt",
@@ -2319,8 +2285,8 @@
     "width": 1350,
     "height": 1800,
     "paw": {
-      "x": 0.1846,
-      "y": 0.1577
+      "x": 0.16923,
+      "y": 0.10962
     },
     "alt": "Adorable orange tabby cat stretching leisurely on a chair indoors.",
     "photographer": "N G",
@@ -2421,8 +2387,8 @@
     "width": 1009,
     "height": 1800,
     "paw": {
-      "x": 0.9384,
-      "y": 0.3385
+      "x": 0.1925,
+      "y": 0.46
     },
     "alt": "Top view adorable lazy fluffy cat lying asleep on back on cozy soft armchair in light modern living room",
     "photographer": "furkanfdemir",
@@ -2540,8 +2506,8 @@
     "width": 1800,
     "height": 1202,
     "paw": {
-      "x": 0.6217,
-      "y": 0.6667
+      "x": 0.68718,
+      "y": 0.64231
     },
     "alt": "A cute ginger kitten stretching and sleeping on a blue blanket by the window.",
     "photographer": "大 董",
@@ -2863,8 +2829,8 @@
     "width": 1260,
     "height": 1800,
     "paw": {
-      "x": 0.5873,
-      "y": 0.8333
+      "x": 0.5359,
+      "y": 0.85817
     },
     "alt": "Cute tabby cat playfully stretching on a sunlit tile outdoors.",
     "photographer": "A K",
@@ -2914,8 +2880,8 @@
     "width": 1800,
     "height": 1257,
     "paw": {
-      "x": 0.487,
-      "y": 0.8562
+      "x": 0.42308,
+      "y": 0.81985
     },
     "alt": "A cute kitten playfully peeks through a white fence with a curious expression, captured in Dhaka.",
     "photographer": "Janntul  Hasan",
@@ -2965,8 +2931,8 @@
     "width": 1800,
     "height": 1218,
     "paw": {
-      "x": 0.6444,
-      "y": 0.627
+      "x": 0.70513,
+      "y": 0.65909
     },
     "alt": "A serene ginger cat lies stretched out on a wooden table near an open window, enjoying the sunlight.",
     "photographer": "Ánh Đặng",
@@ -3152,30 +3118,13 @@
     "width": 1200,
     "height": 1800,
     "paw": {
-      "x": 0.575,
-      "y": 0.5
+      "x": 0.57641,
+      "y": 0.52679
     },
     "alt": "A ginger cat lounging peacefully in lush green grass, enjoying a sunny day outdoors.",
     "photographer": "Gülşah Aydoğan",
     "source": "Pexels",
     "sourceUrl": "https://www.pexels.com/photo/ginger-cat-relaxing-on-green-grass-outdoors-31466270/",
-    "licenseUrl": "https://www.pexels.com/license/"
-  },
-  {
-    "id": "pexels-37228045",
-    "title": "Toe check",
-    "src": "photos/pexels-37228045.webp",
-    "thumbnail": "photos/pexels-37228045-thumb.webp",
-    "width": 1800,
-    "height": 1350,
-    "paw": {
-      "x": 0.913,
-      "y": 0.5549
-    },
-    "alt": "A calico cat cleaning itself outdoors on a grassy field during daylight, showcasing natural feline behavior.",
-    "photographer": "Dmytro Koplyk",
-    "source": "Pexels",
-    "sourceUrl": "https://www.pexels.com/photo/calico-cat-grooming-in-natural-setting-37228045/",
     "licenseUrl": "https://www.pexels.com/license/"
   },
   {
@@ -3356,8 +3305,8 @@
     "width": 1800,
     "height": 1202,
     "paw": {
-      "x": 0.587,
-      "y": 0.5163
+      "x": 0.6,
+      "y": 0.58077
     },
     "alt": "A playful orange kitten lies on a sunlit blue blanket indoors, capturing a toy in its paws.",
     "photographer": "大 董",
@@ -3407,8 +3356,8 @@
     "width": 1800,
     "height": 1202,
     "paw": {
-      "x": 0.478,
-      "y": 0.597
+      "x": 0.48718,
+      "y": 0.65385
     },
     "alt": "Cute ginger kitten enjoying a playful moment indoors with a toy ball under sunny natural light.",
     "photographer": "大 董",
@@ -3560,8 +3509,8 @@
     "width": 1261,
     "height": 1800,
     "paw": {
-      "x": 0.55238,
-      "y": 0.44
+      "x": 0.5641,
+      "y": 0.47038
     },
     "alt": "A serene black and white scene featuring cats interacting with a human, capturing a warm indoor moment.",
     "photographer": "Annashoots 📷",
@@ -3645,8 +3594,8 @@
     "width": 1800,
     "height": 1473,
     "paw": {
-      "x": 0.57241,
-      "y": 0.76371
+      "x": 0.61282,
+      "y": 0.78056
     },
     "alt": "A curious tabby kitten explores outdoors, capturing a moment of playful discovery.",
     "photographer": "Karim Tab",
@@ -3883,8 +3832,8 @@
     "width": 1200,
     "height": 1800,
     "paw": {
-      "x": 0.5,
-      "y": 0.8
+      "x": 0.49866,
+      "y": 0.82321
     },
     "alt": "Adorable fluffy cat enjoying playtime with a feather on a sunlit carpet.",
     "photographer": "zeynepshoots",
@@ -3934,8 +3883,8 @@
     "width": 1800,
     "height": 1194,
     "paw": {
-      "x": 0.28621,
-      "y": 0.71875
+      "x": 0.31026,
+      "y": 0.73745
     },
     "alt": "A white and orange cat playfully scratching and yawning on a rough stone surface outdoors.",
     "photographer": "Mihman Duğanlı",
@@ -4172,8 +4121,8 @@
     "width": 1200,
     "height": 1800,
     "paw": {
-      "x": 0.405,
-      "y": 0.73667
+      "x": 0.55496,
+      "y": 0.75714
     },
     "alt": "Cute kittens lounging in a basket on a sunny day in Istanbul, Türkiye.",
     "photographer": "Eyüpcan Timur",
@@ -4206,8 +4155,8 @@
     "width": 1800,
     "height": 1200,
     "paw": {
-      "x": 0.63103,
-      "y": 0.78238
+      "x": 0.64615,
+      "y": 0.75
     },
     "alt": "Adorable ginger kitten playing with a yellow toy on a fluffy white carpet indoors.",
     "photographer": "Muzin Kahraman",
@@ -4274,8 +4223,8 @@
     "width": 1200,
     "height": 1800,
     "paw": {
-      "x": 0.58,
-      "y": 0.55
+      "x": 0.50938,
+      "y": 0.56964
     },
     "alt": "A playful ginger kitten with bright eyes exploring a woven basket indoors.",
     "photographer": "Manon Thvnd",
@@ -4393,8 +4342,8 @@
     "width": 1200,
     "height": 1800,
     "paw": {
-      "x": 0.195,
-      "y": 0.6
+      "x": 0.17962,
+      "y": 0.61964
     },
     "alt": "Two adorable kittens playfully exploring indoors with curious expressions.",
     "photographer": "Archibald Marajas",
@@ -5090,8 +5039,8 @@
     "width": 1347,
     "height": 1800,
     "paw": {
-      "x": 0.44444,
-      "y": 0.77
+      "x": 0.568,
+      "y": 0.695
     },
     "alt": "Adorable black cat sleeping soundly on a sofa, capturing a serene domestic moment.",
     "photographer": "Carla Schizzi",
@@ -5124,8 +5073,8 @@
     "width": 1800,
     "height": 1200,
     "paw": {
-      "x": 0.86897,
-      "y": 0.75648
+      "x": 0.87436,
+      "y": 0.68846
     },
     "alt": "A close-up of a serene tabby cat sleeping on a cobblestone street in Istanbul.",
     "photographer": "Tolga Erbay",
@@ -5141,8 +5090,8 @@
     "width": 1800,
     "height": 1198,
     "paw": {
-      "x": 0.51724,
-      "y": 0.76684
+      "x": 0.65641,
+      "y": 0.66923
     },
     "alt": "A fluffy tabby cat licking its paw while comfortably relaxing on a plush bed indoors.",
     "photographer": "Gammel Knecht",
@@ -5294,8 +5243,8 @@
     "width": 1350,
     "height": 1800,
     "paw": {
-      "x": 0.82667,
-      "y": 0.53333
+      "x": 0.88974,
+      "y": 0.53077
     },
     "alt": "A cute tabby cat sleeping peacefully on a soft, textured blanket indoors.",
     "photographer": "Terri King",
@@ -5345,8 +5294,8 @@
     "width": 1800,
     "height": 1197,
     "paw": {
-      "x": 0.21379,
-      "y": 0.78238
+      "x": 0.31538,
+      "y": 0.78378
     },
     "alt": "Cute kitten sleeping peacefully indoors on a colorful bedspread, perfect for pet lovers.",
     "photographer": "Fabricio Trujillo",
@@ -5413,8 +5362,8 @@
     "width": 1800,
     "height": 1200,
     "paw": {
-      "x": 0.6,
-      "y": 0.83938
+      "x": 0.74103,
+      "y": 0.78077
     },
     "alt": "Close-up of a fluffy black and white cat sleeping indoors, showing a sense of coziness and tranquility.",
     "photographer": "Sarah Bond",
@@ -5685,8 +5634,8 @@
     "width": 1350,
     "height": 1800,
     "paw": {
-      "x": 0.72889,
-      "y": 0.51667
+      "x": 0.76923,
+      "y": 0.475
     },
     "alt": "A white cat playfully sunbathing on a decorative rug indoors in KL, India.",
     "photographer": "Alex Jaison",
@@ -6042,8 +5991,8 @@
     "width": 1440,
     "height": 1800,
     "paw": {
-      "x": 0.20417,
-      "y": 0.84333
+      "x": 0.09487,
+      "y": 0.82582
     },
     "alt": "Close-up portrait of an adorable Siamese cat with striking blue eyes lying on a patterned blanket.",
     "photographer": "Gustavo Cavalcante",
@@ -6365,8 +6314,8 @@
     "width": 1800,
     "height": 1200,
     "paw": {
-      "x": 0.55172,
-      "y": 0.79793
+      "x": 0.6641,
+      "y": 0.78077
     },
     "alt": "A peaceful tabby cat sleeping soundly, captured in a striking black and white photo.",
     "photographer": "Vladislav Shurgin",
@@ -6671,8 +6620,8 @@
     "width": 1198,
     "height": 1800,
     "paw": {
-      "x": 0.655,
-      "y": 0.60667
+      "x": 0.69705,
+      "y": 0.61429
     },
     "alt": "Adorable tabby kitten climbing a tree surrounded by lush green leaves outdoors.",
     "photographer": "Rahul Subba",
@@ -6705,8 +6654,8 @@
     "width": 1200,
     "height": 1800,
     "paw": {
-      "x": 0.505,
-      "y": 0.88667
+      "x": 0.53351,
+      "y": 0.89107
     },
     "alt": "White and black cat exploring a snowy outdoor environment, peeking with curiosity.",
     "photographer": "Codrin Rusu",
@@ -6722,8 +6671,8 @@
     "width": 1800,
     "height": 1350,
     "paw": {
-      "x": 0.17241,
-      "y": 0.44037
+      "x": 0.14103,
+      "y": 0.33788
     },
     "alt": "A close-up of a joyful cat with snowflakes on its fur, relishing the winter chill.",
     "photographer": "Nurullah Degri",

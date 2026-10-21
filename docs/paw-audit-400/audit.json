@@ -1,0 +1,6000 @@
+{
+  "date": "2026-10-22",
+  "reviewed": 400,
+  "active": 397,
+  "corrected": 47,
+  "excluded": 3,
+  "records": [
+    {
+      "id": "pexels-8538273",
+      "originalIndex": 0,
+      "status": "retained",
+      "before": {
+        "x": 0.295,
+        "y": 0.35
+      },
+      "after": {
+        "x": 0.295,
+        "y": 0.35
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-675463",
+      "originalIndex": 1,
+      "status": "retained",
+      "before": {
+        "x": 0.09,
+        "y": 0.63
+      },
+      "after": {
+        "x": 0.09,
+        "y": 0.63
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-6982650",
+      "originalIndex": 2,
+      "status": "retained",
+      "before": {
+        "x": 0.745,
+        "y": 0.955
+      },
+      "after": {
+        "x": 0.745,
+        "y": 0.955
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-37535303",
+      "originalIndex": 3,
+      "status": "retained",
+      "before": {
+        "x": 0.28,
+        "y": 0.42
+      },
+      "after": {
+        "x": 0.28,
+        "y": 0.42
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-17667956",
+      "originalIndex": 4,
+      "status": "retained",
+      "before": {
+        "x": 0.35,
+        "y": 0.235
+      },
+      "after": {
+        "x": 0.35,
+        "y": 0.235
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-3859933",
+      "originalIndex": 5,
+      "status": "retained",
+      "before": {
+        "x": 0.25,
+        "y": 0.2
+      },
+      "after": {
+        "x": 0.25,
+        "y": 0.2
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-2064110",
+      "originalIndex": 6,
+      "status": "excluded",
+      "before": {
+        "x": 0.15,
+        "y": 0.065
+      },
+      "after": null,
+      "reason": "Extended front paw tip is outside the image; no other visible front toe.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-18831976",
+      "originalIndex": 7,
+      "status": "retained",
+      "before": {
+        "x": 0.14,
+        "y": 0.36
+      },
+      "after": {
+        "x": 0.14,
+        "y": 0.36
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-819501",
+      "originalIndex": 8,
+      "status": "retained",
+      "before": {
+        "x": 0.075,
+        "y": 0.25
+      },
+      "after": {
+        "x": 0.075,
+        "y": 0.25
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-12968843",
+      "originalIndex": 9,
+      "status": "retained",
+      "before": {
+        "x": 0.34,
+        "y": 0.08
+      },
+      "after": {
+        "x": 0.34,
+        "y": 0.08
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-36544054",
+      "originalIndex": 10,
+      "status": "retained",
+      "before": {
+        "x": 0.67,
+        "y": 0.25
+      },
+      "after": {
+        "x": 0.67,
+        "y": 0.25
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-10954799",
+      "originalIndex": 11,
+      "status": "retained",
+      "before": {
+        "x": 0.465,
+        "y": 0.33
+      },
+      "after": {
+        "x": 0.465,
+        "y": 0.33
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-39705290",
+      "originalIndex": 12,
+      "status": "retained",
+      "before": {
+        "x": 0.39,
+        "y": 0.2
+      },
+      "after": {
+        "x": 0.39,
+        "y": 0.2
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-7726305",
+      "originalIndex": 13,
+      "status": "corrected",
+      "before": {
+        "x": 0.255,
+        "y": 0.245
+      },
+      "after": {
+        "x": 0.20769,
+        "y": 0.45385
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-30232653",
+      "originalIndex": 14,
+      "status": "retained",
+      "before": {
+        "x": 0.5102,
+        "y": 0.5216
+      },
+      "after": {
+        "x": 0.5102,
+        "y": 0.5216
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-30818957",
+      "originalIndex": 15,
+      "status": "retained",
+      "before": {
+        "x": 0.36,
+        "y": 0.32
+      },
+      "after": {
+        "x": 0.36,
+        "y": 0.32
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-34852184",
+      "originalIndex": 16,
+      "status": "retained",
+      "before": {
+        "x": 0.74,
+        "y": 0.53
+      },
+      "after": {
+        "x": 0.74,
+        "y": 0.53
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-39531013",
+      "originalIndex": 17,
+      "status": "retained",
+      "before": {
+        "x": 0.2,
+        "y": 0.5
+      },
+      "after": {
+        "x": 0.2,
+        "y": 0.5
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-7726073",
+      "originalIndex": 18,
+      "status": "retained",
+      "before": {
+        "x": 0.215,
+        "y": 0.82
+      },
+      "after": {
+        "x": 0.215,
+        "y": 0.82
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-3791591",
+      "originalIndex": 19,
+      "status": "retained",
+      "before": {
+        "x": 0.515,
+        "y": 0.295
+      },
+      "after": {
+        "x": 0.515,
+        "y": 0.295
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-979247",
+      "originalIndex": 20,
+      "status": "retained",
+      "before": {
+        "x": 0.18,
+        "y": 0.94
+      },
+      "after": {
+        "x": 0.18,
+        "y": 0.94
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-35979383",
+      "originalIndex": 21,
+      "status": "retained",
+      "before": {
+        "x": 0.58,
+        "y": 0.91
+      },
+      "after": {
+        "x": 0.58,
+        "y": 0.91
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-29448692",
+      "originalIndex": 22,
+      "status": "retained",
+      "before": {
+        "x": 0.59,
+        "y": 0.84
+      },
+      "after": {
+        "x": 0.59,
+        "y": 0.84
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-36009544",
+      "originalIndex": 23,
+      "status": "retained",
+      "before": {
+        "x": 0.82,
+        "y": 0.83
+      },
+      "after": {
+        "x": 0.82,
+        "y": 0.83
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-6011952",
+      "originalIndex": 24,
+      "status": "retained",
+      "before": {
+        "x": 0.62,
+        "y": 0.8
+      },
+      "after": {
+        "x": 0.62,
+        "y": 0.8
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-36546317",
+      "originalIndex": 25,
+      "status": "retained",
+      "before": {
+        "x": 0.51,
+        "y": 0.86
+      },
+      "after": {
+        "x": 0.51,
+        "y": 0.86
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-29140789",
+      "originalIndex": 26,
+      "status": "retained",
+      "before": {
+        "x": 0.04,
+        "y": 0.69
+      },
+      "after": {
+        "x": 0.04,
+        "y": 0.69
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-35229513",
+      "originalIndex": 27,
+      "status": "retained",
+      "before": {
+        "x": 0.63,
+        "y": 0.97
+      },
+      "after": {
+        "x": 0.63,
+        "y": 0.97
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-29271458",
+      "originalIndex": 28,
+      "status": "retained",
+      "before": {
+        "x": 0.1,
+        "y": 0.73
+      },
+      "after": {
+        "x": 0.1,
+        "y": 0.73
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-35660654",
+      "originalIndex": 29,
+      "status": "retained",
+      "before": {
+        "x": 0.57,
+        "y": 0.94
+      },
+      "after": {
+        "x": 0.57,
+        "y": 0.94
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-36886733",
+      "originalIndex": 30,
+      "status": "retained",
+      "before": {
+        "x": 0.33,
+        "y": 0.88
+      },
+      "after": {
+        "x": 0.33,
+        "y": 0.88
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-38739425",
+      "originalIndex": 31,
+      "status": "corrected",
+      "before": {
+        "x": 0.51,
+        "y": 0.72
+      },
+      "after": {
+        "x": 0.47179,
+        "y": 0.67623
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-15933420",
+      "originalIndex": 32,
+      "status": "retained",
+      "before": {
+        "x": 0.65,
+        "y": 0.83
+      },
+      "after": {
+        "x": 0.65,
+        "y": 0.83
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-12785151",
+      "originalIndex": 33,
+      "status": "retained",
+      "before": {
+        "x": 0.5,
+        "y": 0.68
+      },
+      "after": {
+        "x": 0.5,
+        "y": 0.68
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-38793418",
+      "originalIndex": 34,
+      "status": "retained",
+      "before": {
+        "x": 0.3,
+        "y": 0.92
+      },
+      "after": {
+        "x": 0.3,
+        "y": 0.92
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-37385905",
+      "originalIndex": 35,
+      "status": "retained",
+      "before": {
+        "x": 0.71,
+        "y": 0.81
+      },
+      "after": {
+        "x": 0.71,
+        "y": 0.81
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-37844722",
+      "originalIndex": 36,
+      "status": "retained",
+      "before": {
+        "x": 0.37,
+        "y": 0.8
+      },
+      "after": {
+        "x": 0.37,
+        "y": 0.8
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-37857768",
+      "originalIndex": 37,
+      "status": "retained",
+      "before": {
+        "x": 0.52,
+        "y": 0.86
+      },
+      "after": {
+        "x": 0.52,
+        "y": 0.86
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-37385937",
+      "originalIndex": 38,
+      "status": "retained",
+      "before": {
+        "x": 0.23,
+        "y": 0.64
+      },
+      "after": {
+        "x": 0.23,
+        "y": 0.64
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-39500909",
+      "originalIndex": 39,
+      "status": "retained",
+      "before": {
+        "x": 0.49,
+        "y": 0.82
+      },
+      "after": {
+        "x": 0.49,
+        "y": 0.82
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-14960681",
+      "originalIndex": 40,
+      "status": "retained",
+      "before": {
+        "x": 0.56,
+        "y": 0.85
+      },
+      "after": {
+        "x": 0.56,
+        "y": 0.85
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-4933413",
+      "originalIndex": 41,
+      "status": "retained",
+      "before": {
+        "x": 0.34,
+        "y": 0.8
+      },
+      "after": {
+        "x": 0.34,
+        "y": 0.8
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-36572395",
+      "originalIndex": 42,
+      "status": "retained",
+      "before": {
+        "x": 0.72,
+        "y": 0.95
+      },
+      "after": {
+        "x": 0.72,
+        "y": 0.95
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-38151508",
+      "originalIndex": 43,
+      "status": "retained",
+      "before": {
+        "x": 0.54,
+        "y": 0.55
+      },
+      "after": {
+        "x": 0.54,
+        "y": 0.55
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-38151507",
+      "originalIndex": 44,
+      "status": "retained",
+      "before": {
+        "x": 0.49,
+        "y": 0.26
+      },
+      "after": {
+        "x": 0.49,
+        "y": 0.26
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-27488667",
+      "originalIndex": 45,
+      "status": "corrected",
+      "before": {
+        "x": 0.2797,
+        "y": 0.3118
+      },
+      "after": {
+        "x": 0.66032,
+        "y": 0.48036
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-18188816",
+      "originalIndex": 46,
+      "status": "retained",
+      "before": {
+        "x": 0.15,
+        "y": 0.41
+      },
+      "after": {
+        "x": 0.15,
+        "y": 0.41
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-14657120",
+      "originalIndex": 47,
+      "status": "retained",
+      "before": {
+        "x": 0.55,
+        "y": 0.65
+      },
+      "after": {
+        "x": 0.55,
+        "y": 0.65
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-8408085",
+      "originalIndex": 48,
+      "status": "retained",
+      "before": {
+        "x": 0.23,
+        "y": 0.73
+      },
+      "after": {
+        "x": 0.23,
+        "y": 0.73
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-7980624",
+      "originalIndex": 49,
+      "status": "retained",
+      "before": {
+        "x": 0.31,
+        "y": 0.42
+      },
+      "after": {
+        "x": 0.31,
+        "y": 0.42
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-39705293",
+      "originalIndex": 50,
+      "status": "retained",
+      "before": {
+        "x": 0.42,
+        "y": 0.26
+      },
+      "after": {
+        "x": 0.42,
+        "y": 0.26
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-34117539",
+      "originalIndex": 51,
+      "status": "retained",
+      "before": {
+        "x": 0.56,
+        "y": 0.45
+      },
+      "after": {
+        "x": 0.56,
+        "y": 0.45
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-29147939",
+      "originalIndex": 52,
+      "status": "retained",
+      "before": {
+        "x": 0.33,
+        "y": 0.12
+      },
+      "after": {
+        "x": 0.33,
+        "y": 0.12
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-16609296",
+      "originalIndex": 53,
+      "status": "retained",
+      "before": {
+        "x": 0.59,
+        "y": 0.86
+      },
+      "after": {
+        "x": 0.59,
+        "y": 0.86
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-39523533",
+      "originalIndex": 54,
+      "status": "retained",
+      "before": {
+        "x": 0.64,
+        "y": 0.43
+      },
+      "after": {
+        "x": 0.64,
+        "y": 0.43
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-39598090",
+      "originalIndex": 55,
+      "status": "retained",
+      "before": {
+        "x": 0.31,
+        "y": 0.65
+      },
+      "after": {
+        "x": 0.31,
+        "y": 0.65
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-29087980",
+      "originalIndex": 56,
+      "status": "retained",
+      "before": {
+        "x": 0.42,
+        "y": 0.87
+      },
+      "after": {
+        "x": 0.42,
+        "y": 0.87
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-10416281",
+      "originalIndex": 57,
+      "status": "retained",
+      "before": {
+        "x": 0.74,
+        "y": 0.73
+      },
+      "after": {
+        "x": 0.74,
+        "y": 0.73
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-13730856",
+      "originalIndex": 58,
+      "status": "retained",
+      "before": {
+        "x": 0.95,
+        "y": 0.62
+      },
+      "after": {
+        "x": 0.95,
+        "y": 0.62
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-24809843",
+      "originalIndex": 59,
+      "status": "corrected",
+      "before": {
+        "x": 0.12,
+        "y": 0.73
+      },
+      "after": {
+        "x": 0.04021,
+        "y": 0.58214
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-28874308",
+      "originalIndex": 60,
+      "status": "excluded",
+      "before": {
+        "x": 0.4798,
+        "y": 0.15
+      },
+      "after": null,
+      "reason": "Both front paw tips are cropped; the old point lands on the wrist.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-6853520",
+      "originalIndex": 61,
+      "status": "retained",
+      "before": {
+        "x": 0.5896,
+        "y": 0.5269
+      },
+      "after": {
+        "x": 0.5896,
+        "y": 0.5269
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-31440204",
+      "originalIndex": 62,
+      "status": "retained",
+      "before": {
+        "x": 0.526,
+        "y": 0.9231
+      },
+      "after": {
+        "x": 0.526,
+        "y": 0.9231
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-6982643",
+      "originalIndex": 63,
+      "status": "corrected",
+      "before": {
+        "x": 0.8217,
+        "y": 0.6299
+      },
+      "after": {
+        "x": 0.92308,
+        "y": 0.67816
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-8623973",
+      "originalIndex": 64,
+      "status": "corrected",
+      "before": {
+        "x": 0.6565,
+        "y": 0.5621
+      },
+      "after": {
+        "x": 0.69487,
+        "y": 0.65385
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-5602949",
+      "originalIndex": 65,
+      "status": "retained",
+      "before": {
+        "x": 0.8261,
+        "y": 0.7908
+      },
+      "after": {
+        "x": 0.8261,
+        "y": 0.7908
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-15231994",
+      "originalIndex": 66,
+      "status": "retained",
+      "before": {
+        "x": 0.4034,
+        "y": 0.8971
+      },
+      "after": {
+        "x": 0.4034,
+        "y": 0.8971
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-36404288",
+      "originalIndex": 67,
+      "status": "retained",
+      "before": {
+        "x": 0.2055,
+        "y": 0.8885
+      },
+      "after": {
+        "x": 0.2055,
+        "y": 0.8885
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-35979377",
+      "originalIndex": 68,
+      "status": "retained",
+      "before": {
+        "x": 0.6127,
+        "y": 0.8462
+      },
+      "after": {
+        "x": 0.6127,
+        "y": 0.8462
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-21930902",
+      "originalIndex": 69,
+      "status": "retained",
+      "before": {
+        "x": 0.2103,
+        "y": 0.863
+      },
+      "after": {
+        "x": 0.2103,
+        "y": 0.863
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-11744865",
+      "originalIndex": 70,
+      "status": "retained",
+      "before": {
+        "x": 0.948,
+        "y": 0.7577
+      },
+      "after": {
+        "x": 0.948,
+        "y": 0.7577
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-16759832",
+      "originalIndex": 71,
+      "status": "retained",
+      "before": {
+        "x": 0.5949,
+        "y": 0.8462
+      },
+      "after": {
+        "x": 0.5949,
+        "y": 0.8462
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-755834",
+      "originalIndex": 72,
+      "status": "retained",
+      "before": {
+        "x": 0.5064,
+        "y": 0.1114
+      },
+      "after": {
+        "x": 0.5064,
+        "y": 0.1114
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-33184219",
+      "originalIndex": 73,
+      "status": "retained",
+      "before": {
+        "x": 0.1974,
+        "y": 0.62
+      },
+      "after": {
+        "x": 0.1974,
+        "y": 0.62
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-7002849",
+      "originalIndex": 74,
+      "status": "corrected",
+      "before": {
+        "x": 0.1513,
+        "y": 0.4897
+      },
+      "after": {
+        "x": 0.18974,
+        "y": 0.53242
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-30780438",
+      "originalIndex": 75,
+      "status": "retained",
+      "before": {
+        "x": 0.3,
+        "y": 0.69
+      },
+      "after": {
+        "x": 0.3,
+        "y": 0.69
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-9486107",
+      "originalIndex": 76,
+      "status": "retained",
+      "before": {
+        "x": 0.6,
+        "y": 0.915
+      },
+      "after": {
+        "x": 0.6,
+        "y": 0.915
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-26706493",
+      "originalIndex": 77,
+      "status": "retained",
+      "before": {
+        "x": 0.4046,
+        "y": 0.7
+      },
+      "after": {
+        "x": 0.4046,
+        "y": 0.7
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-6853522",
+      "originalIndex": 78,
+      "status": "retained",
+      "before": {
+        "x": 0.5954,
+        "y": 0.6885
+      },
+      "after": {
+        "x": 0.5954,
+        "y": 0.6885
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-10754449",
+      "originalIndex": 79,
+      "status": "retained",
+      "before": {
+        "x": 0.4355,
+        "y": 0.4538
+      },
+      "after": {
+        "x": 0.4355,
+        "y": 0.4538
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-10914514",
+      "originalIndex": 80,
+      "status": "corrected",
+      "before": {
+        "x": 0.4565,
+        "y": 0.7739
+      },
+      "after": {
+        "x": 0.43333,
+        "y": 0.70256
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-2532357",
+      "originalIndex": 81,
+      "status": "retained",
+      "before": {
+        "x": 0.4718,
+        "y": 0.7202
+      },
+      "after": {
+        "x": 0.4718,
+        "y": 0.7202
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-40061529",
+      "originalIndex": 82,
+      "status": "retained",
+      "before": {
+        "x": 0.5145,
+        "y": 0.7462
+      },
+      "after": {
+        "x": 0.5145,
+        "y": 0.7462
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-39830171",
+      "originalIndex": 83,
+      "status": "retained",
+      "before": {
+        "x": 0.3065,
+        "y": 0.3613
+      },
+      "after": {
+        "x": 0.3065,
+        "y": 0.3613
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-7725967",
+      "originalIndex": 84,
+      "status": "retained",
+      "before": {
+        "x": 0.2652,
+        "y": 0.7727
+      },
+      "after": {
+        "x": 0.2652,
+        "y": 0.7727
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-32825706",
+      "originalIndex": 85,
+      "status": "retained",
+      "before": {
+        "x": 0.7339,
+        "y": 0.1057
+      },
+      "after": {
+        "x": 0.7339,
+        "y": 0.1057
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-33857651",
+      "originalIndex": 86,
+      "status": "retained",
+      "before": {
+        "x": 0.4509,
+        "y": 0.2731
+      },
+      "after": {
+        "x": 0.4509,
+        "y": 0.2731
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-38151509",
+      "originalIndex": 87,
+      "status": "retained",
+      "before": {
+        "x": 0.5107,
+        "y": 0.4257
+      },
+      "after": {
+        "x": 0.5107,
+        "y": 0.4257
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-29022084",
+      "originalIndex": 88,
+      "status": "retained",
+      "before": {
+        "x": 0.6174,
+        "y": 0.5185
+      },
+      "after": {
+        "x": 0.6174,
+        "y": 0.5185
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-20211109",
+      "originalIndex": 89,
+      "status": "corrected",
+      "before": {
+        "x": 0.5522,
+        "y": 0.6013
+      },
+      "after": {
+        "x": 0.525,
+        "y": 0.516
+      },
+      "reason": "Toy/floor point moved to the front toes gripping the toy.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-19922785",
+      "originalIndex": 90,
+      "status": "corrected",
+      "before": {
+        "x": 0.515,
+        "y": 0.2943
+      },
+      "after": {
+        "x": 0.5592,
+        "y": 0.352
+      },
+      "reason": "Background point moved to visible raised front toes on the fence.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-20211118",
+      "originalIndex": 91,
+      "status": "retained",
+      "before": {
+        "x": 0.1932,
+        "y": 0.4326
+      },
+      "after": {
+        "x": 0.1932,
+        "y": 0.4326
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-7470052",
+      "originalIndex": 92,
+      "status": "retained",
+      "before": {
+        "x": 0.435,
+        "y": 0.78
+      },
+      "after": {
+        "x": 0.435,
+        "y": 0.78
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-35236816",
+      "originalIndex": 93,
+      "status": "corrected",
+      "before": {
+        "x": 0.3825,
+        "y": 0.6657
+      },
+      "after": {
+        "x": 0.44253,
+        "y": 0.60714
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-6864016",
+      "originalIndex": 94,
+      "status": "retained",
+      "before": {
+        "x": 0.3699,
+        "y": 0.6269
+      },
+      "after": {
+        "x": 0.3699,
+        "y": 0.6269
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-39366705",
+      "originalIndex": 95,
+      "status": "corrected",
+      "before": {
+        "x": 0.6323,
+        "y": 0.5763
+      },
+      "after": {
+        "x": 0.64075,
+        "y": 0.60893
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-6537162",
+      "originalIndex": 96,
+      "status": "retained",
+      "before": {
+        "x": 0.5627,
+        "y": 0.5914
+      },
+      "after": {
+        "x": 0.5627,
+        "y": 0.5914
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-7226252",
+      "originalIndex": 97,
+      "status": "retained",
+      "before": {
+        "x": 0.5838,
+        "y": 0.3269
+      },
+      "after": {
+        "x": 0.5838,
+        "y": 0.3269
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-26754815",
+      "originalIndex": 98,
+      "status": "corrected",
+      "before": {
+        "x": 0.7452,
+        "y": 0.7808
+      },
+      "after": {
+        "x": 0.8359,
+        "y": 0.74795
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-39111758",
+      "originalIndex": 99,
+      "status": "retained",
+      "before": {
+        "x": 0.6718,
+        "y": 0.9269
+      },
+      "after": {
+        "x": 0.6718,
+        "y": 0.9269
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-31407009",
+      "originalIndex": 100,
+      "status": "retained",
+      "before": {
+        "x": 0.4624,
+        "y": 0.0846
+      },
+      "after": {
+        "x": 0.4624,
+        "y": 0.0846
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-13730855",
+      "originalIndex": 101,
+      "status": "corrected",
+      "before": {
+        "x": 0.8319,
+        "y": 0.4486
+      },
+      "after": {
+        "x": 0.87332,
+        "y": 0.43214
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-16609385",
+      "originalIndex": 102,
+      "status": "retained",
+      "before": {
+        "x": 0.2486,
+        "y": 0.1962
+      },
+      "after": {
+        "x": 0.2486,
+        "y": 0.1962
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-39826585",
+      "originalIndex": 103,
+      "status": "retained",
+      "before": {
+        "x": 0.2783,
+        "y": 0.5371
+      },
+      "after": {
+        "x": 0.2783,
+        "y": 0.5371
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-32537823",
+      "originalIndex": 104,
+      "status": "retained",
+      "before": {
+        "x": 0.5434,
+        "y": 0.8385
+      },
+      "after": {
+        "x": 0.5434,
+        "y": 0.8385
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-32468831",
+      "originalIndex": 105,
+      "status": "corrected",
+      "before": {
+        "x": 0.6944,
+        "y": 0.5519
+      },
+      "after": {
+        "x": 0.86154,
+        "y": 0.33106
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-30812210",
+      "originalIndex": 106,
+      "status": "retained",
+      "before": {
+        "x": 0.4509,
+        "y": 0.9423
+      },
+      "after": {
+        "x": 0.4509,
+        "y": 0.9423
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-18928059",
+      "originalIndex": 107,
+      "status": "retained",
+      "before": {
+        "x": 0.6532,
+        "y": 0.6654
+      },
+      "after": {
+        "x": 0.6532,
+        "y": 0.6654
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-30650491",
+      "originalIndex": 108,
+      "status": "retained",
+      "before": {
+        "x": 0.1156,
+        "y": 0.7269
+      },
+      "after": {
+        "x": 0.1156,
+        "y": 0.7269
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-5216263",
+      "originalIndex": 109,
+      "status": "retained",
+      "before": {
+        "x": 0.6667,
+        "y": 0.3528
+      },
+      "after": {
+        "x": 0.6667,
+        "y": 0.3528
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-31223143",
+      "originalIndex": 110,
+      "status": "corrected",
+      "before": {
+        "x": 0.4174,
+        "y": 0.8435
+      },
+      "after": {
+        "x": 0.41795,
+        "y": 0.91026
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-34060023",
+      "originalIndex": 111,
+      "status": "retained",
+      "before": {
+        "x": 0.8696,
+        "y": 0.8758
+      },
+      "after": {
+        "x": 0.8696,
+        "y": 0.8758
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-28594659",
+      "originalIndex": 112,
+      "status": "retained",
+      "before": {
+        "x": 0.6647,
+        "y": 0.8577
+      },
+      "after": {
+        "x": 0.6647,
+        "y": 0.8577
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-30555073",
+      "originalIndex": 113,
+      "status": "retained",
+      "before": {
+        "x": 0.7217,
+        "y": 0.7615
+      },
+      "after": {
+        "x": 0.7217,
+        "y": 0.7615
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-35089800",
+      "originalIndex": 114,
+      "status": "retained",
+      "before": {
+        "x": 0.663,
+        "y": 0.6056
+      },
+      "after": {
+        "x": 0.663,
+        "y": 0.6056
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-38054859",
+      "originalIndex": 115,
+      "status": "corrected",
+      "before": {
+        "x": 0.5487,
+        "y": 0.9192
+      },
+      "after": {
+        "x": 0.47179,
+        "y": 0.93654
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-9880905",
+      "originalIndex": 116,
+      "status": "corrected",
+      "before": {
+        "x": 0.9028,
+        "y": 0.8125
+      },
+      "after": {
+        "x": 0.9359,
+        "y": 0.91154
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-30243245",
+      "originalIndex": 117,
+      "status": "retained",
+      "before": {
+        "x": 0.6532,
+        "y": 0.7615
+      },
+      "after": {
+        "x": 0.6532,
+        "y": 0.7615
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-15575803",
+      "originalIndex": 118,
+      "status": "retained",
+      "before": {
+        "x": 0.474,
+        "y": 0.9154
+      },
+      "after": {
+        "x": 0.474,
+        "y": 0.9154
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-35040400",
+      "originalIndex": 119,
+      "status": "retained",
+      "before": {
+        "x": 0.4393,
+        "y": 0.9192
+      },
+      "after": {
+        "x": 0.4393,
+        "y": 0.9192
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-12407271",
+      "originalIndex": 120,
+      "status": "retained",
+      "before": {
+        "x": 0.2043,
+        "y": 0.7516
+      },
+      "after": {
+        "x": 0.2043,
+        "y": 0.7516
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-36939832",
+      "originalIndex": 121,
+      "status": "retained",
+      "before": {
+        "x": 0.2217,
+        "y": 0.9076
+      },
+      "after": {
+        "x": 0.2217,
+        "y": 0.9076
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-11790257",
+      "originalIndex": 122,
+      "status": "retained",
+      "before": {
+        "x": 0.761,
+        "y": 0.8117
+      },
+      "after": {
+        "x": 0.761,
+        "y": 0.8117
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-30312821",
+      "originalIndex": 123,
+      "status": "retained",
+      "before": {
+        "x": 0.3083,
+        "y": 0.8
+      },
+      "after": {
+        "x": 0.3083,
+        "y": 0.8
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-20732302",
+      "originalIndex": 124,
+      "status": "retained",
+      "before": {
+        "x": 0.4624,
+        "y": 0.1077
+      },
+      "after": {
+        "x": 0.4624,
+        "y": 0.1077
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-13170587",
+      "originalIndex": 125,
+      "status": "retained",
+      "before": {
+        "x": 0.6879,
+        "y": 0.5769
+      },
+      "after": {
+        "x": 0.6879,
+        "y": 0.5769
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-33836071",
+      "originalIndex": 126,
+      "status": "retained",
+      "before": {
+        "x": 0.2154,
+        "y": 0.8654
+      },
+      "after": {
+        "x": 0.2154,
+        "y": 0.8654
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-39505112",
+      "originalIndex": 127,
+      "status": "retained",
+      "before": {
+        "x": 0.1208,
+        "y": 0.7861
+      },
+      "after": {
+        "x": 0.1208,
+        "y": 0.7861
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-19046666",
+      "originalIndex": 128,
+      "status": "retained",
+      "before": {
+        "x": 0.5826,
+        "y": 0.8086
+      },
+      "after": {
+        "x": 0.5826,
+        "y": 0.8086
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-40261502",
+      "originalIndex": 129,
+      "status": "retained",
+      "before": {
+        "x": 0.5795,
+        "y": 0.7923
+      },
+      "after": {
+        "x": 0.5795,
+        "y": 0.7923
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-39912506",
+      "originalIndex": 130,
+      "status": "retained",
+      "before": {
+        "x": 0.6087,
+        "y": 0.8555
+      },
+      "after": {
+        "x": 0.6087,
+        "y": 0.8555
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-10011923",
+      "originalIndex": 131,
+      "status": "retained",
+      "before": {
+        "x": 0.6917,
+        "y": 0.6194
+      },
+      "after": {
+        "x": 0.6917,
+        "y": 0.6194
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-15511199",
+      "originalIndex": 132,
+      "status": "retained",
+      "before": {
+        "x": 0.1217,
+        "y": 0.915
+      },
+      "after": {
+        "x": 0.1217,
+        "y": 0.915
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-40358678",
+      "originalIndex": 133,
+      "status": "retained",
+      "before": {
+        "x": 0.5222,
+        "y": 0.9
+      },
+      "after": {
+        "x": 0.5222,
+        "y": 0.9
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-16541417",
+      "originalIndex": 134,
+      "status": "retained",
+      "before": {
+        "x": 0.7225,
+        "y": 0.7346
+      },
+      "after": {
+        "x": 0.7225,
+        "y": 0.7346
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-19856143",
+      "originalIndex": 135,
+      "status": "retained",
+      "before": {
+        "x": 0.6174,
+        "y": 0.7059
+      },
+      "after": {
+        "x": 0.6174,
+        "y": 0.7059
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-34370997",
+      "originalIndex": 136,
+      "status": "corrected",
+      "before": {
+        "x": 0.1846,
+        "y": 0.1577
+      },
+      "after": {
+        "x": 0.16923,
+        "y": 0.10962
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-21759178",
+      "originalIndex": 137,
+      "status": "retained",
+      "before": {
+        "x": 0.4522,
+        "y": 0.7974
+      },
+      "after": {
+        "x": 0.4522,
+        "y": 0.7974
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-8794398",
+      "originalIndex": 138,
+      "status": "retained",
+      "before": {
+        "x": 0.2601,
+        "y": 0.7192
+      },
+      "after": {
+        "x": 0.2601,
+        "y": 0.7192
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-19852641",
+      "originalIndex": 139,
+      "status": "retained",
+      "before": {
+        "x": 0.4104,
+        "y": 0.7769
+      },
+      "after": {
+        "x": 0.4104,
+        "y": 0.7769
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-38182962",
+      "originalIndex": 140,
+      "status": "retained",
+      "before": {
+        "x": 0.1007,
+        "y": 0.0556
+      },
+      "after": {
+        "x": 0.1007,
+        "y": 0.0556
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-13772526",
+      "originalIndex": 141,
+      "status": "retained",
+      "before": {
+        "x": 0.3861,
+        "y": 0.6446
+      },
+      "after": {
+        "x": 0.3861,
+        "y": 0.6446
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-5849480",
+      "originalIndex": 142,
+      "status": "corrected",
+      "before": {
+        "x": 0.9384,
+        "y": 0.3385
+      },
+      "after": {
+        "x": 0.1925,
+        "y": 0.46
+      },
+      "reason": "Tail point moved to the visible folded front paw beneath the extended foreleg.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-14960502",
+      "originalIndex": 143,
+      "status": "retained",
+      "before": {
+        "x": 0.5478,
+        "y": 0.9064
+      },
+      "after": {
+        "x": 0.5478,
+        "y": 0.9064
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-17365394",
+      "originalIndex": 144,
+      "status": "retained",
+      "before": {
+        "x": 0.659,
+        "y": 0.0989
+      },
+      "after": {
+        "x": 0.659,
+        "y": 0.0989
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-10991909",
+      "originalIndex": 145,
+      "status": "retained",
+      "before": {
+        "x": 0.1979,
+        "y": 0.8192
+      },
+      "after": {
+        "x": 0.1979,
+        "y": 0.8192
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-26776657",
+      "originalIndex": 146,
+      "status": "retained",
+      "before": {
+        "x": 0.137,
+        "y": 0.5615
+      },
+      "after": {
+        "x": 0.137,
+        "y": 0.5615
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-37857771",
+      "originalIndex": 147,
+      "status": "retained",
+      "before": {
+        "x": 0.5145,
+        "y": 0.8769
+      },
+      "after": {
+        "x": 0.5145,
+        "y": 0.8769
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-29560802",
+      "originalIndex": 148,
+      "status": "retained",
+      "before": {
+        "x": 0.1276,
+        "y": 0.7538
+      },
+      "after": {
+        "x": 0.1276,
+        "y": 0.7538
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-34418096",
+      "originalIndex": 149,
+      "status": "corrected",
+      "before": {
+        "x": 0.6217,
+        "y": 0.6667
+      },
+      "after": {
+        "x": 0.68718,
+        "y": 0.64231
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-4933439",
+      "originalIndex": 150,
+      "status": "retained",
+      "before": {
+        "x": 0.3237,
+        "y": 0.7846
+      },
+      "after": {
+        "x": 0.3237,
+        "y": 0.7846
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-34450434",
+      "originalIndex": 151,
+      "status": "retained",
+      "before": {
+        "x": 0.4713,
+        "y": 0.9154
+      },
+      "after": {
+        "x": 0.4713,
+        "y": 0.9154
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-33005213",
+      "originalIndex": 152,
+      "status": "retained",
+      "before": {
+        "x": 0.7744,
+        "y": 0.6077
+      },
+      "after": {
+        "x": 0.7744,
+        "y": 0.6077
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-34197998",
+      "originalIndex": 153,
+      "status": "retained",
+      "before": {
+        "x": 0.4154,
+        "y": 0.9115
+      },
+      "after": {
+        "x": 0.4154,
+        "y": 0.9115
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-9327449",
+      "originalIndex": 154,
+      "status": "retained",
+      "before": {
+        "x": 0.1826,
+        "y": 0.75
+      },
+      "after": {
+        "x": 0.1826,
+        "y": 0.75
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-7335653",
+      "originalIndex": 155,
+      "status": "retained",
+      "before": {
+        "x": 0.6639,
+        "y": 0.325
+      },
+      "after": {
+        "x": 0.6639,
+        "y": 0.325
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-39568949",
+      "originalIndex": 156,
+      "status": "retained",
+      "before": {
+        "x": 0.3217,
+        "y": 0.7806
+      },
+      "after": {
+        "x": 0.3217,
+        "y": 0.7806
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-113741",
+      "originalIndex": 157,
+      "status": "retained",
+      "before": {
+        "x": 0.8304,
+        "y": 0.1921
+      },
+      "after": {
+        "x": 0.8304,
+        "y": 0.1921
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-27269642",
+      "originalIndex": 158,
+      "status": "retained",
+      "before": {
+        "x": 0.8783,
+        "y": 0.6846
+      },
+      "after": {
+        "x": 0.8783,
+        "y": 0.6846
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-32906318",
+      "originalIndex": 159,
+      "status": "retained",
+      "before": {
+        "x": 0.8125,
+        "y": 0.1731
+      },
+      "after": {
+        "x": 0.8125,
+        "y": 0.1731
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-14564857",
+      "originalIndex": 160,
+      "status": "retained",
+      "before": {
+        "x": 0.5538,
+        "y": 0.9462
+      },
+      "after": {
+        "x": 0.5538,
+        "y": 0.9462
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-6899038",
+      "originalIndex": 161,
+      "status": "retained",
+      "before": {
+        "x": 0.4,
+        "y": 0.8077
+      },
+      "after": {
+        "x": 0.4,
+        "y": 0.8077
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-38132686",
+      "originalIndex": 162,
+      "status": "retained",
+      "before": {
+        "x": 0.6769,
+        "y": 0.8115
+      },
+      "after": {
+        "x": 0.6769,
+        "y": 0.8115
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-28761262",
+      "originalIndex": 163,
+      "status": "retained",
+      "before": {
+        "x": 0.759,
+        "y": 0.2731
+      },
+      "after": {
+        "x": 0.759,
+        "y": 0.2731
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-38349468",
+      "originalIndex": 164,
+      "status": "retained",
+      "before": {
+        "x": 0.1572,
+        "y": 0.5422
+      },
+      "after": {
+        "x": 0.1572,
+        "y": 0.5422
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-31680913",
+      "originalIndex": 165,
+      "status": "retained",
+      "before": {
+        "x": 0.8913,
+        "y": 0.4902
+      },
+      "after": {
+        "x": 0.8913,
+        "y": 0.4902
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-37828338",
+      "originalIndex": 166,
+      "status": "retained",
+      "before": {
+        "x": 0.4478,
+        "y": 0.9116
+      },
+      "after": {
+        "x": 0.4478,
+        "y": 0.9116
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-18294181",
+      "originalIndex": 167,
+      "status": "retained",
+      "before": {
+        "x": 0.4564,
+        "y": 0.8154
+      },
+      "after": {
+        "x": 0.4564,
+        "y": 0.8154
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-12394633",
+      "originalIndex": 168,
+      "status": "corrected",
+      "before": {
+        "x": 0.5873,
+        "y": 0.8333
+      },
+      "after": {
+        "x": 0.5359,
+        "y": 0.85817
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-33917190",
+      "originalIndex": 169,
+      "status": "retained",
+      "before": {
+        "x": 0.8583,
+        "y": 0.7185
+      },
+      "after": {
+        "x": 0.8583,
+        "y": 0.7185
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-4651075",
+      "originalIndex": 170,
+      "status": "retained",
+      "before": {
+        "x": 0.6542,
+        "y": 0.825
+      },
+      "after": {
+        "x": 0.6542,
+        "y": 0.825
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-8549215",
+      "originalIndex": 171,
+      "status": "corrected",
+      "before": {
+        "x": 0.487,
+        "y": 0.8562
+      },
+      "after": {
+        "x": 0.42308,
+        "y": 0.81985
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-1918218",
+      "originalIndex": 172,
+      "status": "retained",
+      "before": {
+        "x": 0.7527,
+        "y": 0.8962
+      },
+      "after": {
+        "x": 0.7527,
+        "y": 0.8962
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-14602414",
+      "originalIndex": 173,
+      "status": "retained",
+      "before": {
+        "x": 0.913,
+        "y": 0.7629
+      },
+      "after": {
+        "x": 0.913,
+        "y": 0.7629
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-16398693",
+      "originalIndex": 174,
+      "status": "corrected",
+      "before": {
+        "x": 0.6444,
+        "y": 0.627
+      },
+      "after": {
+        "x": 0.70513,
+        "y": 0.65909
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-4226605",
+      "originalIndex": 175,
+      "status": "retained",
+      "before": {
+        "x": 0.1583,
+        "y": 0.1772
+      },
+      "after": {
+        "x": 0.1583,
+        "y": 0.1772
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-33270247",
+      "originalIndex": 176,
+      "status": "retained",
+      "before": {
+        "x": 0.2167,
+        "y": 0.1528
+      },
+      "after": {
+        "x": 0.2167,
+        "y": 0.1528
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-10751987",
+      "originalIndex": 177,
+      "status": "retained",
+      "before": {
+        "x": 0.471,
+        "y": 0.3032
+      },
+      "after": {
+        "x": 0.471,
+        "y": 0.3032
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-1287366",
+      "originalIndex": 178,
+      "status": "retained",
+      "before": {
+        "x": 0.1627,
+        "y": 0.5204
+      },
+      "after": {
+        "x": 0.1627,
+        "y": 0.5204
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-34942675",
+      "originalIndex": 179,
+      "status": "retained",
+      "before": {
+        "x": 0.8833,
+        "y": 0.5083
+      },
+      "after": {
+        "x": 0.8833,
+        "y": 0.5083
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-34283812",
+      "originalIndex": 180,
+      "status": "retained",
+      "before": {
+        "x": 0.2957,
+        "y": 0.7974
+      },
+      "after": {
+        "x": 0.2957,
+        "y": 0.7974
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-35927101",
+      "originalIndex": 181,
+      "status": "retained",
+      "before": {
+        "x": 0.134,
+        "y": 0.56
+      },
+      "after": {
+        "x": 0.134,
+        "y": 0.56
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-15575802",
+      "originalIndex": 182,
+      "status": "retained",
+      "before": {
+        "x": 0.3179,
+        "y": 0.7846
+      },
+      "after": {
+        "x": 0.3179,
+        "y": 0.7846
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-39594379",
+      "originalIndex": 183,
+      "status": "retained",
+      "before": {
+        "x": 0.8217,
+        "y": 0.2026
+      },
+      "after": {
+        "x": 0.8217,
+        "y": 0.2026
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-294928",
+      "originalIndex": 184,
+      "status": "retained",
+      "before": {
+        "x": 0.5696,
+        "y": 0.9216
+      },
+      "after": {
+        "x": 0.5696,
+        "y": 0.9216
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-31466270",
+      "originalIndex": 185,
+      "status": "corrected",
+      "before": {
+        "x": 0.575,
+        "y": 0.5
+      },
+      "after": {
+        "x": 0.57641,
+        "y": 0.52679
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-37228045",
+      "originalIndex": 186,
+      "status": "excluded",
+      "before": {
+        "x": 0.913,
+        "y": 0.5549
+      },
+      "after": null,
+      "reason": "Old point is a raised hind paw; front toes are obscured by grass/body.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-18175390",
+      "originalIndex": 187,
+      "status": "retained",
+      "before": {
+        "x": 0.58,
+        "y": 0.7
+      },
+      "after": {
+        "x": 0.58,
+        "y": 0.7
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-9797091",
+      "originalIndex": 188,
+      "status": "retained",
+      "before": {
+        "x": 0.5491,
+        "y": 0.8808
+      },
+      "after": {
+        "x": 0.5491,
+        "y": 0.8808
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-12125507",
+      "originalIndex": 189,
+      "status": "retained",
+      "before": {
+        "x": 0.7871,
+        "y": 0.5419
+      },
+      "after": {
+        "x": 0.7871,
+        "y": 0.5419
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-707372",
+      "originalIndex": 190,
+      "status": "retained",
+      "before": {
+        "x": 0.4522,
+        "y": 0.3203
+      },
+      "after": {
+        "x": 0.4522,
+        "y": 0.3203
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-37382419",
+      "originalIndex": 191,
+      "status": "retained",
+      "before": {
+        "x": 0.5667,
+        "y": 0.8593
+      },
+      "after": {
+        "x": 0.5667,
+        "y": 0.8593
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-16761390",
+      "originalIndex": 192,
+      "status": "retained",
+      "before": {
+        "x": 0.2102,
+        "y": 0.7246
+      },
+      "after": {
+        "x": 0.2102,
+        "y": 0.7246
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-16519892",
+      "originalIndex": 193,
+      "status": "retained",
+      "before": {
+        "x": 0.7792,
+        "y": 0.5222
+      },
+      "after": {
+        "x": 0.7792,
+        "y": 0.5222
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-1521370",
+      "originalIndex": 194,
+      "status": "retained",
+      "before": {
+        "x": 0.4508,
+        "y": 0.3766
+      },
+      "after": {
+        "x": 0.4508,
+        "y": 0.3766
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-5468439",
+      "originalIndex": 195,
+      "status": "retained",
+      "before": {
+        "x": 0.6358,
+        "y": 0.4462
+      },
+      "after": {
+        "x": 0.6358,
+        "y": 0.4462
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-4602",
+      "originalIndex": 196,
+      "status": "retained",
+      "before": {
+        "x": 0.52,
+        "y": 0.26
+      },
+      "after": {
+        "x": 0.52,
+        "y": 0.26
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-34418124",
+      "originalIndex": 197,
+      "status": "corrected",
+      "before": {
+        "x": 0.587,
+        "y": 0.5163
+      },
+      "after": {
+        "x": 0.6,
+        "y": 0.58077
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-8538274",
+      "originalIndex": 198,
+      "status": "retained",
+      "before": {
+        "x": 0.4949,
+        "y": 0.4326
+      },
+      "after": {
+        "x": 0.4949,
+        "y": 0.4326
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-37750788",
+      "originalIndex": 199,
+      "status": "retained",
+      "before": {
+        "x": 0.1965,
+        "y": 0.4462
+      },
+      "after": {
+        "x": 0.1965,
+        "y": 0.4462
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-34418118",
+      "originalIndex": 200,
+      "status": "corrected",
+      "before": {
+        "x": 0.478,
+        "y": 0.597
+      },
+      "after": {
+        "x": 0.48718,
+        "y": 0.65385
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-39002570",
+      "originalIndex": 201,
+      "status": "retained",
+      "before": {
+        "x": 0.32258,
+        "y": 0.89667
+      },
+      "after": {
+        "x": 0.32258,
+        "y": 0.89667
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-34418097",
+      "originalIndex": 202,
+      "status": "retained",
+      "before": {
+        "x": 0.41724,
+        "y": 0.72021
+      },
+      "after": {
+        "x": 0.41724,
+        "y": 0.72021
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-19518843",
+      "originalIndex": 203,
+      "status": "retained",
+      "before": {
+        "x": 0.48621,
+        "y": 0.63731
+      },
+      "after": {
+        "x": 0.48621,
+        "y": 0.63731
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-5214471",
+      "originalIndex": 204,
+      "status": "retained",
+      "before": {
+        "x": 0.65517,
+        "y": 0.83938
+      },
+      "after": {
+        "x": 0.65517,
+        "y": 0.83938
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-18188786",
+      "originalIndex": 205,
+      "status": "retained",
+      "before": {
+        "x": 0.115,
+        "y": 0.49
+      },
+      "after": {
+        "x": 0.115,
+        "y": 0.49
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-16371569",
+      "originalIndex": 206,
+      "status": "retained",
+      "before": {
+        "x": 0.735,
+        "y": 0.94667
+      },
+      "after": {
+        "x": 0.735,
+        "y": 0.94667
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-6583530",
+      "originalIndex": 207,
+      "status": "retained",
+      "before": {
+        "x": 0.39655,
+        "y": 0.63212
+      },
+      "after": {
+        "x": 0.39655,
+        "y": 0.63212
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-19736012",
+      "originalIndex": 208,
+      "status": "retained",
+      "before": {
+        "x": 0.45862,
+        "y": 0.73575
+      },
+      "after": {
+        "x": 0.45862,
+        "y": 0.73575
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-39006512",
+      "originalIndex": 209,
+      "status": "corrected",
+      "before": {
+        "x": 0.55238,
+        "y": 0.44
+      },
+      "after": {
+        "x": 0.5641,
+        "y": 0.47038
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-6864663",
+      "originalIndex": 210,
+      "status": "retained",
+      "before": {
+        "x": 0.71034,
+        "y": 0.65285
+      },
+      "after": {
+        "x": 0.71034,
+        "y": 0.65285
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-35434909",
+      "originalIndex": 211,
+      "status": "retained",
+      "before": {
+        "x": 0.43,
+        "y": 0.71333
+      },
+      "after": {
+        "x": 0.43,
+        "y": 0.71333
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-20433528",
+      "originalIndex": 212,
+      "status": "retained",
+      "before": {
+        "x": 0.169,
+        "y": 0.315
+      },
+      "after": {
+        "x": 0.169,
+        "y": 0.315
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-33836561",
+      "originalIndex": 213,
+      "status": "retained",
+      "before": {
+        "x": 0.21724,
+        "y": 0.71875
+      },
+      "after": {
+        "x": 0.21724,
+        "y": 0.71875
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-18588049",
+      "originalIndex": 214,
+      "status": "corrected",
+      "before": {
+        "x": 0.57241,
+        "y": 0.76371
+      },
+      "after": {
+        "x": 0.61282,
+        "y": 0.78056
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-6864971",
+      "originalIndex": 215,
+      "status": "retained",
+      "before": {
+        "x": 0.46207,
+        "y": 0.78238
+      },
+      "after": {
+        "x": 0.46207,
+        "y": 0.78238
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-7725953",
+      "originalIndex": 216,
+      "status": "retained",
+      "before": {
+        "x": 0.815,
+        "y": 0.82667
+      },
+      "after": {
+        "x": 0.815,
+        "y": 0.82667
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-13253864",
+      "originalIndex": 217,
+      "status": "retained",
+      "before": {
+        "x": 0.77,
+        "y": 0.85667
+      },
+      "after": {
+        "x": 0.77,
+        "y": 0.85667
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-14657117",
+      "originalIndex": 218,
+      "status": "retained",
+      "before": {
+        "x": 0.5931,
+        "y": 0.8601
+      },
+      "after": {
+        "x": 0.5931,
+        "y": 0.8601
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-8322213",
+      "originalIndex": 219,
+      "status": "retained",
+      "before": {
+        "x": 0.44138,
+        "y": 0.89119
+      },
+      "after": {
+        "x": 0.44138,
+        "y": 0.89119
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-37110805",
+      "originalIndex": 220,
+      "status": "retained",
+      "before": {
+        "x": 0.25,
+        "y": 0.69667
+      },
+      "after": {
+        "x": 0.25,
+        "y": 0.69667
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-36653949",
+      "originalIndex": 221,
+      "status": "retained",
+      "before": {
+        "x": 0.32759,
+        "y": 0.80982
+      },
+      "after": {
+        "x": 0.32759,
+        "y": 0.80982
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-6864970",
+      "originalIndex": 222,
+      "status": "retained",
+      "before": {
+        "x": 0.72,
+        "y": 0.28333
+      },
+      "after": {
+        "x": 0.72,
+        "y": 0.28333
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-39002572",
+      "originalIndex": 223,
+      "status": "retained",
+      "before": {
+        "x": 0.73793,
+        "y": 0.70561
+      },
+      "after": {
+        "x": 0.73793,
+        "y": 0.70561
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-11146303",
+      "originalIndex": 224,
+      "status": "retained",
+      "before": {
+        "x": 0.45517,
+        "y": 0.65031
+      },
+      "after": {
+        "x": 0.45517,
+        "y": 0.65031
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-26932292",
+      "originalIndex": 225,
+      "status": "retained",
+      "before": {
+        "x": 0.48966,
+        "y": 0.39896
+      },
+      "after": {
+        "x": 0.48966,
+        "y": 0.39896
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-17045504",
+      "originalIndex": 226,
+      "status": "retained",
+      "before": {
+        "x": 0.428,
+        "y": 0.45
+      },
+      "after": {
+        "x": 0.428,
+        "y": 0.45
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-7725960",
+      "originalIndex": 227,
+      "status": "retained",
+      "before": {
+        "x": 0.24828,
+        "y": 0.44041
+      },
+      "after": {
+        "x": 0.24828,
+        "y": 0.44041
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-40040154",
+      "originalIndex": 228,
+      "status": "corrected",
+      "before": {
+        "x": 0.5,
+        "y": 0.8
+      },
+      "after": {
+        "x": 0.49866,
+        "y": 0.82321
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-6864676",
+      "originalIndex": 229,
+      "status": "retained",
+      "before": {
+        "x": 0.49,
+        "y": 0.67
+      },
+      "after": {
+        "x": 0.49,
+        "y": 0.67
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-32993079",
+      "originalIndex": 230,
+      "status": "retained",
+      "before": {
+        "x": 0.76897,
+        "y": 0.55959
+      },
+      "after": {
+        "x": 0.76897,
+        "y": 0.55959
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-19836604",
+      "originalIndex": 231,
+      "status": "corrected",
+      "before": {
+        "x": 0.28621,
+        "y": 0.71875
+      },
+      "after": {
+        "x": 0.31026,
+        "y": 0.73745
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-8634382",
+      "originalIndex": 232,
+      "status": "retained",
+      "before": {
+        "x": 0.415,
+        "y": 0.21333
+      },
+      "after": {
+        "x": 0.415,
+        "y": 0.21333
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-1543801",
+      "originalIndex": 233,
+      "status": "retained",
+      "before": {
+        "x": 0.48966,
+        "y": 0.59
+      },
+      "after": {
+        "x": 0.48966,
+        "y": 0.59
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-6864968",
+      "originalIndex": 234,
+      "status": "retained",
+      "before": {
+        "x": 0.1,
+        "y": 0.08333
+      },
+      "after": {
+        "x": 0.1,
+        "y": 0.08333
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-33202437",
+      "originalIndex": 235,
+      "status": "retained",
+      "before": {
+        "x": 0.463,
+        "y": 0.399
+      },
+      "after": {
+        "x": 0.463,
+        "y": 0.399
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-9645568",
+      "originalIndex": 236,
+      "status": "retained",
+      "before": {
+        "x": 0.37241,
+        "y": 0.90155
+      },
+      "after": {
+        "x": 0.37241,
+        "y": 0.90155
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-34569620",
+      "originalIndex": 237,
+      "status": "retained",
+      "before": {
+        "x": 0.385,
+        "y": 0.75
+      },
+      "after": {
+        "x": 0.385,
+        "y": 0.75
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-7726111",
+      "originalIndex": 238,
+      "status": "retained",
+      "before": {
+        "x": 0.7069,
+        "y": 0.09326
+      },
+      "after": {
+        "x": 0.7069,
+        "y": 0.09326
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-11940144",
+      "originalIndex": 239,
+      "status": "retained",
+      "before": {
+        "x": 0.44444,
+        "y": 0.81
+      },
+      "after": {
+        "x": 0.44444,
+        "y": 0.81
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-34719941",
+      "originalIndex": 240,
+      "status": "retained",
+      "before": {
+        "x": 0.485,
+        "y": 0.94
+      },
+      "after": {
+        "x": 0.485,
+        "y": 0.94
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-160755",
+      "originalIndex": 241,
+      "status": "retained",
+      "before": {
+        "x": 0.58966,
+        "y": 0.40206
+      },
+      "after": {
+        "x": 0.58966,
+        "y": 0.40206
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-20211114",
+      "originalIndex": 242,
+      "status": "retained",
+      "before": {
+        "x": 0.37586,
+        "y": 0.94819
+      },
+      "after": {
+        "x": 0.37586,
+        "y": 0.94819
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-39366699",
+      "originalIndex": 243,
+      "status": "retained",
+      "before": {
+        "x": 0.725,
+        "y": 0.77667
+      },
+      "after": {
+        "x": 0.725,
+        "y": 0.77667
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-17895618",
+      "originalIndex": 244,
+      "status": "retained",
+      "before": {
+        "x": 0.67241,
+        "y": 0.66839
+      },
+      "after": {
+        "x": 0.67241,
+        "y": 0.66839
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-33652411",
+      "originalIndex": 245,
+      "status": "corrected",
+      "before": {
+        "x": 0.405,
+        "y": 0.73667
+      },
+      "after": {
+        "x": 0.55496,
+        "y": 0.75714
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-16173990",
+      "originalIndex": 246,
+      "status": "retained",
+      "before": {
+        "x": 0.541,
+        "y": 0.446
+      },
+      "after": {
+        "x": 0.541,
+        "y": 0.446
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-35203968",
+      "originalIndex": 247,
+      "status": "corrected",
+      "before": {
+        "x": 0.63103,
+        "y": 0.78238
+      },
+      "after": {
+        "x": 0.64615,
+        "y": 0.75
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-13047185",
+      "originalIndex": 248,
+      "status": "retained",
+      "before": {
+        "x": 0.26897,
+        "y": 0.68912
+      },
+      "after": {
+        "x": 0.26897,
+        "y": 0.68912
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-8322212",
+      "originalIndex": 249,
+      "status": "retained",
+      "before": {
+        "x": 0.45,
+        "y": 0.8
+      },
+      "after": {
+        "x": 0.45,
+        "y": 0.8
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-39501041",
+      "originalIndex": 250,
+      "status": "retained",
+      "before": {
+        "x": 0.26207,
+        "y": 0.58031
+      },
+      "after": {
+        "x": 0.26207,
+        "y": 0.58031
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-30973671",
+      "originalIndex": 251,
+      "status": "corrected",
+      "before": {
+        "x": 0.58,
+        "y": 0.55
+      },
+      "after": {
+        "x": 0.50938,
+        "y": 0.56964
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-13975876",
+      "originalIndex": 252,
+      "status": "retained",
+      "before": {
+        "x": 0.69167,
+        "y": 0.43667
+      },
+      "after": {
+        "x": 0.69167,
+        "y": 0.43667
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-18719680",
+      "originalIndex": 253,
+      "status": "retained",
+      "before": {
+        "x": 0.4931,
+        "y": 0.87565
+      },
+      "after": {
+        "x": 0.4931,
+        "y": 0.87565
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-39366707",
+      "originalIndex": 254,
+      "status": "retained",
+      "before": {
+        "x": 0.71,
+        "y": 0.76667
+      },
+      "after": {
+        "x": 0.71,
+        "y": 0.76667
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-5263844",
+      "originalIndex": 255,
+      "status": "retained",
+      "before": {
+        "x": 0.705,
+        "y": 0.94667
+      },
+      "after": {
+        "x": 0.705,
+        "y": 0.94667
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-35979734",
+      "originalIndex": 256,
+      "status": "retained",
+      "before": {
+        "x": 0.57586,
+        "y": 0.95855
+      },
+      "after": {
+        "x": 0.57586,
+        "y": 0.95855
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-39690379",
+      "originalIndex": 257,
+      "status": "retained",
+      "before": {
+        "x": 0.51724,
+        "y": 0.58549
+      },
+      "after": {
+        "x": 0.51724,
+        "y": 0.58549
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-8727911",
+      "originalIndex": 258,
+      "status": "corrected",
+      "before": {
+        "x": 0.195,
+        "y": 0.6
+      },
+      "after": {
+        "x": 0.17962,
+        "y": 0.61964
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-15803556",
+      "originalIndex": 259,
+      "status": "retained",
+      "before": {
+        "x": 0.484,
+        "y": 0.671
+      },
+      "after": {
+        "x": 0.484,
+        "y": 0.671
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-33415927",
+      "originalIndex": 260,
+      "status": "retained",
+      "before": {
+        "x": 0.23585,
+        "y": 0.83667
+      },
+      "after": {
+        "x": 0.23585,
+        "y": 0.83667
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-19187123",
+      "originalIndex": 261,
+      "status": "retained",
+      "before": {
+        "x": 0.47,
+        "y": 0.12
+      },
+      "after": {
+        "x": 0.47,
+        "y": 0.12
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-35689939",
+      "originalIndex": 262,
+      "status": "retained",
+      "before": {
+        "x": 0.269,
+        "y": 0.67
+      },
+      "after": {
+        "x": 0.269,
+        "y": 0.67
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-38420636",
+      "originalIndex": 263,
+      "status": "retained",
+      "before": {
+        "x": 0.665,
+        "y": 0.7
+      },
+      "after": {
+        "x": 0.665,
+        "y": 0.7
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-40358679",
+      "originalIndex": 264,
+      "status": "retained",
+      "before": {
+        "x": 0.52759,
+        "y": 0.90155
+      },
+      "after": {
+        "x": 0.52759,
+        "y": 0.90155
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-16423405",
+      "originalIndex": 265,
+      "status": "retained",
+      "before": {
+        "x": 0.873,
+        "y": 0.438
+      },
+      "after": {
+        "x": 0.873,
+        "y": 0.438
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-29560801",
+      "originalIndex": 266,
+      "status": "retained",
+      "before": {
+        "x": 0.04867,
+        "y": 0.85333
+      },
+      "after": {
+        "x": 0.04867,
+        "y": 0.85333
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-38349467",
+      "originalIndex": 267,
+      "status": "retained",
+      "before": {
+        "x": 0.03,
+        "y": 0.704
+      },
+      "after": {
+        "x": 0.03,
+        "y": 0.704
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-7516108",
+      "originalIndex": 268,
+      "status": "retained",
+      "before": {
+        "x": 0.3069,
+        "y": 0.89637
+      },
+      "after": {
+        "x": 0.3069,
+        "y": 0.89637
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-7817962",
+      "originalIndex": 269,
+      "status": "retained",
+      "before": {
+        "x": 0.695,
+        "y": 0.63333
+      },
+      "after": {
+        "x": 0.695,
+        "y": 0.63333
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-17915328",
+      "originalIndex": 270,
+      "status": "retained",
+      "before": {
+        "x": 0.565,
+        "y": 0.86667
+      },
+      "after": {
+        "x": 0.565,
+        "y": 0.86667
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-2817430",
+      "originalIndex": 271,
+      "status": "retained",
+      "before": {
+        "x": 0.14,
+        "y": 0.66667
+      },
+      "after": {
+        "x": 0.14,
+        "y": 0.66667
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-33270248",
+      "originalIndex": 272,
+      "status": "retained",
+      "before": {
+        "x": 0.31,
+        "y": 0.08667
+      },
+      "after": {
+        "x": 0.31,
+        "y": 0.08667
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-17127912",
+      "originalIndex": 273,
+      "status": "retained",
+      "before": {
+        "x": 0.34828,
+        "y": 0.89637
+      },
+      "after": {
+        "x": 0.34828,
+        "y": 0.89637
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-35783745",
+      "originalIndex": 274,
+      "status": "retained",
+      "before": {
+        "x": 0.37278,
+        "y": 0.91
+      },
+      "after": {
+        "x": 0.37278,
+        "y": 0.91
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-6933062",
+      "originalIndex": 275,
+      "status": "retained",
+      "before": {
+        "x": 0.54483,
+        "y": 0.88601
+      },
+      "after": {
+        "x": 0.54483,
+        "y": 0.88601
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-28537542",
+      "originalIndex": 276,
+      "status": "retained",
+      "before": {
+        "x": 0.57586,
+        "y": 0.95413
+      },
+      "after": {
+        "x": 0.57586,
+        "y": 0.95413
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-32268228",
+      "originalIndex": 277,
+      "status": "retained",
+      "before": {
+        "x": 0.43,
+        "y": 0.72
+      },
+      "after": {
+        "x": 0.43,
+        "y": 0.72
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-9212786",
+      "originalIndex": 278,
+      "status": "retained",
+      "before": {
+        "x": 0.27931,
+        "y": 0.89119
+      },
+      "after": {
+        "x": 0.27931,
+        "y": 0.89119
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-33065227",
+      "originalIndex": 279,
+      "status": "retained",
+      "before": {
+        "x": 0.245,
+        "y": 0.73667
+      },
+      "after": {
+        "x": 0.245,
+        "y": 0.73667
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-37217687",
+      "originalIndex": 280,
+      "status": "retained",
+      "before": {
+        "x": 0.59,
+        "y": 0.94333
+      },
+      "after": {
+        "x": 0.59,
+        "y": 0.94333
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-20052744",
+      "originalIndex": 281,
+      "status": "retained",
+      "before": {
+        "x": 0.62722,
+        "y": 0.85333
+      },
+      "after": {
+        "x": 0.62722,
+        "y": 0.85333
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-30210950",
+      "originalIndex": 282,
+      "status": "retained",
+      "before": {
+        "x": 0.21724,
+        "y": 0.75648
+      },
+      "after": {
+        "x": 0.21724,
+        "y": 0.75648
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-12030708",
+      "originalIndex": 283,
+      "status": "retained",
+      "before": {
+        "x": 0.45417,
+        "y": 0.94667
+      },
+      "after": {
+        "x": 0.45417,
+        "y": 0.94667
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-10860451",
+      "originalIndex": 284,
+      "status": "retained",
+      "before": {
+        "x": 0.545,
+        "y": 0.74333
+      },
+      "after": {
+        "x": 0.545,
+        "y": 0.74333
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-17785122",
+      "originalIndex": 285,
+      "status": "retained",
+      "before": {
+        "x": 0.605,
+        "y": 0.94333
+      },
+      "after": {
+        "x": 0.605,
+        "y": 0.94333
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-31723863",
+      "originalIndex": 286,
+      "status": "retained",
+      "before": {
+        "x": 0.46222,
+        "y": 0.96333
+      },
+      "after": {
+        "x": 0.46222,
+        "y": 0.96333
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-34150270",
+      "originalIndex": 287,
+      "status": "retained",
+      "before": {
+        "x": 0.59583,
+        "y": 0.91333
+      },
+      "after": {
+        "x": 0.59583,
+        "y": 0.91333
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-34760125",
+      "originalIndex": 288,
+      "status": "retained",
+      "before": {
+        "x": 0.41778,
+        "y": 0.87667
+      },
+      "after": {
+        "x": 0.41778,
+        "y": 0.87667
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-33507205",
+      "originalIndex": 289,
+      "status": "retained",
+      "before": {
+        "x": 0.14,
+        "y": 0.81667
+      },
+      "after": {
+        "x": 0.14,
+        "y": 0.81667
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-26926407",
+      "originalIndex": 290,
+      "status": "retained",
+      "before": {
+        "x": 0.52759,
+        "y": 0.84974
+      },
+      "after": {
+        "x": 0.52759,
+        "y": 0.84974
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-37977153",
+      "originalIndex": 291,
+      "status": "retained",
+      "before": {
+        "x": 0.70667,
+        "y": 0.90333
+      },
+      "after": {
+        "x": 0.70667,
+        "y": 0.90333
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-37217676",
+      "originalIndex": 292,
+      "status": "retained",
+      "before": {
+        "x": 0.5931,
+        "y": 0.90674
+      },
+      "after": {
+        "x": 0.5931,
+        "y": 0.90674
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-12551953",
+      "originalIndex": 293,
+      "status": "retained",
+      "before": {
+        "x": 0.45,
+        "y": 0.79
+      },
+      "after": {
+        "x": 0.45,
+        "y": 0.79
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-38549984",
+      "originalIndex": 294,
+      "status": "retained",
+      "before": {
+        "x": 0.36889,
+        "y": 0.76333
+      },
+      "after": {
+        "x": 0.36889,
+        "y": 0.76333
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-31122234",
+      "originalIndex": 295,
+      "status": "retained",
+      "before": {
+        "x": 0.32889,
+        "y": 0.88667
+      },
+      "after": {
+        "x": 0.32889,
+        "y": 0.88667
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-29148861",
+      "originalIndex": 296,
+      "status": "retained",
+      "before": {
+        "x": 0.69818,
+        "y": 0.94667
+      },
+      "after": {
+        "x": 0.69818,
+        "y": 0.94667
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-38228203",
+      "originalIndex": 297,
+      "status": "retained",
+      "before": {
+        "x": 0.81407,
+        "y": 0.61
+      },
+      "after": {
+        "x": 0.81407,
+        "y": 0.61
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-8858881",
+      "originalIndex": 298,
+      "status": "retained",
+      "before": {
+        "x": 0.76897,
+        "y": 0.90608
+      },
+      "after": {
+        "x": 0.76897,
+        "y": 0.90608
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-8437362",
+      "originalIndex": 299,
+      "status": "corrected",
+      "before": {
+        "x": 0.44444,
+        "y": 0.77
+      },
+      "after": {
+        "x": 0.568,
+        "y": 0.695
+      },
+      "reason": "Hind pads moved to the crossed front paw tip.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-998241",
+      "originalIndex": 300,
+      "status": "retained",
+      "before": {
+        "x": 0.55862,
+        "y": 0.84974
+      },
+      "after": {
+        "x": 0.55862,
+        "y": 0.84974
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-8364473",
+      "originalIndex": 301,
+      "status": "corrected",
+      "before": {
+        "x": 0.86897,
+        "y": 0.75648
+      },
+      "after": {
+        "x": 0.87436,
+        "y": 0.68846
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-16385540",
+      "originalIndex": 302,
+      "status": "corrected",
+      "before": {
+        "x": 0.51724,
+        "y": 0.76684
+      },
+      "after": {
+        "x": 0.65641,
+        "y": 0.66923
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-10989896",
+      "originalIndex": 303,
+      "status": "retained",
+      "before": {
+        "x": 0.71724,
+        "y": 0.82902
+      },
+      "after": {
+        "x": 0.71724,
+        "y": 0.82902
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-1056251",
+      "originalIndex": 304,
+      "status": "retained",
+      "before": {
+        "x": 0.31034,
+        "y": 0.89119
+      },
+      "after": {
+        "x": 0.31034,
+        "y": 0.89119
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-266784",
+      "originalIndex": 305,
+      "status": "retained",
+      "before": {
+        "x": 0.44828,
+        "y": 0.94819
+      },
+      "after": {
+        "x": 0.44828,
+        "y": 0.94819
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-236606",
+      "originalIndex": 306,
+      "status": "retained",
+      "before": {
+        "x": 0.74828,
+        "y": 0.69948
+      },
+      "after": {
+        "x": 0.74828,
+        "y": 0.69948
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-7552771",
+      "originalIndex": 307,
+      "status": "retained",
+      "before": {
+        "x": 0.44483,
+        "y": 0.9171
+      },
+      "after": {
+        "x": 0.44483,
+        "y": 0.9171
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-22300650",
+      "originalIndex": 308,
+      "status": "retained",
+      "before": {
+        "x": 0.21379,
+        "y": 0.43617
+      },
+      "after": {
+        "x": 0.21379,
+        "y": 0.43617
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-2870510",
+      "originalIndex": 309,
+      "status": "retained",
+      "before": {
+        "x": 0.62759,
+        "y": 0.79793
+      },
+      "after": {
+        "x": 0.62759,
+        "y": 0.79793
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-20273026",
+      "originalIndex": 310,
+      "status": "retained",
+      "before": {
+        "x": 0.42,
+        "y": 0.89333
+      },
+      "after": {
+        "x": 0.42,
+        "y": 0.89333
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-37387520",
+      "originalIndex": 311,
+      "status": "corrected",
+      "before": {
+        "x": 0.82667,
+        "y": 0.53333
+      },
+      "after": {
+        "x": 0.88974,
+        "y": 0.53077
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-34431755",
+      "originalIndex": 312,
+      "status": "retained",
+      "before": {
+        "x": 0.2069,
+        "y": 0.71963
+      },
+      "after": {
+        "x": 0.2069,
+        "y": 0.71963
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-1629922",
+      "originalIndex": 313,
+      "status": "retained",
+      "before": {
+        "x": 0.84138,
+        "y": 0.78736
+      },
+      "after": {
+        "x": 0.84138,
+        "y": 0.78736
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-62640",
+      "originalIndex": 314,
+      "status": "corrected",
+      "before": {
+        "x": 0.21379,
+        "y": 0.78238
+      },
+      "after": {
+        "x": 0.31538,
+        "y": 0.78378
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-33683785",
+      "originalIndex": 315,
+      "status": "retained",
+      "before": {
+        "x": 0.23,
+        "y": 0.67667
+      },
+      "after": {
+        "x": 0.23,
+        "y": 0.67667
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-30239291",
+      "originalIndex": 316,
+      "status": "retained",
+      "before": {
+        "x": 0.55172,
+        "y": 0.72021
+      },
+      "after": {
+        "x": 0.55172,
+        "y": 0.72021
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-32713457",
+      "originalIndex": 317,
+      "status": "retained",
+      "before": {
+        "x": 0.14483,
+        "y": 0.73575
+      },
+      "after": {
+        "x": 0.14483,
+        "y": 0.73575
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-5486106",
+      "originalIndex": 318,
+      "status": "corrected",
+      "before": {
+        "x": 0.6,
+        "y": 0.83938
+      },
+      "after": {
+        "x": 0.74103,
+        "y": 0.78077
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-29242356",
+      "originalIndex": 319,
+      "status": "retained",
+      "before": {
+        "x": 0.91379,
+        "y": 0.96891
+      },
+      "after": {
+        "x": 0.91379,
+        "y": 0.96891
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-720684",
+      "originalIndex": 320,
+      "status": "retained",
+      "before": {
+        "x": 0.74483,
+        "y": 0.63761
+      },
+      "after": {
+        "x": 0.74483,
+        "y": 0.63761
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-31792768",
+      "originalIndex": 321,
+      "status": "retained",
+      "before": {
+        "x": 0.8069,
+        "y": 0.7513
+      },
+      "after": {
+        "x": 0.8069,
+        "y": 0.7513
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-31735117",
+      "originalIndex": 322,
+      "status": "retained",
+      "before": {
+        "x": 0.075,
+        "y": 0.77667
+      },
+      "after": {
+        "x": 0.075,
+        "y": 0.77667
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-29287985",
+      "originalIndex": 323,
+      "status": "retained",
+      "before": {
+        "x": 0.34,
+        "y": 0.92333
+      },
+      "after": {
+        "x": 0.34,
+        "y": 0.92333
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-9820722",
+      "originalIndex": 324,
+      "status": "retained",
+      "before": {
+        "x": 0.33103,
+        "y": 0.84974
+      },
+      "after": {
+        "x": 0.33103,
+        "y": 0.84974
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-36782801",
+      "originalIndex": 325,
+      "status": "retained",
+      "before": {
+        "x": 0.345,
+        "y": 0.62
+      },
+      "after": {
+        "x": 0.345,
+        "y": 0.62
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-4705174",
+      "originalIndex": 326,
+      "status": "retained",
+      "before": {
+        "x": 0.205,
+        "y": 0.51333
+      },
+      "after": {
+        "x": 0.205,
+        "y": 0.51333
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-18799723",
+      "originalIndex": 327,
+      "status": "retained",
+      "before": {
+        "x": 0.47668,
+        "y": 0.73333
+      },
+      "after": {
+        "x": 0.47668,
+        "y": 0.73333
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-36401636",
+      "originalIndex": 328,
+      "status": "retained",
+      "before": {
+        "x": 0.495,
+        "y": 0.79
+      },
+      "after": {
+        "x": 0.495,
+        "y": 0.79
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-10891007",
+      "originalIndex": 329,
+      "status": "retained",
+      "before": {
+        "x": 0.87586,
+        "y": 0.72539
+      },
+      "after": {
+        "x": 0.87586,
+        "y": 0.72539
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-35806978",
+      "originalIndex": 330,
+      "status": "retained",
+      "before": {
+        "x": 0.36552,
+        "y": 0.98171
+      },
+      "after": {
+        "x": 0.36552,
+        "y": 0.98171
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-27372644",
+      "originalIndex": 331,
+      "status": "retained",
+      "before": {
+        "x": 0.325,
+        "y": 0.68667
+      },
+      "after": {
+        "x": 0.325,
+        "y": 0.68667
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-33281875",
+      "originalIndex": 332,
+      "status": "retained",
+      "before": {
+        "x": 0.93793,
+        "y": 0.76684
+      },
+      "after": {
+        "x": 0.93793,
+        "y": 0.76684
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-18414878",
+      "originalIndex": 333,
+      "status": "retained",
+      "before": {
+        "x": 0.445,
+        "y": 0.84333
+      },
+      "after": {
+        "x": 0.445,
+        "y": 0.84333
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-28978468",
+      "originalIndex": 334,
+      "status": "corrected",
+      "before": {
+        "x": 0.72889,
+        "y": 0.51667
+      },
+      "after": {
+        "x": 0.76923,
+        "y": 0.475
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-32588276",
+      "originalIndex": 335,
+      "status": "retained",
+      "before": {
+        "x": 0.4931,
+        "y": 0.88344
+      },
+      "after": {
+        "x": 0.4931,
+        "y": 0.88344
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-20100247",
+      "originalIndex": 336,
+      "status": "retained",
+      "before": {
+        "x": 0.925,
+        "y": 0.94667
+      },
+      "after": {
+        "x": 0.925,
+        "y": 0.94667
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-5810263",
+      "originalIndex": 337,
+      "status": "retained",
+      "before": {
+        "x": 0.465,
+        "y": 0.85667
+      },
+      "after": {
+        "x": 0.465,
+        "y": 0.85667
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-3777622",
+      "originalIndex": 338,
+      "status": "retained",
+      "before": {
+        "x": 0.45,
+        "y": 0.96333
+      },
+      "after": {
+        "x": 0.45,
+        "y": 0.96333
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-30239303",
+      "originalIndex": 339,
+      "status": "retained",
+      "before": {
+        "x": 0.56897,
+        "y": 0.74757
+      },
+      "after": {
+        "x": 0.56897,
+        "y": 0.74757
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-32450892",
+      "originalIndex": 340,
+      "status": "retained",
+      "before": {
+        "x": 0.75172,
+        "y": 0.77301
+      },
+      "after": {
+        "x": 0.75172,
+        "y": 0.77301
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-30239299",
+      "originalIndex": 341,
+      "status": "retained",
+      "before": {
+        "x": 0.95413,
+        "y": 0.61333
+      },
+      "after": {
+        "x": 0.95413,
+        "y": 0.61333
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-10991686",
+      "originalIndex": 342,
+      "status": "retained",
+      "before": {
+        "x": 0.38276,
+        "y": 0.96907
+      },
+      "after": {
+        "x": 0.38276,
+        "y": 0.96907
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-5927614",
+      "originalIndex": 343,
+      "status": "retained",
+      "before": {
+        "x": 0.765,
+        "y": 0.90667
+      },
+      "after": {
+        "x": 0.765,
+        "y": 0.90667
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-7516114",
+      "originalIndex": 344,
+      "status": "retained",
+      "before": {
+        "x": 0.24,
+        "y": 0.84
+      },
+      "after": {
+        "x": 0.24,
+        "y": 0.84
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-24032990",
+      "originalIndex": 345,
+      "status": "retained",
+      "before": {
+        "x": 0.64828,
+        "y": 0.91163
+      },
+      "after": {
+        "x": 0.64828,
+        "y": 0.91163
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-8945277",
+      "originalIndex": 346,
+      "status": "retained",
+      "before": {
+        "x": 0.52,
+        "y": 0.86667
+      },
+      "after": {
+        "x": 0.52,
+        "y": 0.86667
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-29241265",
+      "originalIndex": 347,
+      "status": "retained",
+      "before": {
+        "x": 0.06,
+        "y": 0.83333
+      },
+      "after": {
+        "x": 0.06,
+        "y": 0.83333
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-39619169",
+      "originalIndex": 348,
+      "status": "retained",
+      "before": {
+        "x": 0.235,
+        "y": 0.73667
+      },
+      "after": {
+        "x": 0.235,
+        "y": 0.73667
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-16222026",
+      "originalIndex": 349,
+      "status": "retained",
+      "before": {
+        "x": 0.55517,
+        "y": 0.84456
+      },
+      "after": {
+        "x": 0.55517,
+        "y": 0.84456
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-14807387",
+      "originalIndex": 350,
+      "status": "retained",
+      "before": {
+        "x": 0.81034,
+        "y": 0.93264
+      },
+      "after": {
+        "x": 0.81034,
+        "y": 0.93264
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-10912324",
+      "originalIndex": 351,
+      "status": "retained",
+      "before": {
+        "x": 0.34884,
+        "y": 0.90333
+      },
+      "after": {
+        "x": 0.34884,
+        "y": 0.90333
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-35409277",
+      "originalIndex": 352,
+      "status": "retained",
+      "before": {
+        "x": 0.17931,
+        "y": 0.62176
+      },
+      "after": {
+        "x": 0.17931,
+        "y": 0.62176
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-6524490",
+      "originalIndex": 353,
+      "status": "retained",
+      "before": {
+        "x": 0.74,
+        "y": 0.9
+      },
+      "after": {
+        "x": 0.74,
+        "y": 0.9
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-5870695",
+      "originalIndex": 354,
+      "status": "retained",
+      "before": {
+        "x": 0.09655,
+        "y": 0.78238
+      },
+      "after": {
+        "x": 0.09655,
+        "y": 0.78238
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-7125363",
+      "originalIndex": 355,
+      "status": "corrected",
+      "before": {
+        "x": 0.20417,
+        "y": 0.84333
+      },
+      "after": {
+        "x": 0.09487,
+        "y": 0.82582
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-18452881",
+      "originalIndex": 356,
+      "status": "retained",
+      "before": {
+        "x": 0.39303,
+        "y": 0.71
+      },
+      "after": {
+        "x": 0.39303,
+        "y": 0.71
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-5200916",
+      "originalIndex": 357,
+      "status": "retained",
+      "before": {
+        "x": 0.78621,
+        "y": 0.8601
+      },
+      "after": {
+        "x": 0.78621,
+        "y": 0.8601
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-5251157",
+      "originalIndex": 358,
+      "status": "retained",
+      "before": {
+        "x": 0.35517,
+        "y": 0.9171
+      },
+      "after": {
+        "x": 0.35517,
+        "y": 0.9171
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-23452067",
+      "originalIndex": 359,
+      "status": "retained",
+      "before": {
+        "x": 0.58276,
+        "y": 0.75688
+      },
+      "after": {
+        "x": 0.58276,
+        "y": 0.75688
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-38325474",
+      "originalIndex": 360,
+      "status": "retained",
+      "before": {
+        "x": 0.31,
+        "y": 0.58667
+      },
+      "after": {
+        "x": 0.31,
+        "y": 0.58667
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-32939019",
+      "originalIndex": 361,
+      "status": "retained",
+      "before": {
+        "x": 0.31034,
+        "y": 0.82569
+      },
+      "after": {
+        "x": 0.31034,
+        "y": 0.82569
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-9375831",
+      "originalIndex": 362,
+      "status": "retained",
+      "before": {
+        "x": 0.505,
+        "y": 0.76
+      },
+      "after": {
+        "x": 0.505,
+        "y": 0.76
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-16144414",
+      "originalIndex": 363,
+      "status": "retained",
+      "before": {
+        "x": 0.76,
+        "y": 0.29333
+      },
+      "after": {
+        "x": 0.76,
+        "y": 0.29333
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-32631452",
+      "originalIndex": 364,
+      "status": "retained",
+      "before": {
+        "x": 0.57241,
+        "y": 0.82383
+      },
+      "after": {
+        "x": 0.57241,
+        "y": 0.82383
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-32939012",
+      "originalIndex": 365,
+      "status": "retained",
+      "before": {
+        "x": 0.47586,
+        "y": 0.92661
+      },
+      "after": {
+        "x": 0.47586,
+        "y": 0.92661
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-17457099",
+      "originalIndex": 366,
+      "status": "retained",
+      "before": {
+        "x": 0.31724,
+        "y": 0.68912
+      },
+      "after": {
+        "x": 0.31724,
+        "y": 0.68912
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-32597057",
+      "originalIndex": 367,
+      "status": "retained",
+      "before": {
+        "x": 0.2069,
+        "y": 0.72539
+      },
+      "after": {
+        "x": 0.2069,
+        "y": 0.72539
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-34449439",
+      "originalIndex": 368,
+      "status": "retained",
+      "before": {
+        "x": 0.32069,
+        "y": 0.91743
+      },
+      "after": {
+        "x": 0.32069,
+        "y": 0.91743
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-5973467",
+      "originalIndex": 369,
+      "status": "retained",
+      "before": {
+        "x": 0.46207,
+        "y": 0.93264
+      },
+      "after": {
+        "x": 0.46207,
+        "y": 0.93264
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-14492386",
+      "originalIndex": 370,
+      "status": "retained",
+      "before": {
+        "x": 0.675,
+        "y": 0.66
+      },
+      "after": {
+        "x": 0.675,
+        "y": 0.66
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-17582236",
+      "originalIndex": 371,
+      "status": "retained",
+      "before": {
+        "x": 0.59799,
+        "y": 0.22
+      },
+      "after": {
+        "x": 0.59799,
+        "y": 0.22
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-9880907",
+      "originalIndex": 372,
+      "status": "retained",
+      "before": {
+        "x": 0.48621,
+        "y": 0.95855
+      },
+      "after": {
+        "x": 0.48621,
+        "y": 0.95855
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-34973236",
+      "originalIndex": 373,
+      "status": "retained",
+      "before": {
+        "x": 0.51379,
+        "y": 0.69792
+      },
+      "after": {
+        "x": 0.51379,
+        "y": 0.69792
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-2124869",
+      "originalIndex": 374,
+      "status": "corrected",
+      "before": {
+        "x": 0.55172,
+        "y": 0.79793
+      },
+      "after": {
+        "x": 0.6641,
+        "y": 0.78077
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-34661401",
+      "originalIndex": 375,
+      "status": "retained",
+      "before": {
+        "x": 0.67931,
+        "y": 0.86528
+      },
+      "after": {
+        "x": 0.67931,
+        "y": 0.86528
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-17967431",
+      "originalIndex": 376,
+      "status": "retained",
+      "before": {
+        "x": 0.675,
+        "y": 0.86333
+      },
+      "after": {
+        "x": 0.675,
+        "y": 0.86333
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-34718089",
+      "originalIndex": 377,
+      "status": "retained",
+      "before": {
+        "x": 0.70222,
+        "y": 0.62667
+      },
+      "after": {
+        "x": 0.70222,
+        "y": 0.62667
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-1631520",
+      "originalIndex": 378,
+      "status": "retained",
+      "before": {
+        "x": 0.2069,
+        "y": 0.73057
+      },
+      "after": {
+        "x": 0.2069,
+        "y": 0.73057
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-20757307",
+      "originalIndex": 379,
+      "status": "retained",
+      "before": {
+        "x": 0.725,
+        "y": 0.55667
+      },
+      "after": {
+        "x": 0.725,
+        "y": 0.55667
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-34882687",
+      "originalIndex": 380,
+      "status": "retained",
+      "before": {
+        "x": 0.43,
+        "y": 0.61667
+      },
+      "after": {
+        "x": 0.43,
+        "y": 0.61667
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-32939023",
+      "originalIndex": 381,
+      "status": "retained",
+      "before": {
+        "x": 0.54138,
+        "y": 0.74771
+      },
+      "after": {
+        "x": 0.54138,
+        "y": 0.74771
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-32796684",
+      "originalIndex": 382,
+      "status": "retained",
+      "before": {
+        "x": 0.76897,
+        "y": 0.73057
+      },
+      "after": {
+        "x": 0.76897,
+        "y": 0.73057
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-28966438",
+      "originalIndex": 383,
+      "status": "retained",
+      "before": {
+        "x": 0.26633,
+        "y": 0.66
+      },
+      "after": {
+        "x": 0.26633,
+        "y": 0.66
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-30694674",
+      "originalIndex": 384,
+      "status": "retained",
+      "before": {
+        "x": 0.73793,
+        "y": 0.5567
+      },
+      "after": {
+        "x": 0.73793,
+        "y": 0.5567
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-12079113",
+      "originalIndex": 385,
+      "status": "retained",
+      "before": {
+        "x": 0.26667,
+        "y": 0.43
+      },
+      "after": {
+        "x": 0.26667,
+        "y": 0.43
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-32390823",
+      "originalIndex": 386,
+      "status": "retained",
+      "before": {
+        "x": 0.56667,
+        "y": 0.34
+      },
+      "after": {
+        "x": 0.56667,
+        "y": 0.34
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-18018256",
+      "originalIndex": 387,
+      "status": "retained",
+      "before": {
+        "x": 0.57778,
+        "y": 0.32333
+      },
+      "after": {
+        "x": 0.57778,
+        "y": 0.32333
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-15872170",
+      "originalIndex": 388,
+      "status": "retained",
+      "before": {
+        "x": 0.36,
+        "y": 0.47667
+      },
+      "after": {
+        "x": 0.36,
+        "y": 0.47667
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-18573425",
+      "originalIndex": 389,
+      "status": "retained",
+      "before": {
+        "x": 0.25214,
+        "y": 0.3
+      },
+      "after": {
+        "x": 0.25214,
+        "y": 0.3
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-35849300",
+      "originalIndex": 390,
+      "status": "retained",
+      "before": {
+        "x": 0.32414,
+        "y": 0.6943
+      },
+      "after": {
+        "x": 0.32414,
+        "y": 0.6943
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-6853110",
+      "originalIndex": 391,
+      "status": "retained",
+      "before": {
+        "x": 0.76,
+        "y": 0.35333
+      },
+      "after": {
+        "x": 0.76,
+        "y": 0.35333
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-16577543",
+      "originalIndex": 392,
+      "status": "corrected",
+      "before": {
+        "x": 0.655,
+        "y": 0.60667
+      },
+      "after": {
+        "x": 0.69705,
+        "y": 0.61429
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-3712095",
+      "originalIndex": 393,
+      "status": "retained",
+      "before": {
+        "x": 0.68,
+        "y": 0.617
+      },
+      "after": {
+        "x": 0.68,
+        "y": 0.617
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-10464268",
+      "originalIndex": 394,
+      "status": "corrected",
+      "before": {
+        "x": 0.505,
+        "y": 0.88667
+      },
+      "after": {
+        "x": 0.53351,
+        "y": 0.89107
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-35837657",
+      "originalIndex": 395,
+      "status": "corrected",
+      "before": {
+        "x": 0.17241,
+        "y": 0.44037
+      },
+      "after": {
+        "x": 0.14103,
+        "y": 0.33788
+      },
+      "reason": "Moved to the visible distal front toe after enlarged visual inspection.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-16214095",
+      "originalIndex": 396,
+      "status": "retained",
+      "before": {
+        "x": 0.471,
+        "y": 0.439
+      },
+      "after": {
+        "x": 0.471,
+        "y": 0.439
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-10687956",
+      "originalIndex": 397,
+      "status": "retained",
+      "before": {
+        "x": 0.39655,
+        "y": 0.72021
+      },
+      "after": {
+        "x": 0.39655,
+        "y": 0.72021
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": true
+    },
+    {
+      "id": "pexels-11264596",
+      "originalIndex": 398,
+      "status": "retained",
+      "before": {
+        "x": 0.45862,
+        "y": 0.67358
+      },
+      "after": {
+        "x": 0.45862,
+        "y": 0.67358
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    },
+    {
+      "id": "pexels-35705620",
+      "originalIndex": 399,
+      "status": "retained",
+      "before": {
+        "x": 0.39556,
+        "y": 0.81333
+      },
+      "after": {
+        "x": 0.39556,
+        "y": 0.81333
+      },
+      "reason": "Front paw/toe location visually checked on full-image contact sheet.",
+      "enlarged": false
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "id": "pexels-2064110",
+    "title": "Golden-hour grab",
+    "src": "photos/pexels-2064110.webp",
+    "thumbnail": "photos/pexels-2064110-thumb.webp",
+    "width": 1800,
+    "height": 1200,
+    "paw": {
+      "x": 0.15,
+      "y": 0.065
+    },
+    "alt": "Close-up of a tabby cat curiously reaching out in a sunlit indoor setting.",
+    "photographer": "Halil İbrahim  ÇETİN",
+    "source": "Pexels",
+    "sourceUrl": "https://www.pexels.com/photo/close-up-photo-of-a-curious-calico-cat-2064110/",
+    "licenseUrl": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "pexels-28874308",
+    "title": "High five",
+    "src": "photos/pexels-28874308.webp",
+    "thumbnail": "photos/pexels-28874308-thumb.webp",
+    "width": 1200,
+    "height": 1800,
+    "paw": {
+      "x": 0.4798,
+      "y": 0.15
+    },
+    "alt": "Cute stray kitten playing outdoors in an Istanbul garden, capturing its playful nature.",
+    "photographer": "Büşranur Aydın",
+    "source": "Pexels",
+    "sourceUrl": "https://www.pexels.com/photo/playful-stray-kitten-in-istanbul-garden-28874308/",
+    "licenseUrl": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "pexels-37228045",
+    "title": "Toe check",
+    "src": "photos/pexels-37228045.webp",
+    "thumbnail": "photos/pexels-37228045-thumb.webp",
+    "width": 1800,
+    "height": 1350,
+    "paw": {
+      "x": 0.913,
+      "y": 0.5549
+    },
+    "alt": "A calico cat cleaning itself outdoors on a grassy field during daylight, showcasing natural feline behavior.",
+    "photographer": "Dmytro Koplyk",
+    "source": "Pexels",
+    "sourceUrl": "https://www.pexels.com/photo/calico-cat-grooming-in-natural-setting-37228045/",
+    "licenseUrl": "https://www.pexels.com/license/"
+  }
+]
