@@ -1,0 +1,29 @@
+{
+  "note": "Local production preview, fresh browser contexts, no network throttling; not a production latency benchmark.",
+  "runs": [
+    {
+      "mobile": false,
+      "initialPhotoRequests": 1,
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4174/photos/pexels-30232653.avif",
+          "encodedBodySize": 110128,
+          "transferSize": 110428,
+          "duration": 6.700000017881393
+        }
+      ]
+    },
+    {
+      "mobile": true,
+      "initialPhotoRequests": 1,
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4174/photos/pexels-30232653.avif",
+          "encodedBodySize": 110128,
+          "transferSize": 110428,
+          "duration": 6.300000011920929
+        }
+      ]
+    }
+  ]
+}
