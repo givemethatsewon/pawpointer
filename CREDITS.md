@@ -404,3 +404,19 @@ Photographs are used under the [Pexels License](https://www.pexels.com/license/)
 | Curious paws 10687956 | Polona Mitar Osolnik | [Pexels 10687956](https://www.pexels.com/photo/brown-tabby-cat-on-snow-covered-ground-10687956/) |
 | Curious paws 11264596 | Jane Lush | [Pexels 11264596](https://www.pexels.com/photo/tabby-cat-on-snow-covered-ground-11264596/) |
 | Curious paws 35705620 | Victoria Atlanta | [Pexels 35705620](https://www.pexels.com/photo/gray-cat-walking-through-snow-in-winter-landscape-35705620/) |
+| Curious paws 24809820 | ATHENEA CODJAMBASSIS ROSSITTO | [Pexels 24809820](https://www.pexels.com/photo/portrait-of-little-cat-in-black-and-white-24809820/) |
+| Curious paws 6690869 | zhang kaiyv | [Pexels 6690869](https://www.pexels.com/photo/cutie-parque-one-animal-vibrant-color-6690869/) |
+| Curious paws 12345319 | Jonathan Cooper | [Pexels 12345319](https://www.pexels.com/photo/a-black-and-brown-cat-sleeping-on-the-floor-12345319/) |
+| Curious paws 38242737 | Orkhan  Sweden | [Pexels 38242737](https://www.pexels.com/photo/playful-tabby-cat-relaxing-outdoors-in-grass-38242737/) |
+| Curious paws 27488668 | frank minjarez | [Pexels 27488668](https://www.pexels.com/photo/a-white-cat-27488668/) |
+| Curious paws 29043612 | Lucas Pezeta | [Pexels 29043612](https://www.pexels.com/photo/black-and-white-cat-climbing-a-tree-outdoors-29043612/) |
+| Curious paws 4858813 | zhang kaiyv | [Pexels 4858813](https://www.pexels.com/photo/adorable-cat-playing-with-branch-of-leaves-4858813/) |
+| Curious paws 36695111 | hao cheng | [Pexels 36695111](https://www.pexels.com/photo/white-cat-playing-by-the-window-on-a-sunny-day-36695111/) |
+| Curious paws 7944883 | Nihal Karkala | [Pexels 7944883](https://www.pexels.com/photo/white-cat-with-blue-collar-7944883/) |
+| Curious paws 31405294 | Dila Okumuş | [Pexels 31405294](https://www.pexels.com/photo/playful-tabby-cat-standing-on-hind-legs-indoors-31405294/) |
+| Curious paws 8942615 | Thirdman | [Pexels 8942615](https://www.pexels.com/photo/a-scottish-fold-with-a-raised-paw-8942615/) |
+| Curious paws 234660 | Francesco Ungaro | [Pexels 234660](https://www.pexels.com/photo/grayscale-photo-of-cat-laying-on-the-floor-234660/) |
+| Curious paws 34026607 | Brian Ramirez | [Pexels 34026607](https://www.pexels.com/photo/playful-calico-cat-with-raised-paws-indoors-34026607/) |
+| Curious paws 4492153 | Aleksandr Nadyojin | [Pexels 4492153](https://www.pexels.com/photo/a-cat-on-a-roof-top-4492153/) |
+| Curious paws 945054 | Jenna Hamra | [Pexels 945054](https://www.pexels.com/photo/grayscale-photo-of-tabby-cats-945054/) |
+| Curious paws 35679553 | Fatıma Acunman | [Pexels 35679553](https://www.pexels.com/photo/playful-ginger-cat-posing-by-the-seaside-35679553/) |

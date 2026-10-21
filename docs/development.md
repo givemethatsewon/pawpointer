@@ -44,7 +44,7 @@ Therefore `translation + q × R = P`: the annotated paw stays exactly on target.
 
 ## Photography
 
-397 active Pexels photographs (400 reviewed; 3 excluded because their front toes are cropped or obscured), stored locally with same-dimension AVIF alternatives, WebP fallbacks, and compact WebP thumbnails. All photographer names, source pages and license links are preserved in [`src/photos.json`](../src/photos.json) and [CREDITS.md](../CREDITS.md). The top-left logo links to the Paw Pointer GitHub repository. Photography credits are preserved in CREDITS.md and the catalog, with source and license links in this README. The canvas has no collection or next-photo buttons; Space remains available.
+413 active Pexels photographs (397 from the full audit plus 16 targeted additions), stored locally with same-dimension AVIF alternatives, WebP fallbacks, and compact WebP thumbnails. All photographer names, source pages and license links are preserved in [`src/photos.json`](../src/photos.json) and [CREDITS.md](../CREDITS.md). The top-left logo links to the Paw Pointer GitHub repository. Photography credits are preserved in CREDITS.md and the catalog, with source and license links in this README. The canvas has no collection or next-photo buttons; Space remains available.
 
 Photos were discovered with the authorized Pexels API during authoring. **The API key is not in this repository or the browser bundle.** No API access is required for the published site.
 
@@ -91,3 +91,5 @@ The production HTML includes a canonical URL, descriptive search metadata, Open 
 Basic visitor and performance measurement uses Cloudflare Web Analytics through the existing zone-level automatic injection (EU visitor data excluded), rather than a bundled GA or Mixpanel SDK. Keep the separate Pages analytics toggle off to avoid duplicate beacons. There are no custom user identifiers, session replay, or individual photo-interaction events. It measures visits and page performance, not how many cats someone has seen. Browser blockers and reporting delays can affect counts.
 
 Search Console owns the `pawpointer.app` Domain property through DNS verification. Keep its Google verification TXT record in place. Submission and verification do not guarantee search indexing or rankings.
+
+The [targeted coverage expansion](coverage-expansion/README.md) adds 16 manually reviewed photographs to sparse upper regions, with before/after spatial measurements and toe-detail evidence.

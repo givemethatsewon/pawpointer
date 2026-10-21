@@ -1,0 +1,231 @@
+{
+  "environment": "local preview",
+  "cases": 32,
+  "maxErrorPx": 0.015000000000100044,
+  "results": [
+    {
+      "id": "pexels-24809820",
+      "mobile": true,
+      "loaded": true,
+      "error": 0.011953125000019327,
+      "overflow": false
+    },
+    {
+      "id": "pexels-6690869",
+      "mobile": true,
+      "loaded": true,
+      "error": 0.01084375000000648,
+      "overflow": false
+    },
+    {
+      "id": "pexels-12345319",
+      "mobile": true,
+      "loaded": true,
+      "error": 0.007875000000012733,
+      "overflow": false
+    },
+    {
+      "id": "pexels-38242737",
+      "mobile": true,
+      "loaded": true,
+      "error": 0.004687499999988631,
+      "overflow": false
+    },
+    {
+      "id": "pexels-27488668",
+      "mobile": true,
+      "loaded": true,
+      "error": 0.0031249999999545253,
+      "overflow": false
+    },
+    {
+      "id": "pexels-29043612",
+      "mobile": true,
+      "loaded": true,
+      "error": 0.011015624999998863,
+      "overflow": false
+    },
+    {
+      "id": "pexels-24809820",
+      "mobile": false,
+      "loaded": true,
+      "error": 0.01187500000014552,
+      "overflow": false
+    },
+    {
+      "id": "pexels-4858813",
+      "mobile": true,
+      "loaded": true,
+      "error": 0.011015624999998863,
+      "overflow": false
+    },
+    {
+      "id": "pexels-36695111",
+      "mobile": true,
+      "loaded": true,
+      "error": 0.00606250000001296,
+      "overflow": false
+    },
+    {
+      "id": "pexels-7944883",
+      "mobile": true,
+      "loaded": true,
+      "error": 0.010546874999988631,
+      "overflow": false
+    },
+    {
+      "id": "pexels-31405294",
+      "mobile": true,
+      "loaded": true,
+      "error": 0.0036874999999838565,
+      "overflow": false
+    },
+    {
+      "id": "pexels-8942615",
+      "mobile": true,
+      "loaded": true,
+      "error": 0.013250000000001094,
+      "overflow": false
+    },
+    {
+      "id": "pexels-234660",
+      "mobile": true,
+      "loaded": true,
+      "error": 0.004999999999967031,
+      "overflow": false
+    },
+    {
+      "id": "pexels-34026607",
+      "mobile": true,
+      "loaded": true,
+      "error": 0.01315625000000864,
+      "overflow": false
+    },
+    {
+      "id": "pexels-4492153",
+      "mobile": true,
+      "loaded": true,
+      "error": 0.006328124999996021,
+      "overflow": false
+    },
+    {
+      "id": "pexels-6690869",
+      "mobile": false,
+      "loaded": true,
+      "error": 0.008499999999997954,
+      "overflow": false
+    },
+    {
+      "id": "pexels-945054",
+      "mobile": true,
+      "loaded": true,
+      "error": 0.010937499999954525,
+      "overflow": false
+    },
+    {
+      "id": "pexels-35679553",
+      "mobile": true,
+      "loaded": true,
+      "error": 0.000874999999979309,
+      "overflow": false
+    },
+    {
+      "id": "pexels-12345319",
+      "mobile": false,
+      "loaded": true,
+      "error": 0.006874999999993747,
+      "overflow": false
+    },
+    {
+      "id": "pexels-38242737",
+      "mobile": false,
+      "loaded": true,
+      "error": 0.010156250000001421,
+      "overflow": false
+    },
+    {
+      "id": "pexels-27488668",
+      "mobile": false,
+      "loaded": true,
+      "error": 0.01328125000009095,
+      "overflow": false
+    },
+    {
+      "id": "pexels-29043612",
+      "mobile": false,
+      "loaded": true,
+      "error": 0.011124999999992724,
+      "overflow": false
+    },
+    {
+      "id": "pexels-4858813",
+      "mobile": false,
+      "loaded": true,
+      "error": 0.010625000000004547,
+      "overflow": false
+    },
+    {
+      "id": "pexels-36695111",
+      "mobile": false,
+      "loaded": true,
+      "error": 0.014375000000001137,
+      "overflow": false
+    },
+    {
+      "id": "pexels-7944883",
+      "mobile": false,
+      "loaded": true,
+      "error": 0.015000000000100044,
+      "overflow": false
+    },
+    {
+      "id": "pexels-31405294",
+      "mobile": false,
+      "loaded": true,
+      "error": 0.0021875000000193268,
+      "overflow": false
+    },
+    {
+      "id": "pexels-8942615",
+      "mobile": false,
+      "loaded": true,
+      "error": 0.009500000000000952,
+      "overflow": false
+    },
+    {
+      "id": "pexels-234660",
+      "mobile": false,
+      "loaded": true,
+      "error": 0.014999999999986358,
+      "overflow": false
+    },
+    {
+      "id": "pexels-34026607",
+      "mobile": false,
+      "loaded": true,
+      "error": 0.007500000000163709,
+      "overflow": false
+    },
+    {
+      "id": "pexels-4492153",
+      "mobile": false,
+      "loaded": true,
+      "error": 0.00874999999996362,
+      "overflow": false
+    },
+    {
+      "id": "pexels-945054",
+      "mobile": false,
+      "loaded": true,
+      "error": 0.006250000000022737,
+      "overflow": false
+    },
+    {
+      "id": "pexels-35679553",
+      "mobile": false,
+      "loaded": true,
+      "error": 0.0031249999999545253,
+      "overflow": false
+    }
+  ]
+}
