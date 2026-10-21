@@ -1,0 +1,342 @@
+[
+  {
+    "id": "pexels-8538273",
+    "title": "The window watcher",
+    "src": "photos/pexels-8538273.webp",
+    "thumbnail": "photos/pexels-8538273-thumb.webp",
+    "width": 1800,
+    "height": 1200,
+    "paw": {
+      "x": 0.295,
+      "y": 0.35
+    },
+    "alt": "Close-up of a curious kitten reaching out to play with a string indoors.",
+    "photographer": "Anna Hinckel",
+    "source": "Pexels",
+    "sourceUrl": "https://www.pexels.com/photo/white-cat-playing-with-thread-8538273/",
+    "licenseUrl": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "pexels-675463",
+    "title": "Tiny high five",
+    "src": "photos/pexels-675463.webp",
+    "thumbnail": "photos/pexels-675463-thumb.webp",
+    "width": 1800,
+    "height": 1200,
+    "paw": {
+      "x": 0.09,
+      "y": 0.63
+    },
+    "alt": "Charming calico cat playing with a toy, showcasing its bright eyes and playful nature.",
+    "photographer": "Jean Balzan",
+    "source": "Pexels",
+    "sourceUrl": "https://www.pexels.com/photo/white-and-orange-tabby-cat-675463/",
+    "licenseUrl": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "pexels-6982650",
+    "title": "Just one more inch",
+    "src": "photos/pexels-6982650.webp",
+    "thumbnail": "photos/pexels-6982650-thumb.webp",
+    "width": 1800,
+    "height": 1205,
+    "paw": {
+      "x": 0.745,
+      "y": 0.955
+    },
+    "alt": "A close-up of an orange tabby cat playfully reaching out with a paw, displaying its cute whiskered face.",
+    "photographer": "Karina Badura",
+    "source": "Pexels",
+    "sourceUrl": "https://www.pexels.com/photo/orange-cat-reaching-out-6982650/",
+    "licenseUrl": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "pexels-37535303",
+    "title": "Hello, sunshine",
+    "src": "photos/pexels-37535303.webp",
+    "thumbnail": "photos/pexels-37535303-thumb.webp",
+    "width": 1800,
+    "height": 1350,
+    "paw": {
+      "x": 0.28,
+      "y": 0.42
+    },
+    "alt": "Curious white cat with raised paw against blue sky and berries.",
+    "photographer": "Orkhan  Sweden",
+    "source": "Pexels",
+    "sourceUrl": "https://www.pexels.com/photo/playful-cat-reaches-out-under-clear-blue-sky-37535303/",
+    "licenseUrl": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "pexels-17667956",
+    "title": "Up for anything",
+    "src": "photos/pexels-17667956.webp",
+    "thumbnail": "photos/pexels-17667956-thumb.webp",
+    "width": 1200,
+    "height": 1800,
+    "paw": {
+      "x": 0.35,
+      "y": 0.235
+    },
+    "alt": "Close-up of a playful cat reaching out with paw, capturing a curious moment outdoors.",
+    "photographer": "Alex Ozerov-Meyer",
+    "source": "Pexels",
+    "sourceUrl": "https://www.pexels.com/photo/a-little-cat-playing-17667956/",
+    "licenseUrl": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "pexels-3859933",
+    "title": "Catch me if you can",
+    "src": "photos/pexels-3859933.webp",
+    "thumbnail": "photos/pexels-3859933-thumb.webp",
+    "width": 1800,
+    "height": 1253,
+    "paw": {
+      "x": 0.25,
+      "y": 0.2
+    },
+    "alt": "Close-up of a cute tabby kitten playfully reaching upwards, perfect for pet lovers.",
+    "photographer": "Aleksa Kalajdzic",
+    "source": "Pexels",
+    "sourceUrl": "https://www.pexels.com/photo/tabby-cat-3859933/",
+    "licenseUrl": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "pexels-2064110",
+    "title": "Golden-hour grab",
+    "src": "photos/pexels-2064110.webp",
+    "thumbnail": "photos/pexels-2064110-thumb.webp",
+    "width": 1800,
+    "height": 1200,
+    "paw": {
+      "x": 0.15,
+      "y": 0.065
+    },
+    "alt": "Close-up of a tabby cat curiously reaching out in a sunlit indoor setting.",
+    "photographer": "Halil İbrahim  ÇETİN",
+    "source": "Pexels",
+    "sourceUrl": "https://www.pexels.com/photo/close-up-photo-of-a-curious-calico-cat-2064110/",
+    "licenseUrl": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "pexels-18831976",
+    "title": "Personal space?",
+    "src": "photos/pexels-18831976.webp",
+    "thumbnail": "photos/pexels-18831976-thumb.webp",
+    "width": 1800,
+    "height": 1200,
+    "paw": {
+      "x": 0.14,
+      "y": 0.36
+    },
+    "alt": "Close-up of a white cat with its paw reaching towards the camera, showcasing its curious nature.",
+    "photographer": "Marek Piwnicki",
+    "source": "Pexels",
+    "sourceUrl": "https://www.pexels.com/photo/head-of-white-cat-18831976/",
+    "licenseUrl": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "pexels-819501",
+    "title": "A little closer",
+    "src": "photos/pexels-819501.webp",
+    "thumbnail": "photos/pexels-819501-thumb.webp",
+    "width": 1535,
+    "height": 1800,
+    "paw": {
+      "x": 0.075,
+      "y": 0.25
+    },
+    "alt": "A playful tabby cat reaching out and looking directly at the camera indoors.",
+    "photographer": "Jenna Hamra",
+    "source": "Pexels",
+    "sourceUrl": "https://www.pexels.com/photo/black-and-white-cat-819501/",
+    "licenseUrl": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "pexels-12968843",
+    "title": "Reaching for the stars",
+    "src": "photos/pexels-12968843.webp",
+    "thumbnail": "photos/pexels-12968843-thumb.webp",
+    "width": 1200,
+    "height": 1800,
+    "paw": {
+      "x": 0.34,
+      "y": 0.08
+    },
+    "alt": "A white kitten with blue eyes playfully extends its paw against a blurred bokeh background.",
+    "photographer": "Qamar Rehman",
+    "source": "Pexels",
+    "sourceUrl": "https://www.pexels.com/photo/a-white-cat-looking-up-12968843/",
+    "licenseUrl": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "pexels-36544054",
+    "title": "Window shopping",
+    "src": "photos/pexels-36544054.webp",
+    "thumbnail": "photos/pexels-36544054-thumb.webp",
+    "width": 1800,
+    "height": 1279,
+    "paw": {
+      "x": 0.67,
+      "y": 0.25
+    },
+    "alt": "A playful cat engages with outdoor surroundings in Fındıklı, Rize, Türkiye. The natural setting enhances its vibrant surroundings.",
+    "photographer": "Orhan Namlı",
+    "source": "Pexels",
+    "sourceUrl": "https://www.pexels.com/photo/curious-cat-playing-outdoors-in-rize-36544054/",
+    "licenseUrl": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "pexels-10954799",
+    "title": "A quiet request",
+    "src": "photos/pexels-10954799.webp",
+    "thumbnail": "photos/pexels-10954799-thumb.webp",
+    "width": 1200,
+    "height": 1800,
+    "paw": {
+      "x": 0.465,
+      "y": 0.33
+    },
+    "alt": "Close-up of a playful cat reaching upwards, set against a dark background.",
+    "photographer": "Ioan-Dan Plesa",
+    "source": "Pexels",
+    "sourceUrl": "https://www.pexels.com/photo/close-up-photo-of-a-cat-standing-10954799/",
+    "licenseUrl": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "pexels-39705290",
+    "title": "The tiny hunter",
+    "src": "photos/pexels-39705290.webp",
+    "thumbnail": "photos/pexels-39705290-thumb.webp",
+    "width": 1800,
+    "height": 1200,
+    "paw": {
+      "x": 0.39,
+      "y": 0.2
+    },
+    "alt": "A cute tabby kitten jumping playfully indoors, capturing a feather toy in natural light.",
+    "photographer": "Dmytro Koplyk",
+    "source": "Pexels",
+    "sourceUrl": "https://www.pexels.com/photo/playful-tabby-kitten-leaping-indoors-39705290/",
+    "licenseUrl": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "pexels-7726305",
+    "title": "Got your attention",
+    "src": "photos/pexels-7726305.webp",
+    "thumbnail": "photos/pexels-7726305-thumb.webp",
+    "width": 1800,
+    "height": 1202,
+    "paw": {
+      "x": 0.255,
+      "y": 0.245
+    },
+    "alt": "Adorable close-up of a tabby cat's paws resting on a surface, showcasing its soft fur.",
+    "photographer": "Arina Krasnikova",
+    "source": "Pexels",
+    "sourceUrl": "https://www.pexels.com/photo/brown-tabby-cat-s-paws-in-close-up-photography-7726305/",
+    "licenseUrl": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "pexels-30232653",
+    "title": "A friendly reminder",
+    "src": "photos/pexels-30232653.webp",
+    "thumbnail": "photos/pexels-30232653-thumb.webp",
+    "width": 1800,
+    "height": 1200,
+    "paw": {
+      "x": 0.4,
+      "y": 0.51
+    },
+    "alt": "Two cats playfully interacting by a tree, showcasing feline curiosity and companionship.",
+    "photographer": "Fred AUGÉ",
+    "source": "Pexels",
+    "sourceUrl": "https://www.pexels.com/photo/playful-cats-engaging-in-a-friendly-encounter-30232653/",
+    "licenseUrl": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "pexels-30818957",
+    "title": "Pick me",
+    "src": "photos/pexels-30818957.webp",
+    "thumbnail": "photos/pexels-30818957-thumb.webp",
+    "width": 1200,
+    "height": 1800,
+    "paw": {
+      "x": 0.36,
+      "y": 0.32
+    },
+    "alt": "A tabby cat extends its paw in a playful stretch on a sunny day.",
+    "photographer": "정규송 Nui MALAMA",
+    "source": "Pexels",
+    "sourceUrl": "https://www.pexels.com/photo/relaxed-tabby-cat-stretching-outdoors-30818957/",
+    "licenseUrl": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "pexels-34852184",
+    "title": "Lazy afternoon",
+    "src": "photos/pexels-34852184.webp",
+    "thumbnail": "photos/pexels-34852184-thumb.webp",
+    "width": 1800,
+    "height": 1200,
+    "paw": {
+      "x": 0.74,
+      "y": 0.53
+    },
+    "alt": "A detailed shot of a cat's paw resting on a wooden surface, showcasing the texture and softness.",
+    "photographer": "Furkan  Aktaş",
+    "source": "Pexels",
+    "sourceUrl": "https://www.pexels.com/photo/close-up-of-a-relaxed-cat-s-paw-on-wood-34852184/",
+    "licenseUrl": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "pexels-39531013",
+    "title": "Pink bean delivery",
+    "src": "photos/pexels-39531013.webp",
+    "thumbnail": "photos/pexels-39531013-thumb.webp",
+    "width": 1800,
+    "height": 1202,
+    "paw": {
+      "x": 0.2,
+      "y": 0.5
+    },
+    "alt": "Detailed photo of a white cat's paw resting on a wooden surface, showing pink pads.",
+    "photographer": "winrood lee",
+    "source": "Pexels",
+    "sourceUrl": "https://www.pexels.com/photo/close-up-of-cat-paw-on-wooden-surface-39531013/",
+    "licenseUrl": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "pexels-7726073",
+    "title": "A very long stretch",
+    "src": "photos/pexels-7726073.webp",
+    "thumbnail": "photos/pexels-7726073-thumb.webp",
+    "width": 1800,
+    "height": 1202,
+    "paw": {
+      "x": 0.215,
+      "y": 0.82
+    },
+    "alt": "A black and white cat lies comfortably on a rug indoors, looking playful and relaxed.",
+    "photographer": "Arina Krasnikova",
+    "source": "Pexels",
+    "sourceUrl": "https://www.pexels.com/photo/a-close-up-of-a-cat-lying-down-on-a-mat-7726073/",
+    "licenseUrl": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "pexels-3791591",
+    "title": "Brush, please",
+    "src": "photos/pexels-3791591.webp",
+    "thumbnail": "photos/pexels-3791591-thumb.webp",
+    "width": 1800,
+    "height": 1200,
+    "paw": {
+      "x": 0.515,
+      "y": 0.295
+    },
+    "alt": "Side view of crop anonymous female holding hairbrush while playing with cute cat standing on hind legs while showing paws with claws near window in apartment",
+    "photographer": "Yuliya kota",
+    "source": "Pexels",
+    "sourceUrl": "https://www.pexels.com/photo/cat-playing-with-a-pet-brush-3791591/",
+    "licenseUrl": "https://www.pexels.com/license/"
+  }
+]
