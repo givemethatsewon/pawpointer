@@ -1,0 +1,257 @@
+{
+  "label": "final-200",
+  "date": "2026-10-21T15:55:34.070Z",
+  "conditions": {
+    "mobile": "390x844 DPR2, CPU4x, 1.6Mbps down, 150ms latency",
+    "desktop": "1440x900 DPR1 unthrottled localhost",
+    "runs": 3,
+    "cache": "disabled",
+    "note": "ready and transitions include intentional 1200ms debounce; collection measures dialog open, not all thumbnails"
+  },
+  "photoCount": 200,
+  "assetBytes": 47905346,
+  "imageBytes": {
+    "median": 183416,
+    "p95": 583176,
+    "max": 1204056
+  },
+  "results": [
+    {
+      "mobile": false,
+      "run": 0,
+      "initial": {
+        "readyMs": 1326.7000000178814,
+        "lcpMs": 84,
+        "requests": [
+          {
+            "name": "index-D2oFwSnR.css",
+            "bytes": 3416,
+            "duration": 1.9000000059604645
+          },
+          {
+            "name": "index-BG1eW7tK.js",
+            "bytes": 93285,
+            "duration": 9.099999994039536
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "duration": 1.0999999940395355
+          },
+          {
+            "name": "pexels-38151508.webp",
+            "bytes": 237512,
+            "duration": 6.4000000059604645
+          },
+          {
+            "name": "pexels-31466270.webp",
+            "bytes": 404118,
+            "duration": 2.5999999940395355
+          }
+        ],
+        "longTasks": []
+      },
+      "transitions": [
+        1260,
+        1249,
+        1247
+      ],
+      "collectionMs": 95.09999999403954
+    },
+    {
+      "mobile": false,
+      "run": 1,
+      "initial": {
+        "readyMs": 1333.9000000059605,
+        "lcpMs": 52,
+        "requests": [
+          {
+            "name": "index-D2oFwSnR.css",
+            "bytes": 3416,
+            "duration": 1.9000000059604645
+          },
+          {
+            "name": "index-BG1eW7tK.js",
+            "bytes": 93285,
+            "duration": 8.400000005960464
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "duration": 1.0999999940395355
+          },
+          {
+            "name": "pexels-38151508.webp",
+            "bytes": 237512,
+            "duration": 5.200000017881393
+          },
+          {
+            "name": "pexels-31466270.webp",
+            "bytes": 404118,
+            "duration": 3.300000011920929
+          }
+        ],
+        "longTasks": []
+      },
+      "transitions": [
+        1262,
+        1248,
+        1249
+      ],
+      "collectionMs": 88.59999999403954
+    },
+    {
+      "mobile": false,
+      "run": 2,
+      "initial": {
+        "readyMs": 1321.5,
+        "lcpMs": 56,
+        "requests": [
+          {
+            "name": "index-BG1eW7tK.js",
+            "bytes": 93285,
+            "duration": 9.299999982118607
+          },
+          {
+            "name": "index-D2oFwSnR.css",
+            "bytes": 3416,
+            "duration": 1.9000000059604645
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "duration": 1.0999999940395355
+          },
+          {
+            "name": "pexels-38151508.webp",
+            "bytes": 237512,
+            "duration": 4.300000011920929
+          },
+          {
+            "name": "pexels-31466270.webp",
+            "bytes": 404118,
+            "duration": 2.4000000059604645
+          }
+        ],
+        "longTasks": []
+      },
+      "transitions": [
+        1263,
+        1232,
+        1251
+      ],
+      "collectionMs": 87.69999998807907
+    },
+    {
+      "mobile": true,
+      "run": 0,
+      "initial": {
+        "readyMs": 3755.199999988079,
+        "lcpMs": 948,
+        "requests": [
+          {
+            "name": "index-BG1eW7tK.js",
+            "bytes": 93285,
+            "duration": 644.1999999880791
+          },
+          {
+            "name": "index-D2oFwSnR.css",
+            "bytes": 3416,
+            "duration": 185.90000000596046
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "duration": 155.59999999403954
+          },
+          {
+            "name": "pexels-38151508.webp",
+            "bytes": 237512,
+            "duration": 1339.8999999761581
+          }
+        ],
+        "longTasks": []
+      },
+      "transitions": [
+        2316,
+        1946,
+        1980
+      ],
+      "collectionMs": 250.09999999403954
+    },
+    {
+      "mobile": true,
+      "run": 1,
+      "initial": {
+        "readyMs": 3748.199999988079,
+        "lcpMs": 948,
+        "requests": [
+          {
+            "name": "index-BG1eW7tK.js",
+            "bytes": 93285,
+            "duration": 645.5999999940395
+          },
+          {
+            "name": "index-D2oFwSnR.css",
+            "bytes": 3416,
+            "duration": 187.2000000178814
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "duration": 155
+          },
+          {
+            "name": "pexels-38151508.webp",
+            "bytes": 237512,
+            "duration": 1346.5999999940395
+          }
+        ],
+        "longTasks": []
+      },
+      "transitions": [
+        2323,
+        1945,
+        1980
+      ],
+      "collectionMs": 240.09999999403954
+    },
+    {
+      "mobile": true,
+      "run": 2,
+      "initial": {
+        "readyMs": 3764.0999999940395,
+        "lcpMs": 960,
+        "requests": [
+          {
+            "name": "index-BG1eW7tK.js",
+            "bytes": 93285,
+            "duration": 645.3999999761581
+          },
+          {
+            "name": "index-D2oFwSnR.css",
+            "bytes": 3416,
+            "duration": 187.19999998807907
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "duration": 161.2999999821186
+          },
+          {
+            "name": "pexels-38151508.webp",
+            "bytes": 237512,
+            "duration": 1344.2000000178814
+          }
+        ],
+        "longTasks": []
+      },
+      "transitions": [
+        2307,
+        1946,
+        1980
+      ],
+      "collectionMs": 244.09999999403954
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "label": "expanded-200",
+  "date": "2026-10-21T15:54:06.365Z",
+  "conditions": {
+    "mobile": "390x844 DPR2, CPU4x, 1.6Mbps down, 150ms latency",
+    "desktop": "1440x900 DPR1 unthrottled localhost",
+    "runs": 3,
+    "cache": "disabled",
+    "note": "ready and transitions include intentional 1200ms debounce; collection measures dialog open, not all thumbnails"
+  },
+  "photoCount": 200,
+  "assetBytes": 47905346,
+  "imageBytes": {
+    "median": 183416,
+    "p95": 583176,
+    "max": 1204056
+  },
+  "results": [
+    {
+      "mobile": false,
+      "run": 0,
+      "initial": {
+        "readyMs": 1396.800000011921,
+        "lcpMs": 132,
+        "requests": [
+          {
+            "name": "index-DJCw_zJ0.js",
+            "bytes": 93264,
+            "duration": 13.800000011920929
+          },
+          {
+            "name": "index-D2oFwSnR.css",
+            "bytes": 3416,
+            "duration": 3
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "duration": 1.199999988079071
+          },
+          {
+            "name": "pexels-38151508.webp",
+            "bytes": 237512,
+            "duration": 3.9000000059604645
+          },
+          {
+            "name": "pexels-31466270.webp",
+            "bytes": 404118,
+            "duration": 3.4000000059604645
+          }
+        ],
+        "longTasks": []
+      },
+      "transitions": [
+        1268,
+        1246,
+        1248
+      ],
+      "collectionMs": 111
+    },
+    {
+      "mobile": false,
+      "run": 1,
+      "initial": {
+        "readyMs": 1336.199999988079,
+        "lcpMs": 52,
+        "requests": [
+          {
+            "name": "index-DJCw_zJ0.js",
+            "bytes": 93264,
+            "duration": 9
+          },
+          {
+            "name": "index-D2oFwSnR.css",
+            "bytes": 3416,
+            "duration": 1.800000011920929
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "duration": 1.199999988079071
+          },
+          {
+            "name": "pexels-38151508.webp",
+            "bytes": 237512,
+            "duration": 3.5
+          },
+          {
+            "name": "pexels-31466270.webp",
+            "bytes": 404118,
+            "duration": 3.199999988079071
+          }
+        ],
+        "longTasks": []
+      },
+      "transitions": [
+        1256,
+        1233,
+        1248
+      ],
+      "collectionMs": 91.2000000178814
+    },
+    {
+      "mobile": false,
+      "run": 2,
+      "initial": {
+        "readyMs": 1336.699999988079,
+        "lcpMs": 48,
+        "requests": [
+          {
+            "name": "index-D2oFwSnR.css",
+            "bytes": 3416,
+            "duration": 1.9000000059604645
+          },
+          {
+            "name": "index-DJCw_zJ0.js",
+            "bytes": 93264,
+            "duration": 8.599999994039536
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "duration": 1.199999988079071
+          },
+          {
+            "name": "pexels-38151508.webp",
+            "bytes": 237512,
+            "duration": 3.5
+          },
+          {
+            "name": "pexels-31466270.webp",
+            "bytes": 404118,
+            "duration": 3.0999999940395355
+          }
+        ],
+        "longTasks": []
+      },
+      "transitions": [
+        1252,
+        1233,
+        1233
+      ],
+      "collectionMs": 90.69999998807907
+    },
+    {
+      "mobile": true,
+      "run": 0,
+      "initial": {
+        "readyMs": 3741.4000000059605,
+        "lcpMs": 944,
+        "requests": [
+          {
+            "name": "index-DJCw_zJ0.js",
+            "bytes": 93264,
+            "duration": 640.2999999821186
+          },
+          {
+            "name": "index-D2oFwSnR.css",
+            "bytes": 3416,
+            "duration": 182.59999999403954
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "duration": 162.2999999821186
+          },
+          {
+            "name": "pexels-38151508.webp",
+            "bytes": 237512,
+            "duration": 1344.5999999940395
+          }
+        ],
+        "longTasks": []
+      },
+      "transitions": [
+        2879,
+        1947,
+        2461
+      ],
+      "collectionMs": 238.40000000596046
+    },
+    {
+      "mobile": true,
+      "run": 1,
+      "initial": {
+        "readyMs": 3755.4000000059605,
+        "lcpMs": 956,
+        "requests": [
+          {
+            "name": "index-DJCw_zJ0.js",
+            "bytes": 93264,
+            "duration": 648.2000000178814
+          },
+          {
+            "name": "index-D2oFwSnR.css",
+            "bytes": 3416,
+            "duration": 189.30000001192093
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "duration": 153.80000001192093
+          },
+          {
+            "name": "pexels-38151508.webp",
+            "bytes": 237512,
+            "duration": 1344.300000011921
+          }
+        ],
+        "longTasks": []
+      },
+      "transitions": [
+        2836,
+        1947,
+        2446
+      ],
+      "collectionMs": 234.59999999403954
+    },
+    {
+      "mobile": true,
+      "run": 2,
+      "initial": {
+        "readyMs": 3746.5,
+        "lcpMs": 944,
+        "requests": [
+          {
+            "name": "index-DJCw_zJ0.js",
+            "bytes": 93264,
+            "duration": 647.0999999940395
+          },
+          {
+            "name": "index-D2oFwSnR.css",
+            "bytes": 3416,
+            "duration": 188.60000002384186
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "duration": 159.40000000596046
+          },
+          {
+            "name": "pexels-38151508.webp",
+            "bytes": 237512,
+            "duration": 1343.7999999821186
+          }
+        ],
+        "longTasks": []
+      },
+      "transitions": [
+        2888,
+        1947,
+        2446
+      ],
+      "collectionMs": 234
+    }
+  ]
+}

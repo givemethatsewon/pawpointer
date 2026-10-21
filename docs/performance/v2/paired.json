@@ -1,0 +1,1045 @@
+{
+  "date": "2026-10-21T16:13:22.298Z",
+  "browser": "155.0.8059.86",
+  "conditions": {
+    "runsPerVariant": 5,
+    "cache": "disabled, fresh context per run",
+    "order": "alternating before/after",
+    "mobile": "390x844 DPR2 touch; CPU4x; down200000 bytes/s, up93750 bytes/s, latency150ms",
+    "desktop": "1440x900 DPR1, unthrottled localhost",
+    "metric": "navigation/input to decoded ready state, excludes entrance animation; collection to first card DOM visibility, not thumbnail completion",
+    "behavior": "before: 1200ms dwell for all input and startup; after: startup/touch immediate, desktop dwell1200ms with preload after150ms quiet"
+  },
+  "results": [
+    {
+      "version": "before",
+      "mobile": false,
+      "run": 0,
+      "initial": {
+        "readyMs": 1333.699999988079,
+        "photoId": "pexels-38151508",
+        "resources": [
+          {
+            "name": "index-qGSbnJ4d.js",
+            "bytes": 93304,
+            "startMs": 7.5,
+            "durationMs": 10.599999994039536
+          },
+          {
+            "name": "index-D2oFwSnR.css",
+            "bytes": 3416,
+            "startMs": 7.5999999940395355,
+            "durationMs": 3.5
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "startMs": 33.19999998807907,
+            "durationMs": 1.800000011920929
+          },
+          {
+            "name": "pexels-38151508.webp",
+            "bytes": 237512,
+            "startMs": 1236.2999999821186,
+            "durationMs": 6.200000017881393
+          },
+          {
+            "name": "pexels-31466270.webp",
+            "bytes": 404118,
+            "startMs": 1267.699999988079,
+            "durationMs": 5.4000000059604645
+          }
+        ]
+      },
+      "transitions": [
+        {
+          "readyMs": 1240,
+          "photoId": "pexels-819501"
+        },
+        {
+          "readyMs": 1247,
+          "photoId": "pexels-37385937"
+        },
+        {
+          "readyMs": 1247,
+          "photoId": "pexels-18188816"
+        }
+      ],
+      "collectionCardsMs": 87
+    },
+    {
+      "version": "after",
+      "mobile": false,
+      "run": 0,
+      "initial": {
+        "readyMs": 57.80000001192093,
+        "photoId": "pexels-38151508",
+        "resources": [
+          {
+            "name": "index-Cy5YrbK9.js",
+            "bytes": 85734,
+            "startMs": 4.9000000059604645,
+            "durationMs": 8.599999994039536
+          },
+          {
+            "name": "index-CDUqWtT9.css",
+            "bytes": 3465,
+            "startMs": 5,
+            "durationMs": 2.5
+          },
+          {
+            "name": "pexels-38151508.avif",
+            "bytes": 147295,
+            "startMs": 5.0999999940395355,
+            "durationMs": 2.5999999940395355
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "startMs": 32,
+            "durationMs": 1.300000011920929
+          }
+        ]
+      },
+      "transitions": [
+        {
+          "readyMs": 1229,
+          "photoId": "pexels-819501"
+        },
+        {
+          "readyMs": 1228,
+          "photoId": "pexels-37385937"
+        },
+        {
+          "readyMs": 1230,
+          "photoId": "pexels-18188816"
+        }
+      ],
+      "collectionCardsMs": 831
+    },
+    {
+      "version": "after",
+      "mobile": false,
+      "run": 1,
+      "initial": {
+        "readyMs": 70.90000000596046,
+        "photoId": "pexels-38151508",
+        "resources": [
+          {
+            "name": "index-Cy5YrbK9.js",
+            "bytes": 85734,
+            "startMs": 3.4000000059604645,
+            "durationMs": 8.799999982118607
+          },
+          {
+            "name": "index-CDUqWtT9.css",
+            "bytes": 3465,
+            "startMs": 3.5999999940395355,
+            "durationMs": 2.0999999940395355
+          },
+          {
+            "name": "pexels-38151508.avif",
+            "bytes": 147295,
+            "startMs": 3.699999988079071,
+            "durationMs": 2.2000000178813934
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "startMs": 44,
+            "durationMs": 1.0999999940395355
+          }
+        ]
+      },
+      "transitions": [
+        {
+          "readyMs": 1222,
+          "photoId": "pexels-819501"
+        },
+        {
+          "readyMs": 1230,
+          "photoId": "pexels-37385937"
+        },
+        {
+          "readyMs": 1231,
+          "photoId": "pexels-18188816"
+        }
+      ],
+      "collectionCardsMs": 839
+    },
+    {
+      "version": "before",
+      "mobile": false,
+      "run": 1,
+      "initial": {
+        "readyMs": 1329.300000011921,
+        "photoId": "pexels-38151508",
+        "resources": [
+          {
+            "name": "index-qGSbnJ4d.js",
+            "bytes": 93304,
+            "startMs": 3.5999999940395355,
+            "durationMs": 9.800000011920929
+          },
+          {
+            "name": "index-D2oFwSnR.css",
+            "bytes": 3416,
+            "startMs": 3.699999988079071,
+            "durationMs": 2.100000023841858
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "startMs": 32.099999994039536,
+            "durationMs": 1
+          },
+          {
+            "name": "pexels-38151508.webp",
+            "bytes": 237512,
+            "startMs": 1235.5,
+            "durationMs": 3.300000011920929
+          },
+          {
+            "name": "pexels-31466270.webp",
+            "bytes": 404118,
+            "startMs": 1264.800000011921,
+            "durationMs": 3
+          }
+        ]
+      },
+      "transitions": [
+        {
+          "readyMs": 1259,
+          "photoId": "pexels-819501"
+        },
+        {
+          "readyMs": 1229,
+          "photoId": "pexels-37385937"
+        },
+        {
+          "readyMs": 1248,
+          "photoId": "pexels-18188816"
+        }
+      ],
+      "collectionCardsMs": 90
+    },
+    {
+      "version": "before",
+      "mobile": false,
+      "run": 2,
+      "initial": {
+        "readyMs": 1333,
+        "photoId": "pexels-38151508",
+        "resources": [
+          {
+            "name": "index-qGSbnJ4d.js",
+            "bytes": 93304,
+            "startMs": 4.100000023841858,
+            "durationMs": 9.199999988079071
+          },
+          {
+            "name": "index-D2oFwSnR.css",
+            "bytes": 3416,
+            "startMs": 4.200000017881393,
+            "durationMs": 2.0999999940395355
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "startMs": 33.30000001192093,
+            "durationMs": 1.199999988079071
+          },
+          {
+            "name": "pexels-38151508.webp",
+            "bytes": 237512,
+            "startMs": 1235.5,
+            "durationMs": 2.5
+          },
+          {
+            "name": "pexels-31466270.webp",
+            "bytes": 404118,
+            "startMs": 1255.800000011921,
+            "durationMs": 2.4000000059604645
+          }
+        ]
+      },
+      "transitions": [
+        {
+          "readyMs": 1245,
+          "photoId": "pexels-819501"
+        },
+        {
+          "readyMs": 1230,
+          "photoId": "pexels-37385937"
+        },
+        {
+          "readyMs": 1251,
+          "photoId": "pexels-18188816"
+        }
+      ],
+      "collectionCardsMs": 86
+    },
+    {
+      "version": "after",
+      "mobile": false,
+      "run": 2,
+      "initial": {
+        "readyMs": 146.69999998807907,
+        "photoId": "pexels-38151508",
+        "resources": [
+          {
+            "name": "index-Cy5YrbK9.js",
+            "bytes": 85734,
+            "startMs": 4.199999988079071,
+            "durationMs": 32.400000005960464
+          },
+          {
+            "name": "index-CDUqWtT9.css",
+            "bytes": 3465,
+            "startMs": 4.299999982118607,
+            "durationMs": 3.300000011920929
+          },
+          {
+            "name": "pexels-38151508.avif",
+            "bytes": 147295,
+            "startMs": 4.399999976158142,
+            "durationMs": 3.300000011920929
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "startMs": 52.69999998807907,
+            "durationMs": 2.5999999940395355
+          }
+        ]
+      },
+      "transitions": [
+        {
+          "readyMs": 1234,
+          "photoId": "pexels-819501"
+        },
+        {
+          "readyMs": 1228,
+          "photoId": "pexels-37385937"
+        },
+        {
+          "readyMs": 1231,
+          "photoId": "pexels-18188816"
+        }
+      ],
+      "collectionCardsMs": 822
+    },
+    {
+      "version": "after",
+      "mobile": false,
+      "run": 3,
+      "initial": {
+        "readyMs": 70.7000000178814,
+        "photoId": "pexels-38151508",
+        "resources": [
+          {
+            "name": "index-Cy5YrbK9.js",
+            "bytes": 85734,
+            "startMs": 3.300000011920929,
+            "durationMs": 8.5
+          },
+          {
+            "name": "pexels-38151508.avif",
+            "bytes": 147295,
+            "startMs": 3.4000000059604645,
+            "durationMs": 2.5999999940395355
+          },
+          {
+            "name": "index-CDUqWtT9.css",
+            "bytes": 3465,
+            "startMs": 3.4000000059604645,
+            "durationMs": 2.9000000059604645
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "startMs": 31,
+            "durationMs": 1.2000000178813934
+          }
+        ]
+      },
+      "transitions": [
+        {
+          "readyMs": 1223,
+          "photoId": "pexels-819501"
+        },
+        {
+          "readyMs": 1232,
+          "photoId": "pexels-37385937"
+        },
+        {
+          "readyMs": 1229,
+          "photoId": "pexels-18188816"
+        }
+      ],
+      "collectionCardsMs": 829
+    },
+    {
+      "version": "before",
+      "mobile": false,
+      "run": 3,
+      "initial": {
+        "readyMs": 1322,
+        "photoId": "pexels-38151508",
+        "resources": [
+          {
+            "name": "index-qGSbnJ4d.js",
+            "bytes": 93304,
+            "startMs": 3.5,
+            "durationMs": 9.100000023841858
+          },
+          {
+            "name": "index-D2oFwSnR.css",
+            "bytes": 3416,
+            "startMs": 3.600000023841858,
+            "durationMs": 2.0999999940395355
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "startMs": 32.70000001788139,
+            "durationMs": 1.199999988079071
+          },
+          {
+            "name": "pexels-38151508.webp",
+            "bytes": 237512,
+            "startMs": 1235.1000000238419,
+            "durationMs": 3.7999999821186066
+          },
+          {
+            "name": "pexels-31466270.webp",
+            "bytes": 404118,
+            "startMs": 1263.300000011921,
+            "durationMs": 2.9000000059604645
+          }
+        ]
+      },
+      "transitions": [
+        {
+          "readyMs": 1262,
+          "photoId": "pexels-819501"
+        },
+        {
+          "readyMs": 1231,
+          "photoId": "pexels-37385937"
+        },
+        {
+          "readyMs": 1231,
+          "photoId": "pexels-18188816"
+        }
+      ],
+      "collectionCardsMs": 79
+    },
+    {
+      "version": "before",
+      "mobile": false,
+      "run": 4,
+      "initial": {
+        "readyMs": 1333,
+        "photoId": "pexels-38151508",
+        "resources": [
+          {
+            "name": "index-qGSbnJ4d.js",
+            "bytes": 93304,
+            "startMs": 3.300000011920929,
+            "durationMs": 8.900000005960464
+          },
+          {
+            "name": "index-D2oFwSnR.css",
+            "bytes": 3416,
+            "startMs": 3.4000000059604645,
+            "durationMs": 1.7000000178813934
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "startMs": 44.70000001788139,
+            "durationMs": 1
+          },
+          {
+            "name": "pexels-38151508.webp",
+            "bytes": 237512,
+            "startMs": 1246.300000011921,
+            "durationMs": 3.4000000059604645
+          },
+          {
+            "name": "pexels-31466270.webp",
+            "bytes": 404118,
+            "startMs": 1273.7000000178814,
+            "durationMs": 3.4000000059604645
+          }
+        ]
+      },
+      "transitions": [
+        {
+          "readyMs": 1241,
+          "photoId": "pexels-819501"
+        },
+        {
+          "readyMs": 1231,
+          "photoId": "pexels-37385937"
+        },
+        {
+          "readyMs": 1232,
+          "photoId": "pexels-18188816"
+        }
+      ],
+      "collectionCardsMs": 87
+    },
+    {
+      "version": "after",
+      "mobile": false,
+      "run": 4,
+      "initial": {
+        "readyMs": 69,
+        "photoId": "pexels-38151508",
+        "resources": [
+          {
+            "name": "index-Cy5YrbK9.js",
+            "bytes": 85734,
+            "startMs": 3.2000000178813934,
+            "durationMs": 7.799999982118607
+          },
+          {
+            "name": "pexels-38151508.avif",
+            "bytes": 147295,
+            "startMs": 3.4000000059604645,
+            "durationMs": 2.4000000059604645
+          },
+          {
+            "name": "index-CDUqWtT9.css",
+            "bytes": 3465,
+            "startMs": 3.4000000059604645,
+            "durationMs": 2.4000000059604645
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "startMs": 29.900000005960464,
+            "durationMs": 1
+          }
+        ]
+      },
+      "transitions": [
+        {
+          "readyMs": 1223,
+          "photoId": "pexels-819501"
+        },
+        {
+          "readyMs": 1230,
+          "photoId": "pexels-37385937"
+        },
+        {
+          "readyMs": 1228,
+          "photoId": "pexels-18188816"
+        }
+      ],
+      "collectionCardsMs": 828
+    },
+    {
+      "version": "before",
+      "mobile": true,
+      "run": 0,
+      "initial": {
+        "readyMs": 3745.5,
+        "photoId": "pexels-38151508",
+        "resources": [
+          {
+            "name": "index-D2oFwSnR.css",
+            "bytes": 3416,
+            "startMs": 170.7000000178814,
+            "durationMs": 188.90000000596046
+          },
+          {
+            "name": "index-qGSbnJ4d.js",
+            "bytes": 93304,
+            "startMs": 170.7000000178814,
+            "durationMs": 646.5
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "startMs": 939.3000000119209,
+            "durationMs": 154.69999998807907
+          },
+          {
+            "name": "pexels-38151508.webp",
+            "bytes": 237512,
+            "startMs": 2141,
+            "durationMs": 1346.2000000178814
+          }
+        ]
+      },
+      "transitions": [
+        {
+          "readyMs": 2330,
+          "photoId": "pexels-16609385"
+        },
+        {
+          "readyMs": 1945,
+          "photoId": "pexels-10416281"
+        },
+        {
+          "readyMs": 1977,
+          "photoId": "pexels-38151509"
+        }
+      ],
+      "collectionCardsMs": 258
+    },
+    {
+      "version": "after",
+      "mobile": true,
+      "run": 0,
+      "initial": {
+        "readyMs": 1625.9000000059605,
+        "photoId": "pexels-38151508",
+        "resources": [
+          {
+            "name": "index-Cy5YrbK9.js",
+            "bytes": 85734,
+            "startMs": 170,
+            "durationMs": 1043.5999999940395
+          },
+          {
+            "name": "index-CDUqWtT9.css",
+            "bytes": 3465,
+            "startMs": 170.40000000596046,
+            "durationMs": 210.7999999821186
+          },
+          {
+            "name": "pexels-38151508.avif",
+            "bytes": 147295,
+            "startMs": 170.40000000596046,
+            "durationMs": 1359.699999988079
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "startMs": 1334.300000011921,
+            "durationMs": 157.19999998807907
+          }
+        ]
+      },
+      "transitions": [
+        {
+          "readyMs": 846,
+          "photoId": "pexels-16609385"
+        },
+        {
+          "readyMs": 595,
+          "photoId": "pexels-10416281"
+        },
+        {
+          "readyMs": 596,
+          "photoId": "pexels-38151509"
+        }
+      ],
+      "collectionCardsMs": 447
+    },
+    {
+      "version": "after",
+      "mobile": true,
+      "run": 1,
+      "initial": {
+        "readyMs": 1627.1000000238419,
+        "photoId": "pexels-38151508",
+        "resources": [
+          {
+            "name": "index-Cy5YrbK9.js",
+            "bytes": 85734,
+            "startMs": 170.30000001192093,
+            "durationMs": 1036.9000000059605
+          },
+          {
+            "name": "index-CDUqWtT9.css",
+            "bytes": 3465,
+            "startMs": 170.40000000596046,
+            "durationMs": 218.2000000178814
+          },
+          {
+            "name": "pexels-38151508.avif",
+            "bytes": 147295,
+            "startMs": 171.30000001192093,
+            "durationMs": 1357.4000000059605
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "startMs": 1333.7000000178814,
+            "durationMs": 165.2999999821186
+          }
+        ]
+      },
+      "transitions": [
+        {
+          "readyMs": 832,
+          "photoId": "pexels-16609385"
+        },
+        {
+          "readyMs": 592,
+          "photoId": "pexels-10416281"
+        },
+        {
+          "readyMs": 595,
+          "photoId": "pexels-38151509"
+        }
+      ],
+      "collectionCardsMs": 463
+    },
+    {
+      "version": "before",
+      "mobile": true,
+      "run": 1,
+      "initial": {
+        "readyMs": 3749.399999976158,
+        "photoId": "pexels-38151508",
+        "resources": [
+          {
+            "name": "index-qGSbnJ4d.js",
+            "bytes": 93304,
+            "startMs": 169.89999997615814,
+            "durationMs": 646.4000000059605
+          },
+          {
+            "name": "index-D2oFwSnR.css",
+            "bytes": 3416,
+            "startMs": 170,
+            "durationMs": 189.89999997615814
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "startMs": 942.5,
+            "durationMs": 159.09999999403954
+          },
+          {
+            "name": "pexels-38151508.webp",
+            "bytes": 237512,
+            "startMs": 2144.5999999940395,
+            "durationMs": 1342.699999988079
+          }
+        ]
+      },
+      "transitions": [
+        {
+          "readyMs": 2329,
+          "photoId": "pexels-16609385"
+        },
+        {
+          "readyMs": 1943,
+          "photoId": "pexels-10416281"
+        },
+        {
+          "readyMs": 1979,
+          "photoId": "pexels-38151509"
+        }
+      ],
+      "collectionCardsMs": 251
+    },
+    {
+      "version": "before",
+      "mobile": true,
+      "run": 2,
+      "initial": {
+        "readyMs": 3761.5,
+        "photoId": "pexels-38151508",
+        "resources": [
+          {
+            "name": "index-qGSbnJ4d.js",
+            "bytes": 93304,
+            "startMs": 171.7999999821186,
+            "durationMs": 645.3000000119209
+          },
+          {
+            "name": "index-D2oFwSnR.css",
+            "bytes": 3416,
+            "startMs": 172.5,
+            "durationMs": 186.2999999821186
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "startMs": 949.8999999761581,
+            "durationMs": 159.10000002384186
+          },
+          {
+            "name": "pexels-38151508.webp",
+            "bytes": 237512,
+            "startMs": 2151.699999988079,
+            "durationMs": 1343.199999988079
+          }
+        ]
+      },
+      "transitions": [
+        {
+          "readyMs": 2332,
+          "photoId": "pexels-16609385"
+        },
+        {
+          "readyMs": 1946,
+          "photoId": "pexels-10416281"
+        },
+        {
+          "readyMs": 1977,
+          "photoId": "pexels-38151509"
+        }
+      ],
+      "collectionCardsMs": 244
+    },
+    {
+      "version": "after",
+      "mobile": true,
+      "run": 2,
+      "initial": {
+        "readyMs": 1647.5,
+        "photoId": "pexels-38151508",
+        "resources": [
+          {
+            "name": "index-Cy5YrbK9.js",
+            "bytes": 85734,
+            "startMs": 169.59999999403954,
+            "durationMs": 1044.9000000059605
+          },
+          {
+            "name": "index-CDUqWtT9.css",
+            "bytes": 3465,
+            "startMs": 170.7000000178814,
+            "durationMs": 210.59999999403954
+          },
+          {
+            "name": "pexels-38151508.avif",
+            "bytes": 147295,
+            "startMs": 170.7000000178814,
+            "durationMs": 1358.5999999940395
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "startMs": 1351.300000011921,
+            "durationMs": 163.40000000596046
+          }
+        ]
+      },
+      "transitions": [
+        {
+          "readyMs": 826,
+          "photoId": "pexels-16609385"
+        },
+        {
+          "readyMs": 593,
+          "photoId": "pexels-10416281"
+        },
+        {
+          "readyMs": 594,
+          "photoId": "pexels-38151509"
+        }
+      ],
+      "collectionCardsMs": 439
+    },
+    {
+      "version": "after",
+      "mobile": true,
+      "run": 3,
+      "initial": {
+        "readyMs": 1628,
+        "photoId": "pexels-38151508",
+        "resources": [
+          {
+            "name": "index-Cy5YrbK9.js",
+            "bytes": 85734,
+            "startMs": 169.59999999403954,
+            "durationMs": 1044.5
+          },
+          {
+            "name": "index-CDUqWtT9.css",
+            "bytes": 3465,
+            "startMs": 170.59999999403954,
+            "durationMs": 210.80000001192093
+          },
+          {
+            "name": "pexels-38151508.avif",
+            "bytes": 147295,
+            "startMs": 170.59999999403954,
+            "durationMs": 1357.699999988079
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "startMs": 1334.9000000059605,
+            "durationMs": 164.2999999821186
+          }
+        ]
+      },
+      "transitions": [
+        {
+          "readyMs": 844,
+          "photoId": "pexels-16609385"
+        },
+        {
+          "readyMs": 595,
+          "photoId": "pexels-10416281"
+        },
+        {
+          "readyMs": 579,
+          "photoId": "pexels-38151509"
+        }
+      ],
+      "collectionCardsMs": 436
+    },
+    {
+      "version": "before",
+      "mobile": true,
+      "run": 3,
+      "initial": {
+        "readyMs": 3741.5,
+        "photoId": "pexels-38151508",
+        "resources": [
+          {
+            "name": "index-qGSbnJ4d.js",
+            "bytes": 93304,
+            "startMs": 169.90000000596046,
+            "durationMs": 647.3999999761581
+          },
+          {
+            "name": "index-D2oFwSnR.css",
+            "bytes": 3416,
+            "startMs": 170.09999999403954,
+            "durationMs": 188.80000001192093
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "startMs": 934.5,
+            "durationMs": 160.5
+          },
+          {
+            "name": "pexels-38151508.webp",
+            "bytes": 237512,
+            "startMs": 2136.5,
+            "durationMs": 1343.2999999821186
+          }
+        ]
+      },
+      "transitions": [
+        {
+          "readyMs": 2303,
+          "photoId": "pexels-16609385"
+        },
+        {
+          "readyMs": 1945,
+          "photoId": "pexels-10416281"
+        },
+        {
+          "readyMs": 1977,
+          "photoId": "pexels-38151509"
+        }
+      ],
+      "collectionCardsMs": 236
+    },
+    {
+      "version": "before",
+      "mobile": true,
+      "run": 4,
+      "initial": {
+        "readyMs": 3742.5999999940395,
+        "photoId": "pexels-38151508",
+        "resources": [
+          {
+            "name": "index-qGSbnJ4d.js",
+            "bytes": 93304,
+            "startMs": 169.7999999821186,
+            "durationMs": 648.3000000119209
+          },
+          {
+            "name": "index-D2oFwSnR.css",
+            "bytes": 3416,
+            "startMs": 169.90000000596046,
+            "durationMs": 188.89999997615814
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "startMs": 936.6999999880791,
+            "durationMs": 157.80000001192093
+          },
+          {
+            "name": "pexels-38151508.webp",
+            "bytes": 237512,
+            "startMs": 2137.7999999821186,
+            "durationMs": 1341.300000011921
+          }
+        ]
+      },
+      "transitions": [
+        {
+          "readyMs": 2321,
+          "photoId": "pexels-16609385"
+        },
+        {
+          "readyMs": 1945,
+          "photoId": "pexels-10416281"
+        },
+        {
+          "readyMs": 1978,
+          "photoId": "pexels-38151509"
+        }
+      ],
+      "collectionCardsMs": 232
+    },
+    {
+      "version": "after",
+      "mobile": true,
+      "run": 4,
+      "initial": {
+        "readyMs": 1640.5,
+        "photoId": "pexels-38151508",
+        "resources": [
+          {
+            "name": "index-Cy5YrbK9.js",
+            "bytes": 85734,
+            "startMs": 170.09999999403954,
+            "durationMs": 1043.7000000178814
+          },
+          {
+            "name": "index-CDUqWtT9.css",
+            "bytes": 3465,
+            "startMs": 170.30000001192093,
+            "durationMs": 211.69999998807907
+          },
+          {
+            "name": "pexels-38151508.avif",
+            "bytes": 147295,
+            "startMs": 170.80000001192093,
+            "durationMs": 1358.9000000059605
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "startMs": 1344,
+            "durationMs": 163.09999999403954
+          }
+        ]
+      },
+      "transitions": [
+        {
+          "readyMs": 838,
+          "photoId": "pexels-16609385"
+        },
+        {
+          "readyMs": 594,
+          "photoId": "pexels-10416281"
+        },
+        {
+          "readyMs": 595,
+          "photoId": "pexels-38151509"
+        }
+      ],
+      "collectionCardsMs": 439
+    }
+  ]
+}

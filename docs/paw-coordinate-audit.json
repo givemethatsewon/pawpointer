@@ -1,0 +1,200 @@
+{
+  "date": "2026-10-22",
+  "reviewed": 200,
+  "detailReviewedIndices": [
+    14,
+    45,
+    74,
+    79,
+    83,
+    88,
+    91,
+    95,
+    107,
+    122,
+    144,
+    163,
+    177,
+    178,
+    185,
+    189,
+    192,
+    196,
+    198,
+    60,
+    61,
+    85,
+    98,
+    194
+  ],
+  "changes": [
+    {
+      "id": "pexels-30232653",
+      "before": {
+        "x": 0.4,
+        "y": 0.51
+      },
+      "after": {
+        "x": 0.5102,
+        "y": 0.5216
+      },
+      "reason": "other cat paw -> main cat raised front paw"
+    },
+    {
+      "id": "pexels-27488667",
+      "before": {
+        "x": 0.37,
+        "y": 0.3
+      },
+      "after": {
+        "x": 0.2797,
+        "y": 0.3118
+      },
+      "reason": "blurred raised front paw tip refinement"
+    },
+    {
+      "id": "pexels-10754449",
+      "before": {
+        "x": 0.1718,
+        "y": 0.4914
+      },
+      "after": {
+        "x": 0.4355,
+        "y": 0.4538
+      },
+      "reason": "grass -> white cat front paw"
+    },
+    {
+      "id": "pexels-39830171",
+      "before": {
+        "x": 0.2232,
+        "y": 0.3286
+      },
+      "after": {
+        "x": 0.3065,
+        "y": 0.3613
+      },
+      "reason": "cord -> raised front paw"
+    },
+    {
+      "id": "pexels-20211118",
+      "before": {
+        "x": 0.3739,
+        "y": 0.5686
+      },
+      "after": {
+        "x": 0.1932,
+        "y": 0.4326
+      },
+      "reason": "face -> front paw on scratcher"
+    },
+    {
+      "id": "pexels-39366705",
+      "before": {
+        "x": 0.6781,
+        "y": 0.6171
+      },
+      "after": {
+        "x": 0.6323,
+        "y": 0.5763
+      },
+      "reason": "toy boundary -> front paw"
+    },
+    {
+      "id": "pexels-11790257",
+      "before": {
+        "x": 0.4957,
+        "y": 0.8105
+      },
+      "after": {
+        "x": 0.761,
+        "y": 0.8117
+      },
+      "reason": "hind paw -> visible front paw"
+    },
+    {
+      "id": "pexels-17365394",
+      "before": {
+        "x": 0.3641,
+        "y": 0.8731
+      },
+      "after": {
+        "x": 0.659,
+        "y": 0.0989
+      },
+      "reason": "hind paw -> raised front paw"
+    },
+    {
+      "id": "pexels-10751987",
+      "before": {
+        "x": 0.4417,
+        "y": 0.3972
+      },
+      "after": {
+        "x": 0.471,
+        "y": 0.3032
+      },
+      "reason": "shadow -> actual raised front paw"
+    },
+    {
+      "id": "pexels-1287366",
+      "before": {
+        "x": 0.287,
+        "y": 0.7407
+      },
+      "after": {
+        "x": 0.1627,
+        "y": 0.5204
+      },
+      "reason": "wrist -> extended front paw tip"
+    },
+    {
+      "id": "pexels-12125507",
+      "before": {
+        "x": 0.1292,
+        "y": 0.6306
+      },
+      "after": {
+        "x": 0.7871,
+        "y": 0.5419
+      },
+      "reason": "hanging tail -> front paw on tabletop"
+    },
+    {
+      "id": "pexels-16761390",
+      "before": {
+        "x": 0.913,
+        "y": 0.6647
+      },
+      "after": {
+        "x": 0.2102,
+        "y": 0.7246
+      },
+      "reason": "hind paw -> pink front paw pads"
+    },
+    {
+      "id": "pexels-8538274",
+      "before": {
+        "x": 0.5522,
+        "y": 0.4248
+      },
+      "after": {
+        "x": 0.4949,
+        "y": 0.4326
+      },
+      "reason": "gap near muzzle -> upper cat front paw"
+    },
+    {
+      "id": "pexels-1521370",
+      "before": {
+        "x": 0.4944,
+        "y": 0.3583
+      },
+      "after": {
+        "x": 0.4508,
+        "y": 0.3766
+      },
+      "reason": "stick -> front paw"
+    }
+  ]
+}

@@ -399,3 +399,16 @@ pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/python,web,git,kotlin,go,node
 
+*.tsbuildinfo
+.work/
+
+# Vite application sources must survive a fresh clone.
+!/index.html
+!/src/**/*.css
+!/src/**/*.js
+/test-results/
+/playwright-report/
+
+# Application helpers (the generic Python lib/ rule must not hide them).
+!/src/lib/
+!/src/lib/**

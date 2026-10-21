@@ -1,0 +1,257 @@
+{
+  "label": "perf-v2-before",
+  "date": "2026-10-21T16:04:35.758Z",
+  "conditions": {
+    "mobile": "390x844 DPR2, CPU4x, 1.6Mbps down, 150ms latency",
+    "desktop": "1440x900 DPR1 unthrottled localhost",
+    "runs": 3,
+    "cache": "disabled",
+    "note": "ready and transitions include intentional 1200ms debounce; collection measures dialog open, not all thumbnails"
+  },
+  "photoCount": 200,
+  "assetBytes": 43300260,
+  "imageBytes": {
+    "median": 183416,
+    "p95": 401878,
+    "max": 476002
+  },
+  "results": [
+    {
+      "mobile": false,
+      "run": 0,
+      "initial": {
+        "readyMs": 1373.0999999940395,
+        "lcpMs": 116,
+        "requests": [
+          {
+            "name": "index-qGSbnJ4d.js",
+            "bytes": 93304,
+            "duration": 14.300000011920929
+          },
+          {
+            "name": "index-D2oFwSnR.css",
+            "bytes": 3416,
+            "duration": 4.0999999940395355
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "duration": 1.0999999940395355
+          },
+          {
+            "name": "pexels-38151508.webp",
+            "bytes": 237512,
+            "duration": 3.7000000178813934
+          },
+          {
+            "name": "pexels-31466270.webp",
+            "bytes": 404118,
+            "duration": 3.0999999940395355
+          }
+        ],
+        "longTasks": []
+      },
+      "transitions": [
+        1258,
+        1233,
+        1249
+      ],
+      "collectionMs": 105.40000000596046
+    },
+    {
+      "mobile": false,
+      "run": 1,
+      "initial": {
+        "readyMs": 1332.9000000059605,
+        "lcpMs": 52,
+        "requests": [
+          {
+            "name": "index-qGSbnJ4d.js",
+            "bytes": 93304,
+            "duration": 8.700000017881393
+          },
+          {
+            "name": "index-D2oFwSnR.css",
+            "bytes": 3416,
+            "duration": 1.5
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "duration": 1.0999999940395355
+          },
+          {
+            "name": "pexels-38151508.webp",
+            "bytes": 237512,
+            "duration": 3.2999999821186066
+          },
+          {
+            "name": "pexels-31466270.webp",
+            "bytes": 404118,
+            "duration": 3
+          }
+        ],
+        "longTasks": []
+      },
+      "transitions": [
+        1260,
+        1248,
+        1248
+      ],
+      "collectionMs": 90.59999999403954
+    },
+    {
+      "mobile": false,
+      "run": 2,
+      "initial": {
+        "readyMs": 1329.9000000059605,
+        "lcpMs": 52,
+        "requests": [
+          {
+            "name": "index-qGSbnJ4d.js",
+            "bytes": 93304,
+            "duration": 9.299999982118607
+          },
+          {
+            "name": "index-D2oFwSnR.css",
+            "bytes": 3416,
+            "duration": 1.800000011920929
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "duration": 1.199999988079071
+          },
+          {
+            "name": "pexels-38151508.webp",
+            "bytes": 237512,
+            "duration": 2.9000000059604645
+          },
+          {
+            "name": "pexels-31466270.webp",
+            "bytes": 404118,
+            "duration": 3.100000023841858
+          }
+        ],
+        "longTasks": []
+      },
+      "transitions": [
+        1263,
+        1231,
+        1249
+      ],
+      "collectionMs": 87.90000000596046
+    },
+    {
+      "mobile": true,
+      "run": 0,
+      "initial": {
+        "readyMs": 3754.0999999940395,
+        "lcpMs": 952,
+        "requests": [
+          {
+            "name": "index-qGSbnJ4d.js",
+            "bytes": 93304,
+            "duration": 648.0999999940395
+          },
+          {
+            "name": "index-D2oFwSnR.css",
+            "bytes": 3416,
+            "duration": 188.80000001192093
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "duration": 155.90000000596046
+          },
+          {
+            "name": "pexels-38151508.webp",
+            "bytes": 237512,
+            "duration": 1347.9000000059605
+          }
+        ],
+        "longTasks": []
+      },
+      "transitions": [
+        2324,
+        1947,
+        1979
+      ],
+      "collectionMs": 245.69999998807907
+    },
+    {
+      "mobile": true,
+      "run": 1,
+      "initial": {
+        "readyMs": 3749.800000011921,
+        "lcpMs": 952,
+        "requests": [
+          {
+            "name": "index-qGSbnJ4d.js",
+            "bytes": 93304,
+            "duration": 645.3999999761581
+          },
+          {
+            "name": "index-D2oFwSnR.css",
+            "bytes": 3416,
+            "duration": 186.30000001192093
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "duration": 155.30000001192093
+          },
+          {
+            "name": "pexels-38151508.webp",
+            "bytes": 237512,
+            "duration": 1339.699999988079
+          }
+        ],
+        "longTasks": []
+      },
+      "transitions": [
+        2311,
+        1947,
+        1979
+      ],
+      "collectionMs": 261.2999999821186
+    },
+    {
+      "mobile": true,
+      "run": 2,
+      "initial": {
+        "readyMs": 3745.5,
+        "lcpMs": 948,
+        "requests": [
+          {
+            "name": "index-qGSbnJ4d.js",
+            "bytes": 93304,
+            "duration": 645.6999999880791
+          },
+          {
+            "name": "index-D2oFwSnR.css",
+            "bytes": 3416,
+            "duration": 187.09999999403954
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "duration": 156.7000000178814
+          },
+          {
+            "name": "pexels-38151508.webp",
+            "bytes": 237512,
+            "duration": 1347.800000011921
+          }
+        ],
+        "longTasks": []
+      },
+      "transitions": [
+        2312,
+        1946,
+        1978
+      ],
+      "collectionMs": 320.2999999821186
+    }
+  ]
+}

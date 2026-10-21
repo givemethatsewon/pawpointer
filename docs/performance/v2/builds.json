@@ -1,0 +1,44 @@
+{
+  "before": {
+    "totalBytes": 43643104,
+    "files": 404,
+    "js": [
+      {
+        "name": "index-qGSbnJ4d.js",
+        "bytes": 330726,
+        "gzipBytes": 93004,
+        "sha256": "cc450e8849d44b8a8d9280ce460e72727f87a2849366f9ce11d958e6bb696939"
+      }
+    ]
+  },
+  "after": {
+    "totalBytes": 73469408,
+    "files": 607,
+    "js": [
+      {
+        "name": "arrow-up-right-QrOLFNNl.js",
+        "bytes": 162,
+        "gzipBytes": 154,
+        "sha256": "795f6cb40d2e43f8f80142c16678e0c5936cf0c386f5fa22be3b65ce85216528"
+      },
+      {
+        "name": "index-Cy5YrbK9.js",
+        "bytes": 285479,
+        "gzipBytes": 85434,
+        "sha256": "3ce50ecd4369b1b721a7c4afae7f6d4948cf941b72c4486350bc5a17f80082de"
+      },
+      {
+        "name": "About-CxboFw5i.js",
+        "bytes": 3020,
+        "gzipBytes": 1239,
+        "sha256": "da5b588db36f770dbceafe7cfd4165d9af3c55f3da1ea2fdb362bbffebb660e9"
+      },
+      {
+        "name": "Collection-_fPwawLB.js",
+        "bytes": 94481,
+        "gzipBytes": 18341,
+        "sha256": "e2f0b75a21ea8f40dfe5d03297e0e012c733f1f50a806b376cb33749a0485be9"
+      }
+    ]
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "label": "baseline-60",
+  "date": "2026-10-21T15:47:26.398Z",
+  "conditions": {
+    "mobile": "390x844 DPR2, CPU4x, 1.6Mbps down, 150ms latency",
+    "desktop": "1440x900 DPR1 unthrottled localhost",
+    "runs": 3,
+    "cache": "disabled",
+    "note": "ready and transitions include intentional 1200ms debounce; collection measures dialog open, not all thumbnails"
+  },
+  "photoCount": 60,
+  "assetBytes": 11261994,
+  "imageBytes": {
+    "median": 129334,
+    "p95": 416038,
+    "max": 472428
+  },
+  "results": [
+    {
+      "mobile": false,
+      "run": 0,
+      "initial": {
+        "readyMs": 1361.800000011921,
+        "lcpMs": 100,
+        "requests": [
+          {
+            "name": "index-D2oFwSnR.css",
+            "bytes": 3416,
+            "duration": 3
+          },
+          {
+            "name": "index-BSwF575G.js",
+            "bytes": 81239,
+            "duration": 10.199999988079071
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "duration": 1.2000000178813934
+          },
+          {
+            "name": "pexels-38151508.webp",
+            "bytes": 237512,
+            "duration": 4.799999982118607
+          },
+          {
+            "name": "pexels-34117539.webp",
+            "bytes": 200962,
+            "duration": 2.2000000178813934
+          }
+        ],
+        "longTasks": []
+      },
+      "transitions": [
+        1284,
+        1231,
+        1230
+      ],
+      "collectionMs": 90
+    },
+    {
+      "mobile": false,
+      "run": 1,
+      "initial": {
+        "readyMs": 1329.5,
+        "lcpMs": 52,
+        "requests": [
+          {
+            "name": "index-BSwF575G.js",
+            "bytes": 81239,
+            "duration": 7.9000000059604645
+          },
+          {
+            "name": "index-D2oFwSnR.css",
+            "bytes": 3416,
+            "duration": 1.5999999940395355
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "duration": 1.300000011920929
+          },
+          {
+            "name": "pexels-38151508.webp",
+            "bytes": 237512,
+            "duration": 3
+          },
+          {
+            "name": "pexels-34117539.webp",
+            "bytes": 200962,
+            "duration": 2.2999999821186066
+          }
+        ],
+        "longTasks": []
+      },
+      "transitions": [
+        1262,
+        1231,
+        1249
+      ],
+      "collectionMs": 79.90000000596046
+    },
+    {
+      "mobile": false,
+      "run": 2,
+      "initial": {
+        "readyMs": 1334.800000011921,
+        "lcpMs": 52,
+        "requests": [
+          {
+            "name": "index-BSwF575G.js",
+            "bytes": 81239,
+            "duration": 8.5
+          },
+          {
+            "name": "index-D2oFwSnR.css",
+            "bytes": 3416,
+            "duration": 2.5
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "duration": 1.2000000178813934
+          },
+          {
+            "name": "pexels-38151508.webp",
+            "bytes": 237512,
+            "duration": 2.5999999940395355
+          },
+          {
+            "name": "pexels-34117539.webp",
+            "bytes": 200962,
+            "duration": 1.7999999821186066
+          }
+        ],
+        "longTasks": []
+      },
+      "transitions": [
+        1259,
+        1250,
+        1249
+      ],
+      "collectionMs": 79.90000000596046
+    },
+    {
+      "mobile": true,
+      "run": 0,
+      "initial": {
+        "readyMs": 3696.5999999940395,
+        "lcpMs": 896,
+        "requests": [
+          {
+            "name": "index-BSwF575G.js",
+            "bytes": 81239,
+            "duration": 586.6999999880791
+          },
+          {
+            "name": "index-D2oFwSnR.css",
+            "bytes": 3416,
+            "duration": 189.7999999821186
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "duration": 157.7999999821186
+          },
+          {
+            "name": "pexels-38151508.webp",
+            "bytes": 237512,
+            "duration": 1340.5999999940395
+          }
+        ],
+        "longTasks": []
+      },
+      "transitions": [
+        2059,
+        1949,
+        2116
+      ],
+      "collectionMs": 219.40000000596046
+    },
+    {
+      "mobile": true,
+      "run": 1,
+      "initial": {
+        "readyMs": 3698.2000000178814,
+        "lcpMs": 900,
+        "requests": [
+          {
+            "name": "index-BSwF575G.js",
+            "bytes": 81239,
+            "duration": 583.5999999940395
+          },
+          {
+            "name": "index-D2oFwSnR.css",
+            "bytes": 3416,
+            "duration": 184.40000000596046
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "duration": 160.2999999821186
+          },
+          {
+            "name": "pexels-38151508.webp",
+            "bytes": 237512,
+            "duration": 1344.5
+          }
+        ],
+        "longTasks": []
+      },
+      "transitions": [
+        2069,
+        1946,
+        2096
+      ],
+      "collectionMs": 187.69999998807907
+    },
+    {
+      "mobile": true,
+      "run": 2,
+      "initial": {
+        "readyMs": 3686.4000000059605,
+        "lcpMs": 892,
+        "requests": [
+          {
+            "name": "index-BSwF575G.js",
+            "bytes": 81239,
+            "duration": 586.2999999821186
+          },
+          {
+            "name": "index-D2oFwSnR.css",
+            "bytes": 3416,
+            "duration": 188
+          },
+          {
+            "name": "paw.svg",
+            "bytes": 751,
+            "duration": 154
+          },
+          {
+            "name": "pexels-38151508.webp",
+            "bytes": 237512,
+            "duration": 1344.8999999761581
+          }
+        ],
+        "longTasks": []
+      },
+      "transitions": [
+        2044,
+        1946,
+        2110
+      ],
+      "collectionMs": 211.2999999821186
+    }
+  ]
+}
