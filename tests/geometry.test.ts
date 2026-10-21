@@ -13,14 +13,14 @@ test('annotated paws land at the requested pixel across desktop/mobile and all e
     }
   }
 });
-test('five consecutive selections do not repeat; recent history stays bounded',()=>{
+test('twenty-five consecutive selections do not repeat; recent history stays bounded',()=>{
   let history:string[]=[];const picked:string[]=[];
-  for(let i=0;i<12;i++){
+  for(let i=0;i<50;i++){
     const next=selectPhoto(photos,{x:.5,y:.5},history)!;
     assert.ok(!history.includes(next.id));picked.push(next.id);history=remember(history,next.id);
-    assert.ok(history.length<=4);
+    assert.ok(history.length<=24);
   }
-  assert.equal(new Set(picked.slice(0,5)).size,5);
+  assert.equal(new Set(picked.slice(0,25)).size,25);
 });
 test('failed photos are excluded and exhaustion is explicit',()=>{
   const first=selectPhoto(photos,{x:.4,y:.5})!;
@@ -51,4 +51,19 @@ test('startup catalog matches source geometry and has local format alternatives'
     for(const key of ['id','src','width','height','paw','alt'] as const) assert.deepEqual(p[key],source[key]);
     if(p.avif) assert.ok(existsSync(new URL('../public/'+p.avif,import.meta.url)));
   }
+});
+
+test('nearby selections stay stable for preloading and avoid repeats across the canvas',()=>{
+ for(const x of [0,.25,.5,.75,1])for(const y of [0,.25,.5,.75,1]){
+  let history:string[]=[];
+  for(let i=0;i<25;i++){
+   const next=selectPhoto(photos,{x,y},history)!;
+   assert.equal(selectPhoto(photos,{x,y},history)?.id,next.id);
+   assert.ok(!history.includes(next.id));
+   const fresh=photos.filter(p=>!history.includes(p.id));
+   const d=(p:CatPhoto)=>(p.paw.x-x)**2+(p.paw.y-y)**2;
+   assert.ok(d(next)<=Math.min(...fresh.map(d))+.025+1e-12);
+   history=remember(history,next.id);
+  }
+ }
 });

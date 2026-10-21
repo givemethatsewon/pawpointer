@@ -134,3 +134,16 @@ for (const mobile of [false,true]) test(`first visit stays black without image r
  await expect(page.locator('.aligned-photo')).toHaveCount(0);
  await context.close();
 });
+
+test('small hand tremors do not starve the next photo and its paw follows the latest point',async({page})=>{
+ await page.goto('/');await startPlay(page);
+ const previous=await page.locator('.stage').getAttribute('data-photo-id');
+ await page.mouse.move(600,400);
+ for(let i=0;i<10;i++){
+   await page.waitForTimeout(100);
+   await page.mouse.move(600+(i%2?2:-2),400);
+ }
+ await expect(page.locator('.stage')).toHaveAttribute('data-phase','ready',{timeout:900});
+ await expect(page.locator('.stage')).not.toHaveAttribute('data-photo-id',previous!);
+ await alignment(page,602,400);
+});

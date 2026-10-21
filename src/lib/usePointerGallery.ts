@@ -27,11 +27,14 @@ export function usePointerGallery(photos: GalleryPhoto[], paused: boolean) {
   const pausedRef = useRef(paused);
   const alive = useRef(true);
   const started = useRef(false);
+  const pending = useRef(false);
+  const anchor = useRef(target);
 
   const cancel = useCallback(() => {
     clearTimeout(timer.current); clearTimeout(warmTimer.current);
     controller.current.abort(); controller.current = new AbortController();
     generation.current++;
+    pending.current = false;
   }, []);
   const reveal = useCallback(async (point: Point, chosen?: GalleryPhoto, request = generation.current) => {
     const signal = controller.current.signal;
@@ -43,7 +46,8 @@ export function usePointerGallery(photos: GalleryPhoto[], paused: boolean) {
         const source = await loadCatPhoto(candidate, signal);
         if (!alive.current || request !== generation.current || pausedRef.current) return;
         recent.current = remember(recent.current, candidate.id);
-        setShot({ photo: candidate, source, target: point, sequence: ++sequence.current });
+        pending.current = false;
+        setShot({ photo: candidate, source, target: position.current, sequence: ++sequence.current });
         setSeen(values => values.includes(candidate!.id) ? values : [...values, candidate!.id]);
         setPhase('ready');
         return;
@@ -53,12 +57,18 @@ export function usePointerGallery(photos: GalleryPhoto[], paused: boolean) {
         candidate = selectPhoto(photos, normalize(point, size.current), recent.current, failed.current);
       }
     }
-    if (alive.current && request === generation.current) setPhase('error');
+    if (alive.current && request === generation.current) { pending.current = false; setPhase('error'); }
   }, [photos]);
 
   const move = useCallback((point: Point, immediate = false) => {
     if (pausedRef.current) return;
+    // Keep a single transition alive through small hand tremors. Compare against
+    // the fixed anchor, so a slow deliberate drag still restarts the dwell.
+    if (!immediate && pending.current && Math.hypot(point.x-anchor.current.x, point.y-anchor.current.y) <= 6) {
+      position.current = point; setTarget(point); return;
+    }
     cancel();
+    pending.current = true; anchor.current = point;
     started.current = true;
     position.current = point;
     setTarget(point);
