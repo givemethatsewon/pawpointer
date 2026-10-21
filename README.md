@@ -48,7 +48,7 @@ Deploy the generated `dist/` directory to any static host. The app uses relative
 
 ## Interaction
 
-- The canvas starts immediately, including a first automatic target at screen center.
+- The canvas opens on black and makes no photo request until the visitor moves the pointer, taps, or presses Space/an arrow key. Resizing before the first input keeps it black.
 - Mouse movement starts a 1.2-second stillness timer; touch uses the tapped position.
 - Photographs are selected by squared distance between normalized cursor and paw coordinates, excluding the last four photos.
 - An image is decoded before it replaces the previous one. Startup and touch load immediately. Desktop prepares the intended candidate after 150ms of quiet, overlapping the 1.2-second dwell. Superseded requests are cancelled; six decoded images are retained. A generation counter prevents a slow old request from overwriting a newer target.

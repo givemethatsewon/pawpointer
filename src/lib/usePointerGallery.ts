@@ -26,6 +26,7 @@ export function usePointerGallery(photos: GalleryPhoto[], paused: boolean) {
   const sequence = useRef(0);
   const pausedRef = useRef(paused);
   const alive = useRef(true);
+  const started = useRef(false);
 
   const cancel = useCallback(() => {
     clearTimeout(timer.current); clearTimeout(warmTimer.current);
@@ -58,6 +59,7 @@ export function usePointerGallery(photos: GalleryPhoto[], paused: boolean) {
   const move = useCallback((point: Point, immediate = false) => {
     if (pausedRef.current) return;
     cancel();
+    started.current = true;
     position.current = point;
     setTarget(point);
     setActivity(n => n + 1);
@@ -76,6 +78,7 @@ export function usePointerGallery(photos: GalleryPhoto[], paused: boolean) {
   const another = useCallback(() => {
     if (pausedRef.current) return;
     cancel();
+    started.current = true;
     failed.current.clear();
     void reveal(position.current);
   }, [cancel, reveal]);
@@ -113,7 +116,7 @@ export function usePointerGallery(photos: GalleryPhoto[], paused: boolean) {
       position.current = denormalize(normalized, next);
       size.current = next; setViewport(next); setTarget(position.current);
       setShot(current => current ? { ...current, target: denormalize(normalize(current.target, previous), next) } : current);
-      if (!pausedRef.current) move(position.current);
+      if (!pausedRef.current && started.current) move(position.current);
     };
     const keydown = (e: KeyboardEvent) => {
       if (pausedRef.current || overControl(e) || e.metaKey || e.ctrlKey || e.altKey) return;
@@ -134,9 +137,8 @@ export function usePointerGallery(photos: GalleryPhoto[], paused: boolean) {
     window.addEventListener('keydown', keydown);
     window.addEventListener('resize', resize);
     document.documentElement.addEventListener('pointerleave', leave);
-    // Immediate play, including users who never move: first cat at the visible center target.
+    // Stay black until the visitor moves, taps, or uses the keyboard.
     cancel();
-    void reveal(position.current);
     return () => {
       alive.current = false; cancel();
       window.removeEventListener('pointermove', pointerMove);
