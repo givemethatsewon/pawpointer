@@ -10,7 +10,7 @@ Move. Pause. Paw.
 
 Move somewhere. Hold still. A curious paw finds you. That's the whole idea.
 
-Open the site and play immediately. No landing page, login, runtime API, or analytics.
+Open the site and play immediately. No landing page, login, or runtime photo API.
 
 ## How to play
 
@@ -109,3 +109,11 @@ The final visual direction is documented in [DESIGN.md](docs/DESIGN.md). The ori
 The 60-to-200-photo expansion and its measurements are recorded in [photo curation](docs/photo-curation.md) and [performance comparison](docs/performance/README.md). The archived benchmark scripts target that earlier UI, including its collection button.
 
 The latency optimization is documented in [performance v2](docs/performance/v2/README.md), with an alternating before/after benchmark and raw samples. The measurements describe the earlier UI; the collection and About controls have since been removed, and their explanatory content now lives here.
+
+## Search and measurement
+
+The production HTML includes a canonical URL, descriptive search metadata, Open Graph/Twitter sharing image, and WebSite structured data. `public/robots.txt` references the single-page `public/sitemap.xml`.
+
+Basic visitor and performance measurement uses Cloudflare Web Analytics through the existing zone-level automatic injection (EU visitor data excluded), rather than a bundled GA or Mixpanel SDK. Keep the separate Pages analytics toggle off to avoid duplicate beacons. There are no custom user identifiers, session replay, or individual photo-interaction events. It measures visits and page performance, not how many cats someone has seen. Browser blockers and reporting delays can affect counts.
+
+Search Console owns the `pawpointer.app` Domain property through DNS verification. Keep its Google verification TXT record in place. Submission and verification do not guarantee search indexing or rankings.
