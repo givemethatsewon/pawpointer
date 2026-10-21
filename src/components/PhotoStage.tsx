@@ -7,6 +7,7 @@ type Props = { shot: Shot | null; target: Point; viewport: Size; phase: Phase; a
 export function PhotoStage({ shot, target, viewport, phase, activity, paused }: Props) {
   const placement = shot ? placePhoto(shot.photo, shot.target, viewport) : null;
   return <main className={`stage phase-${phase}`} aria-label="Interactive cat canvas" tabIndex={0} aria-describedby="canvas-instructions" data-phase={phase} data-photo-id={shot?.photo.id ?? ''}>
+    <h1 className="sr-only">Paw Pointer — Cats Point at Your Cursor</h1>
     <p id="canvas-instructions" className="sr-only">Move your pointer and hold still for a cat. On touch screens, tap anywhere. Use arrow keys to move the target, Space for another cat, and Tab to reach the controls.</p>
     {shot && placement ? <div className="photo-scene" key={shot.sequence}>
       <img className="photo-backdrop" src={asset(shot.source)} alt="" aria-hidden="true" />
