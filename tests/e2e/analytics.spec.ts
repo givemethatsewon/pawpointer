@@ -13,7 +13,7 @@ test('cat_view counts appearances once across previews, upgrades and resize', as
   const views = () => page.evaluate(() => window.dataLayer
     .map(entry => Array.from(entry as IArguments))
     .filter(entry => entry[0] === 'event' && entry[1] === 'cat_view')
-    .map(entry => entry[2] as { photo_id: string; cat_number: number }));
+    .map(entry => entry[2] as { cat_count: number; photo_id: string; cat_number: number }));
 
   await page.goto('https://pawpointer.app/');
   await expect(page.locator('.stage')).toHaveAttribute('data-phase', 'waiting');
@@ -24,20 +24,20 @@ test('cat_view counts appearances once across previews, upgrades and resize', as
   await expect(page.locator('.stage')).toHaveAttribute('data-quality', 'preview');
   await expect.poll(async () => (await views()).length).toBe(1);
   const firstId = await page.locator('.stage').getAttribute('data-photo-id');
-  expect(await views()).toEqual([{ photo_id: firstId, cat_number: 1 }]);
+  expect(await views()).toEqual([{ cat_count: 1, photo_id: firstId, cat_number: 1 }]);
 
   await page.setViewportSize({ width: 1200, height: 800 });
   release();
   await expect(page.locator('.stage')).toHaveAttribute('data-quality', 'full');
-  expect(await views()).toEqual([{ photo_id: firstId, cat_number: 1 }]);
+  expect(await views()).toEqual([{ cat_count: 1, photo_id: firstId, cat_number: 1 }]);
 
   await page.keyboard.press('Space');
   await expect.poll(async () => (await views()).length).toBe(2);
   await expect(page.locator('.stage')).toHaveAttribute('data-quality', 'full');
   const secondId = await page.locator('.stage').getAttribute('data-photo-id');
   expect(await views()).toEqual([
-    { photo_id: firstId, cat_number: 1 },
-    { photo_id: secondId, cat_number: 2 },
+    { cat_count: 1, photo_id: firstId, cat_number: 1 },
+    { cat_count: 1, photo_id: secondId, cat_number: 2 },
   ]);
 
   await page.mouse.move(300, 250);
@@ -46,4 +46,5 @@ test('cat_view counts appearances once across previews, upgrades and resize', as
   await expect.poll(async () => (await views()).length).toBe(3);
   await expect(page.locator('.stage')).toHaveAttribute('data-quality', 'full');
   expect((await views()).map(view => view.cat_number)).toEqual([1, 2, 3]);
+  expect((await views()).reduce((total, view) => total + view.cat_count, 0)).toBe(3);
 });

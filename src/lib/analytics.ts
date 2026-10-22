@@ -28,6 +28,7 @@ export function initializeAnalytics() {
 export function trackCatView(photoId: string, catNumber: number) {
   if (window.location.hostname !== 'pawpointer.app' || !window.gtag) return;
   window.gtag('event', 'cat_view', {
+    cat_count: 1,
     photo_id: photoId,
     cat_number: catNumber,
   });
