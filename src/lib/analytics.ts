@@ -24,3 +24,11 @@ export function initializeAnalytics() {
   script.src = `https://www.googletagmanager.com/gtag/js?id=${measurementId}`;
   document.head.append(script);
 }
+
+export function trackCatView(photoId: string, catNumber: number) {
+  if (window.location.hostname !== 'pawpointer.app' || !window.gtag) return;
+  window.gtag('event', 'cat_view', {
+    photo_id: photoId,
+    cat_number: catNumber,
+  });
+}

@@ -1,5 +1,7 @@
 import { PawPrint } from 'lucide-react';
+import { useEffect, useRef } from 'react';
 import catalog from './gallery.json';
+import { trackCatView } from './lib/analytics';
 import type { GalleryPhoto } from './lib/geometry';
 import { usePointerGallery } from './lib/usePointerGallery';
 import { PhotoStage } from './components/PhotoStage';
@@ -7,6 +9,12 @@ const photos: GalleryPhoto[] = catalog;
 export default function App() {
   const gallery = usePointerGallery(photos, false);
   const { phase, shot, touch, another } = gallery;
+  const trackedSequence = useRef(0);
+  useEffect(() => {
+    if (!shot || shot.sequence === trackedSequence.current) return;
+    trackedSequence.current = shot.sequence;
+    trackCatView(shot.photo.id, shot.sequence);
+  }, [shot]);
   const status = phase === 'ready' ? (touch ? 'Tap somewhere new. Curiosity follows.' : 'Stay curious. Move somewhere new.') : phase === 'loading' ? 'One curious cat, coming right up…' : phase === 'error' ? 'Our cats got distracted. Try again?' : phase === 'waiting' ? (touch ? 'Tap anywhere. A cat will find you.' : 'Move your cursor. Then hold still.') : 'Hold still. Someone’s curious.';
   return <div className={`app ${shot ? 'has-photo' : ''}`}>
     <PhotoStage {...gallery} paused={false} />
