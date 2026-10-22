@@ -105,13 +105,28 @@ test('desktop prepares the intended image during the unchanged 1.2 second dwell'
  expect(Date.now()-start).toBeGreaterThanOrEqual(1100);
 });
 
-test('touch taps start immediately and latest rapid tap wins',async({browser})=>{
+test('touch taps show the dwell ring before each photo and latest rapid tap wins',async({browser})=>{
  const context=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
  const page=await context.newPage();await page.goto('http://127.0.0.1:5174/');
- const start=Date.now();await page.touchscreen.tap(80,180);await ready(page);await alignment(page,80,180);
- expect(Date.now()-start).toBeLessThan(1000);
- await page.touchscreen.tap(300,600);await page.touchscreen.tap(180,400);
- await ready(page);await alignment(page,180,400);await context.close();
+ const start=Date.now();await page.touchscreen.tap(80,180);
+ await expect(page.locator('.stage')).toHaveAttribute('data-phase','tracking');
+ await expect(page.locator('.target-timer')).toBeVisible();
+ await expect(page.locator('.empty-stage')).toBeVisible();
+ const initialOffset=await page.locator('.target-timer circle').evaluate(el=>parseFloat(getComputedStyle(el).strokeDashoffset));
+ await page.waitForTimeout(350);
+ const laterOffset=await page.locator('.target-timer circle').evaluate(el=>parseFloat(getComputedStyle(el).strokeDashoffset));
+ expect(laterOffset).toBeLessThan(initialOffset);
+ await ready(page);await alignment(page,80,180);
+ expect(Date.now()-start).toBeGreaterThanOrEqual(1100);
+ const previous=await page.locator('.stage').getAttribute('data-photo-id');
+ await page.touchscreen.tap(300,600);await page.waitForTimeout(300);await page.touchscreen.tap(180,400);
+ await expect(page.locator('.target-timer')).toBeVisible();
+ await expect(page.locator('.stage')).toHaveAttribute('data-photo-id',previous!);
+ await page.waitForTimeout(500);
+ await expect(page.locator('.stage')).toHaveAttribute('data-phase','tracking');
+ await ready(page);await alignment(page,180,400);
+ await expect(page.locator('.target-timer')).toHaveCount(0);
+ await context.close();
 });
 
 for (const mobile of [false,true]) test(`first visit stays black without image requests until input (${mobile?'touch':'mouse'})`,async({browser})=>{
@@ -146,4 +161,38 @@ test('small hand tremors do not starve the next photo and its paw follows the la
  await expect(page.locator('.stage')).toHaveAttribute('data-phase','ready',{timeout:900});
  await expect(page.locator('.stage')).not.toHaveAttribute('data-photo-id',previous!);
  await alignment(page,602,400);
+});
+
+test('touch preloads during dwell and keeps a spinner until a slow photo is decoded',async({browser})=>{
+ const context=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
+ const page=await context.newPage();
+ let release:()=>void=()=>{};const gate=new Promise<void>(resolve=>{release=resolve});
+ let requests=0;
+ await page.route('**/photos/*',async route=>{requests++;await gate;await route.continue().catch(()=>{});});
+ await page.goto('http://127.0.0.1:5174/');
+ await page.touchscreen.tap(220,350);
+ await expect.poll(()=>requests,{timeout:1000}).toBeGreaterThan(0);
+ await expect(page.locator('.stage')).toHaveAttribute('data-phase','tracking');
+ await expect(page.locator('.target-timer')).toBeVisible();
+ await expect(page.locator('.stage')).toHaveAttribute('data-phase','loading');
+ await expect(page.locator('.target-timer.is-loading')).toBeVisible();
+ expect(requests).toBe(1);
+ release();await ready(page);await alignment(page,220,350);
+ await expect(page.locator('.target-timer')).toHaveCount(0);
+ await page.emulateMedia({reducedMotion:'reduce'});
+ await page.touchscreen.tap(100,200);
+ await expect(page.locator('.target-timer')).toBeVisible();
+ await ready(page);await context.close();
+});
+
+test('a photo that fails during warm-up is not requested again at reveal',async({browser})=>{
+ const context=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
+ const page=await context.newPage();const failedRequests:string[]=[];
+ await page.route(`**/photos/${centerPhoto.id}.{avif,webp}`,route=>{failedRequests.push(route.request().url());return route.abort();});
+ await page.goto('http://127.0.0.1:5174/');await page.touchscreen.tap(195,422);
+ await ready(page);
+ await expect(page.locator('.stage')).not.toHaveAttribute('data-photo-id',centerPhoto.id);
+ expect(failedRequests.length).toBeGreaterThan(0);
+ expect(new Set(failedRequests).size).toBe(failedRequests.length);
+ await context.close();
 });

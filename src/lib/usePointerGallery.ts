@@ -5,6 +5,7 @@ import { loadCatPhoto } from './images';
 export const STILLNESS_MS = 1200;
 export type Phase = 'waiting' | 'tracking' | 'loading' | 'ready' | 'error';
 export type Shot = { photo: GalleryPhoto; source: string; target: Point; sequence: number };
+type Prepared = { photo: GalleryPhoto; source: string } | null;
 const measure = (): Size => ({ width: window.innerWidth, height: window.innerHeight });
 
 export function usePointerGallery(photos: GalleryPhoto[], paused: boolean) {
@@ -17,6 +18,7 @@ export function usePointerGallery(photos: GalleryPhoto[], paused: boolean) {
   const [activity, setActivity] = useState(0);
   const timer = useRef<number | undefined>(undefined);
   const generation = useRef(0);
+  const prepared = useRef<Promise<Prepared> | null>(null);
   const warmTimer = useRef<number | undefined>(undefined);
   const controller = useRef(new AbortController());
   const position = useRef(target);
@@ -34,37 +36,44 @@ export function usePointerGallery(photos: GalleryPhoto[], paused: boolean) {
     clearTimeout(timer.current); clearTimeout(warmTimer.current);
     controller.current.abort(); controller.current = new AbortController();
     generation.current++;
+    prepared.current = null;
     pending.current = false;
   }, []);
-  const reveal = useCallback(async (point: Point, chosen?: GalleryPhoto, request = generation.current) => {
+  // Share the entire preparation (including fallback) between warm-up and reveal.
+  const prepare = useCallback(async (point: Point, chosen?: GalleryPhoto, request = generation.current): Promise<Prepared> => {
     const signal = controller.current.signal;
-    setPhase('loading');
     let candidate = chosen ?? selectPhoto(photos, normalize(point, size.current), recent.current, failed.current);
-    // Bounded fallback: a missing image never leaves the visitor stuck loading.
-    while (candidate) {
+    while (candidate && !signal.aborted) {
       try {
         const source = await loadCatPhoto(candidate, signal);
-        if (!alive.current || request !== generation.current || pausedRef.current) return;
-        recent.current = remember(recent.current, candidate.id);
-        pending.current = false;
-        setShot({ photo: candidate, source, target: position.current, sequence: ++sequence.current });
-        setSeen(values => values.includes(candidate!.id) ? values : [...values, candidate!.id]);
-        setPhase('ready');
-        return;
+        if (!alive.current || request !== generation.current || pausedRef.current) return null;
+        return { photo: candidate, source };
       } catch {
-        if (!alive.current || request !== generation.current || pausedRef.current) return;
+        if (!alive.current || request !== generation.current || pausedRef.current) return null;
         failed.current.add(candidate.id);
         candidate = selectPhoto(photos, normalize(point, size.current), recent.current, failed.current);
       }
     }
-    if (alive.current && request === generation.current) { pending.current = false; setPhase('error'); }
+    return null;
   }, [photos]);
 
-  const move = useCallback((point: Point, immediate = false) => {
+  const reveal = useCallback(async (point: Point, chosen?: GalleryPhoto, request = generation.current) => {
+    setPhase('loading');
+    const result = await (prepared.current ??= prepare(point, chosen, request));
+    if (!alive.current || request !== generation.current || pausedRef.current) return;
+    pending.current = false;
+    if (!result) { setPhase('error'); return; }
+    recent.current = remember(recent.current, result.photo.id);
+    setShot({ ...result, target: position.current, sequence: ++sequence.current });
+    setSeen(values => values.includes(result.photo.id) ? values : [...values, result.photo.id]);
+    setPhase('ready');
+  }, [prepare]);
+
+  const move = useCallback((point: Point, touchInput = false) => {
     if (pausedRef.current) return;
     // Keep a single transition alive through small hand tremors. Compare against
     // the fixed anchor, so a slow deliberate drag still restarts the dwell.
-    if (!immediate && pending.current && Math.hypot(point.x-anchor.current.x, point.y-anchor.current.y) <= 6) {
+    if (pending.current && Math.hypot(point.x-anchor.current.x, point.y-anchor.current.y) <= 6) {
       position.current = point; setTarget(point); return;
     }
     cancel();
@@ -74,16 +83,14 @@ export function usePointerGallery(photos: GalleryPhoto[], paused: boolean) {
     setTarget(point);
     setActivity(n => n + 1);
     const request = generation.current;
-    if (immediate) { void reveal(point, undefined, request); return; }
     setPhase('tracking');
-    // Download only the intended candidate after a short quiet window, overlapping
-    // the existing stillness delay. A new input aborts this work immediately.
-    warmTimer.current = window.setTimeout(() => {
-      const candidate = selectPhoto(photos, normalize(point, size.current), recent.current, failed.current);
-      if (candidate) void loadCatPhoto(candidate, controller.current.signal).catch(() => undefined);
-    }, 150);
+    // A tap is a definite target: use the full dwell to fetch and decode it.
+    // Mouse movement keeps a short debounce to avoid downloading on every pixel.
+    const warm = () => { prepared.current = prepare(point, undefined, request); };
+    if (touchInput) warm();
+    else warmTimer.current = window.setTimeout(warm, 150);
     timer.current = window.setTimeout(() => { void reveal(point, undefined, request); }, STILLNESS_MS);
-  }, [cancel, reveal, photos]);
+  }, [cancel, reveal, prepare]);
 
   const another = useCallback(() => {
     if (pausedRef.current) return;
@@ -117,7 +124,8 @@ export function usePointerGallery(photos: GalleryPhoto[], paused: boolean) {
     };
     const pointerDown = (e: PointerEvent) => {
       if (overControl(e)) return;
-      if (e.pointerType !== 'mouse') { setTouch(true); move({ x: e.clientX, y: e.clientY }, true); }
+      // Touch uses the same visible dwell as the mouse, including after finger-up.
+      if (e.isPrimary && e.pointerType !== 'mouse') { setTouch(true); move({ x: e.clientX, y: e.clientY }, true); }
     };
     const resize = () => {
       cancel();

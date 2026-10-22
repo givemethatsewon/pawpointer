@@ -8,7 +8,7 @@
 @keyframes countdown{to{stroke-dashoffset:0}}@keyframes arrive{from{opacity:0}to{opacity:1}}@keyframes ripple{from{transform:scale(.5);opacity:1}to{transform:scale(1.5);opacity:0}}@keyframes pulse{50%{opacity:.3}}@keyframes dialog-in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
 @media(max-width:760px){:root{--inset:16px}.wordmark{font-size:18px;padding:11px 14px 11px 12px;gap:7px}.toolbar nav{gap:7px}.bottom-bar{grid-template-columns:minmax(0,1fr) auto;gap:12px}.status{grid-column:1/-1;grid-row:1;justify-self:center;min-height:40px;font-size:11px;padding:10px 15px;max-width:100%;white-space:normal;text-align:center}.photo-credit{font-size:10px;max-width:100%;padding:7px 9px}.photo-credit>span:first-child{display:none}.another-button{font-size:10px;min-height:44px;padding:10px}.empty-stage p{margin-bottom:90px}.modal{width:calc(100vw - 24px);max-height:calc(100dvh - 32px);border-radius:18px}.modal-inner{padding:22px}.modal-header{gap:12px;padding-bottom:22px}.modal-header h1{font-size:26px;max-width:220px}.modal-header p{font-size:12px}.cat-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 12px}.collection-summary{font-size:10px}.cat-card h2{font-size:12px}.about-lead{font-size:36px}.photo-backdrop{filter:blur(24px) brightness(.82)}}
 @media(max-width:360px){.wordmark{font-size:16px}.photo-credit{font-size:9px}.another-button{gap:4px;font-size:9px}.modal-inner{padding:17px}.collection-summary{flex-direction:column;gap:5px}}
-@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}.found-ring{display:none}.target-timer{display:none}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}.found-ring{display:none}.target-timer{display:block}.target-timer circle{animation:none!important;stroke-dashoffset:0}}
 
 .creator-link{justify-self:start;display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:10px 14px;border-radius:99px;background:var(--chrome);color:var(--cream);font-size:11px;line-height:1.4;text-decoration:none;backdrop-filter:blur(12px);pointer-events:auto}.creator-link:hover{background:rgba(30,34,29,.96)}.creator-link svg{flex:none}@media(max-width:760px){.creator-link{font-size:10px;padding:10px 12px;gap:6px}}
 
@@ -16,3 +16,7 @@
 
 /* The canvas keeps only a centered status; retry appears only on failure. */
 .bottom-bar{display:flex;flex-direction:column;justify-content:center;gap:10px}.wordmark{min-height:44px;text-decoration:none}
+
+/* Keep feedback visible when the network outlasts the intentional dwell. */
+.target-timer.is-loading{animation:loading-spin .8s linear infinite}.target-timer.is-loading circle{animation:none;stroke-dasharray:80 39.4;stroke-dashoffset:0}
+@keyframes loading-spin{from{transform:rotate(-90deg)}to{transform:rotate(270deg)}}

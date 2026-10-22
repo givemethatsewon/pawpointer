@@ -15,7 +15,7 @@ export function PhotoStage({ shot, target, viewport, phase, activity, paused }: 
     </div> : <div className="empty-stage" aria-hidden="true" />}
     {!paused && <div className={`target ${phase === 'ready' ? 'is-found' : ''}`} style={{ '--target-x': `${target.x}px`, '--target-y': `${target.y}px` } as CSSProperties} aria-hidden="true" data-testid="target">
       <span className="target-core" />
-      {phase === 'tracking' && <svg key={activity} viewBox="0 0 44 44" className="target-timer"><circle cx="22" cy="22" r="19" /></svg>}
+      {(phase === 'tracking' || phase === 'loading') && <svg key={activity} viewBox="0 0 44 44" className={`target-timer ${phase === 'loading' ? 'is-loading' : ''}`}><circle cx="22" cy="22" r="19" /></svg>}
       {phase === 'ready' && <span key={shot?.sequence} className="found-ring" />}
     </div>}
   </main>;
