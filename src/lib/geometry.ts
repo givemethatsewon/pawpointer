@@ -4,7 +4,7 @@ export type CatPhoto = Size & {
   id: string; title: string; src: string; thumbnail: string; paw: Point;
   alt: string; photographer: string; source: string; sourceUrl: string; licenseUrl: string;
 };
-export type GalleryPhoto = Pick<CatPhoto, 'id' | 'src' | 'width' | 'height' | 'paw' | 'alt'> & { avif?: string | null };
+export type GalleryPhoto = Pick<CatPhoto, 'id' | 'src' | 'width' | 'height' | 'paw' | 'alt'> & { avif?: string | null; mobile?: string; preview?: string };
 export const clamp = (n: number, min: number, max: number) => Math.min(max, Math.max(min, n));
 export function normalize(point: Point, viewport: Size): Point {
   return { x: clamp(point.x / Math.max(1, viewport.width), 0, 1), y: clamp(point.y / Math.max(1, viewport.height), 0, 1) };

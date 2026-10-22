@@ -4,7 +4,7 @@ import type { GalleryPhoto } from './geometry';
 const MAX_READY = 6;
 type Entry = { image: HTMLImageElement; promise: Promise<void>; settled: boolean };
 const ready = new Map<string, Entry>();
-export function asset(path: string) { return `${import.meta.env.BASE_URL}${path}`; }
+export function asset(path: string) { return path.startsWith('data:') ? path : `${import.meta.env.BASE_URL}${path}`; }
 
 export function loadPhoto(path: string, signal?: AbortSignal): Promise<void> {
   if (signal?.aborted) return Promise.reject(new DOMException('Superseded', 'AbortError'));
@@ -60,6 +60,11 @@ function supportsAvif() {
   })();
 }
 export async function loadCatPhoto(photo: GalleryPhoto, signal?: AbortSignal): Promise<string> {
+  // Smaller decoded images reduce transfer, memory and GPU work on narrow screens.
+  if (photo.mobile && window.innerWidth <= 760) {
+    try { await loadPhoto(photo.mobile, signal); return photo.mobile; }
+    catch (error) { if (signal?.aborted) throw error; }
+  }
   if (photo.avif && await supportsAvif()) {
     try { await loadPhoto(photo.avif, signal); return photo.avif; }
     catch (error) { if (signal?.aborted) throw error; }

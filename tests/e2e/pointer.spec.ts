@@ -3,7 +3,7 @@ import catalog from '../../src/photos.json' with { type: 'json' };
 const centerPhoto = catalog.reduce((best, p) => Math.hypot(p.paw.x-.5,p.paw.y-.5)<Math.hypot(best.paw.x-.5,best.paw.y-.5)?p:best);
 const shots = process.env.PAW_SCREENSHOTS;
 async function startPlay(page:Page) { await page.locator('.stage').focus(); await page.keyboard.press('Space'); await ready(page); }
-async function ready(page:Page) { await expect(page.locator('.stage')).toHaveAttribute('data-phase','ready'); }
+async function ready(page:Page) { await expect(page.locator('.stage')).toHaveAttribute('data-phase','ready'); await expect(page.locator('.stage')).toHaveAttribute('data-quality','full'); }
 async function alignment(page:Page,x:number,y:number) {
  await expect.poll(async () => {
  const delta=await page.locator('.aligned-photo').evaluate((el, target)=>{
@@ -51,19 +51,23 @@ test('mobile taps, rotation and no page overflow',async({browser})=>{
  await alignment(page,240/390*844,350/844*390);
  await context.close();
 });
-test('a failed photo falls back to another and all failed photos show retry',async({page})=>{
- await page.route(`**/photos/${centerPhoto.id}.{avif,webp}`,r=>r.abort());
- await page.goto('/');await startPlay(page);await expect(page.locator('.stage')).not.toHaveAttribute('data-photo-id',centerPhoto.id);
- await page.route('**/photos/*',r=>r.abort());await page.reload();await page.locator('.stage').focus();await page.keyboard.press('Space');
- await expect(page.locator('.stage')).toHaveAttribute('data-phase','error');
- await expect(page.getByRole('button',{name:'Try again'})).toBeEnabled();
- await page.unroute('**/photos/*');await page.unroute(`**/photos/${centerPhoto.id}.{avif,webp}`);
- await page.getByRole('button',{name:'Try again'}).click();await ready(page);
+test('failed image delivery preserves usable previews across repeated interactions',async({page})=>{
+ await page.route('**/photos/**',r=>r.abort());
+ await page.goto('/');await page.locator('.stage').focus();await page.keyboard.press('Space');
+ await expect(page.locator('.stage')).toHaveAttribute('data-quality','preview');
+ for(const [x,y] of [[300,250],[800,500],[1200,700]]){
+  await page.mouse.move(x,y);
+  await expect(page.locator('.stage')).toHaveAttribute('data-phase','ready');
+  await expect(page.locator('.stage')).toHaveAttribute('data-quality','preview');
+  await alignment(page,x,y);
+ }
+ await expect(page.getByRole('button',{name:'Try again'})).toHaveCount(0);
+ await page.unroute('**/photos/**');await page.mouse.move(600,350);await ready(page);await alignment(page,600,350);
 });
 test('slow old request cannot replace a newer target',async({page})=>{
  let release:()=>void=()=>{};const gate=new Promise<void>(resolve=>{release=resolve});
  await page.route(`**/photos/${centerPhoto.id}.{avif,webp}`,async r=>{await gate;await r.continue().catch(()=>{})});
- await page.goto('/');await page.locator('.stage').focus();await page.keyboard.press('Space');await expect(page.locator('.stage')).toHaveAttribute('data-phase','loading');
+ await page.goto('/');await page.locator('.stage').focus();await page.keyboard.press('Space');await expect(page.locator('.stage')).toHaveAttribute('data-quality','preview');
  await page.mouse.move(1300,700);await ready(page);await alignment(page,1300,700);
  const id=await page.locator('.stage').getAttribute('data-photo-id');release();await page.waitForTimeout(500);
  await expect(page.locator('.stage')).toHaveAttribute('data-photo-id',id!);await alignment(page,1300,700);
@@ -163,19 +167,23 @@ test('small hand tremors do not starve the next photo and its paw follows the la
  await alignment(page,602,400);
 });
 
-test('touch preloads during dwell and keeps a spinner until a slow photo is decoded',async({browser})=>{
+test('touch preloads during dwell and reveals a preview on time despite a stalled photo',async({browser})=>{
  const context=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
  const page=await context.newPage();
  let release:()=>void=()=>{};const gate=new Promise<void>(resolve=>{release=resolve});
  let requests=0;
- await page.route('**/photos/*',async route=>{requests++;await gate;await route.continue().catch(()=>{});});
+ await page.route('**/photos/**',async route=>{requests++;await gate;await route.continue().catch(()=>{});});
  await page.goto('http://127.0.0.1:5174/');
  await page.touchscreen.tap(220,350);
  await expect.poll(()=>requests,{timeout:1000}).toBeGreaterThan(0);
  await expect(page.locator('.stage')).toHaveAttribute('data-phase','tracking');
  await expect(page.locator('.target-timer')).toBeVisible();
- await expect(page.locator('.stage')).toHaveAttribute('data-phase','loading');
- await expect(page.locator('.target-timer.is-loading')).toBeVisible();
+ await expect(page.locator('.stage')).toHaveAttribute('data-quality','preview',{timeout:1800});
+ await expect(page.locator('.stage')).toHaveAttribute('data-phase','ready');
+ await expect(page.locator('.aligned-photo')).toHaveAttribute('src',/^data:image/);
+ await alignment(page,220,350);
+ await page.waitForTimeout(2000);
+ await expect(page.locator('.stage')).toHaveAttribute('data-quality','preview');
  expect(requests).toBe(1);
  release();await ready(page);await alignment(page,220,350);
  await expect(page.locator('.target-timer')).toHaveCount(0);
@@ -188,11 +196,42 @@ test('touch preloads during dwell and keeps a spinner until a slow photo is deco
 test('a photo that fails during warm-up is not requested again at reveal',async({browser})=>{
  const context=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
  const page=await context.newPage();const failedRequests:string[]=[];
- await page.route(`**/photos/${centerPhoto.id}.{avif,webp}`,route=>{failedRequests.push(route.request().url());return route.abort();});
+ await page.route(`**/photos/**`,route=>{if(route.request().url().includes(centerPhoto.id)){failedRequests.push(route.request().url());return route.abort();}return route.continue();});
  await page.goto('http://127.0.0.1:5174/');await page.touchscreen.tap(195,422);
- await ready(page);
- await expect(page.locator('.stage')).not.toHaveAttribute('data-photo-id',centerPhoto.id);
+ await expect(page.locator('.stage')).toHaveAttribute('data-phase','ready');
+ await expect(page.locator('.stage')).toHaveAttribute('data-quality','preview');
+ await expect(page.locator('.stage')).toHaveAttribute('data-photo-id',centerPhoto.id);
  expect(failedRequests.length).toBeGreaterThan(0);
  expect(new Set(failedRequests).size).toBe(failedRequests.length);
+ await context.close();
+});
+
+
+test('native touch drag follows the finger and settles at the release position',async({browser})=>{
+ const context=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
+ const page=await context.newPage();await page.goto('http://127.0.0.1:5174/');
+ await expect(page.locator('.stage')).toHaveAttribute('data-phase','waiting');
+ const cdp=await context.newCDPSession(page);
+ await cdp.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:80,y:200}]});
+ for(const [x,y] of [[120,250],[180,320],[240,400]]){
+  await cdp.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x,y}]});
+  await expect.poll(()=>page.getByTestId('target').evaluate(el=>getComputedStyle(el).transform)).toBe(`matrix(1, 0, 0, 1, ${x}, ${y})`);
+ }
+ await cdp.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});
+ await ready(page);await alignment(page,240,400);
+ await expect(page.locator('.aligned-photo')).toHaveAttribute('src',/photos\/mobile\//);
+ await context.close();
+});
+
+
+test('viewport chrome resizing does not restart a pending touch or replace a ready photo',async({browser})=>{
+ const context=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
+ const page=await context.newPage();await page.goto('http://127.0.0.1:5174/');
+ await page.touchscreen.tap(220,350);await page.waitForTimeout(700);
+ await page.setViewportSize({width:390,height:750});
+ await expect(page.locator('.stage')).toHaveAttribute('data-phase','ready',{timeout:800});
+ const id=await page.locator('.stage').getAttribute('data-photo-id');
+ await page.setViewportSize({width:390,height:844});await page.waitForTimeout(1500);
+ await expect(page.locator('.stage')).toHaveAttribute('data-photo-id',id!);
  await context.close();
 });

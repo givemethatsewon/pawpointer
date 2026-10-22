@@ -18,3 +18,7 @@ buf=io.BytesIO();Image.new('RGB',(1,1)).save(buf,format='AVIF',quality=50)
 (root/'.work/perf-v2').mkdir(parents=True,exist_ok=True)
 (root/'.work/perf-v2/avif-probe.txt').write_text(base64.b64encode(buf.getvalue()).decode())
 print('Encoded',len(stats),'WebP bytes',sum(s['webpBytes'] for s in stats),'preferred bytes',sum(min(s['webpBytes'],s['avifBytes']) for s in stats))
+
+# Keep runtime previews and mobile assets in sync whenever the catalog is rebuilt.
+import subprocess, sys
+subprocess.run([sys.executable, str(root/"scripts/prepare-responsive.py")], check=True)

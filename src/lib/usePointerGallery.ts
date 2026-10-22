@@ -1,10 +1,10 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { clamp, denormalize, normalize, remember, selectPhoto, type GalleryPhoto, type Point, type Size } from './geometry';
-import { loadCatPhoto } from './images';
+import { loadCatPhoto, loadPhoto } from './images';
 
 export const STILLNESS_MS = 1200;
 export type Phase = 'waiting' | 'tracking' | 'loading' | 'ready' | 'error';
-export type Shot = { photo: GalleryPhoto; source: string; target: Point; sequence: number };
+export type Shot = { photo: GalleryPhoto; source: string; target: Point; sequence: number; quality: 'preview' | 'full' };
 type Prepared = { photo: GalleryPhoto; source: string } | null;
 const measure = (): Size => ({ width: window.innerWidth, height: window.innerHeight });
 
@@ -19,6 +19,8 @@ export function usePointerGallery(photos: GalleryPhoto[], paused: boolean) {
   const timer = useRef<number | undefined>(undefined);
   const generation = useRef(0);
   const prepared = useRef<Promise<Prepared> | null>(null);
+  const resolved = useRef<Prepared>(null);
+  const selected = useRef<GalleryPhoto | undefined>(undefined);
   const warmTimer = useRef<number | undefined>(undefined);
   const controller = useRef(new AbortController());
   const position = useRef(target);
@@ -28,7 +30,6 @@ export function usePointerGallery(photos: GalleryPhoto[], paused: boolean) {
   const sequence = useRef(0);
   const pausedRef = useRef(paused);
   const alive = useRef(true);
-  const started = useRef(false);
   const pending = useRef(false);
   const anchor = useRef(target);
 
@@ -36,7 +37,7 @@ export function usePointerGallery(photos: GalleryPhoto[], paused: boolean) {
     clearTimeout(timer.current); clearTimeout(warmTimer.current);
     controller.current.abort(); controller.current = new AbortController();
     generation.current++;
-    prepared.current = null;
+    prepared.current = null; resolved.current = null; selected.current = undefined;
     pending.current = false;
   }, []);
   // Share the entire preparation (including fallback) between warm-up and reveal.
@@ -44,12 +45,16 @@ export function usePointerGallery(photos: GalleryPhoto[], paused: boolean) {
     const signal = controller.current.signal;
     let candidate = chosen ?? selectPhoto(photos, normalize(point, size.current), recent.current, failed.current);
     while (candidate && !signal.aborted) {
+      selected.current = candidate;
+      if (candidate.preview) void loadPhoto(candidate.preview, signal).catch(() => undefined);
       try {
         const source = await loadCatPhoto(candidate, signal);
         if (!alive.current || request !== generation.current || pausedRef.current) return null;
-        return { photo: candidate, source };
+        return resolved.current = { photo: candidate, source };
       } catch {
         if (!alive.current || request !== generation.current || pausedRef.current) return null;
+        // A failed CDN upgrade must never discard a usable local preview.
+        if (candidate.preview) return resolved.current = { photo: candidate, source: candidate.preview };
         failed.current.add(candidate.id);
         candidate = selectPhoto(photos, normalize(point, size.current), recent.current, failed.current);
       }
@@ -58,15 +63,29 @@ export function usePointerGallery(photos: GalleryPhoto[], paused: boolean) {
   }, [photos]);
 
   const reveal = useCallback(async (point: Point, chosen?: GalleryPhoto, request = generation.current) => {
-    setPhase('loading');
-    const result = await (prepared.current ??= prepare(point, chosen, request));
+    const work = prepared.current ??= prepare(point, chosen, request);
+    const immediate = resolved.current;
+    const candidate = selected.current;
+    const show = (result: NonNullable<Prepared>, quality: Shot['quality']) => {
+      recent.current = remember(recent.current, result.photo.id);
+      pending.current = false;
+      setShot({ ...result, target: position.current, sequence: ++sequence.current, quality });
+      setSeen(values => values.includes(result.photo.id) ? values : [...values, result.photo.id]);
+      setPhase('ready');
+    };
+    if (immediate) { show(immediate, immediate.source.startsWith('data:') ? 'preview' : 'full'); return; }
+    // The embedded preview cannot be held hostage by a cold CDN or lost request.
+    const preview = candidate?.preview;
+    if (candidate && preview) show({ photo: candidate, source: preview }, 'preview');
+    else setPhase('loading');
+    const result = await work;
     if (!alive.current || request !== generation.current || pausedRef.current) return;
-    pending.current = false;
-    if (!result) { setPhase('error'); return; }
-    recent.current = remember(recent.current, result.photo.id);
-    setShot({ ...result, target: position.current, sequence: ++sequence.current });
-    setSeen(values => values.includes(result.photo.id) ? values : [...values, result.photo.id]);
-    setPhase('ready');
+    if (!result) { pending.current = false; setPhase('error'); return; }
+    if (preview) {
+      // Upgrade pixels in place; do not replay the entrance or move the paw.
+      setShot(current => current ? { ...current, ...result, quality: result.source.startsWith('data:') ? 'preview' : 'full' } : current);
+      recent.current = remember(recent.current, result.photo.id);
+    } else show(result, result.source.startsWith('data:') ? 'preview' : 'full');
   }, [prepare]);
 
   const move = useCallback((point: Point, touchInput = false) => {
@@ -78,7 +97,6 @@ export function usePointerGallery(photos: GalleryPhoto[], paused: boolean) {
     }
     cancel();
     pending.current = true; anchor.current = point;
-    started.current = true;
     position.current = point;
     setTarget(point);
     setActivity(n => n + 1);
@@ -95,7 +113,6 @@ export function usePointerGallery(photos: GalleryPhoto[], paused: boolean) {
   const another = useCallback(() => {
     if (pausedRef.current) return;
     cancel();
-    started.current = true;
     failed.current.clear();
     void reveal(position.current);
   }, [cancel, reveal]);
@@ -117,24 +134,32 @@ export function usePointerGallery(photos: GalleryPhoto[], paused: boolean) {
   useEffect(() => {
     alive.current = true;
     const overControl = (e: Event) => e.target instanceof Element && Boolean(e.target.closest('[data-ui]'));
+    let activeTouch: number | null = null;
     const pointerMove = (e: PointerEvent) => {
-      if (e.pointerType === 'touch' || overControl(e)) return;
-      setTouch(false);
+      if (overControl(e) || (e.pointerType === 'touch' && e.pointerId !== activeTouch)) return;
+      setTouch(e.pointerType !== 'mouse');
       move({ x: e.clientX, y: e.clientY });
     };
     const pointerDown = (e: PointerEvent) => {
       if (overControl(e)) return;
       // Touch uses the same visible dwell as the mouse, including after finger-up.
-      if (e.isPrimary && e.pointerType !== 'mouse') { setTouch(true); move({ x: e.clientX, y: e.clientY }, true); }
+      if (e.isPrimary && e.pointerType !== 'mouse') {
+        activeTouch = e.pointerId;
+        if (e.target instanceof Element) e.target.setPointerCapture(e.pointerId);
+        setTouch(true); move({ x: e.clientX, y: e.clientY }, true);
+      }
     };
+    const pointerUp = (e: PointerEvent) => { if (e.pointerId === activeTouch) activeTouch = null; };
     const resize = () => {
-      cancel();
+      const measured = measure();
+      if (measured.width === size.current.width && measured.height === size.current.height) return;
+      // Mobile browser chrome can resize the viewport while a finger is down.
+      // Reposition the existing shot without restarting dwell or its download.
       const previous = size.current;
       const next = measure(), normalized = normalize(position.current, previous);
       position.current = denormalize(normalized, next);
       size.current = next; setViewport(next); setTarget(position.current);
       setShot(current => current ? { ...current, target: denormalize(normalize(current.target, previous), next) } : current);
-      if (!pausedRef.current && started.current) move(position.current);
     };
     const keydown = (e: KeyboardEvent) => {
       if (pausedRef.current || overControl(e) || e.metaKey || e.ctrlKey || e.altKey) return;
@@ -152,6 +177,8 @@ export function usePointerGallery(photos: GalleryPhoto[], paused: boolean) {
     };
     window.addEventListener('pointermove', pointerMove);
     window.addEventListener('pointerdown', pointerDown);
+    window.addEventListener('pointerup', pointerUp);
+    window.addEventListener('pointercancel', pointerUp);
     window.addEventListener('keydown', keydown);
     window.addEventListener('resize', resize);
     document.documentElement.addEventListener('pointerleave', leave);
@@ -161,6 +188,8 @@ export function usePointerGallery(photos: GalleryPhoto[], paused: boolean) {
       alive.current = false; cancel();
       window.removeEventListener('pointermove', pointerMove);
       window.removeEventListener('pointerdown', pointerDown);
+      window.removeEventListener('pointerup', pointerUp);
+      window.removeEventListener('pointercancel', pointerUp);
       window.removeEventListener('keydown', keydown);
       window.removeEventListener('resize', resize);
       document.documentElement.removeEventListener('pointerleave', leave);

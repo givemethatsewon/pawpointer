@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync, existsSync } from 'node:fs';
+import { readFileSync, existsSync, statSync } from 'node:fs';
 import { normalize, denormalize, placePhoto, selectPhoto, remember, type CatPhoto } from '../src/lib/geometry.ts';
 const photos: CatPhoto[] = JSON.parse(readFileSync(new URL('../src/photos.json',import.meta.url),'utf8'));
 test('annotated paws land at the requested pixel across desktop/mobile and all edges', () => {
@@ -65,5 +65,19 @@ test('nearby selections stay stable for preloading and avoid repeats across the 
    assert.ok(d(next)<=Math.min(...fresh.map(d))+.025+1e-12);
    history=remember(history,next.id);
   }
+ }
+});
+
+
+test('every photo has a bounded mobile asset and an embedded network-independent preview',()=>{
+ const gallery = JSON.parse(readFileSync(new URL('../src/gallery.json',import.meta.url),'utf8'));
+ for(const p of gallery){
+  assert.ok(p.preview.startsWith('data:image/webp;base64,'));
+  const bytes=Buffer.from(p.preview.split(',')[1],'base64');
+  assert.equal(bytes.toString('ascii',0,4),'RIFF');
+  assert.equal(bytes.toString('ascii',8,12),'WEBP');
+  assert.ok(bytes.length<2000);
+  assert.match(p.mobile,/^photos\/mobile\/[a-z0-9-]+-[a-f0-9]{12}\.webp$/);
+  assert.ok(statSync(new URL('../public/'+p.mobile,import.meta.url)).size<=80000);
  }
 });
