@@ -20,3 +20,6 @@
 /* Keep feedback visible when the network outlasts the intentional dwell. */
 .target-timer.is-loading{animation:loading-spin .8s linear infinite}.target-timer.is-loading circle{animation:none;stroke-dasharray:80 39.4;stroke-dashoffset:0}
 @keyframes loading-spin{from{transform:rotate(-90deg)}to{transform:rotate(270deg)}}
+
+/* Smooth the tiny offline-capable placeholder while sharp pixels are in flight. */
+.photo-scene.is-preview .aligned-photo{filter:blur(8px)}

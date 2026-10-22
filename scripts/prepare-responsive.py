@@ -3,16 +3,17 @@ Run: uv run --no-project --with pillow python scripts/prepare-responsive.py
 """
 from pathlib import Path
 from PIL import Image
-import base64, hashlib, io, json, statistics
+import base64, hashlib, io, json, statistics, sys
 root=Path(__file__).resolve().parent.parent
 catalog=json.loads((root/'src/gallery.json').read_text())
 mobile_dir=root/'public/photos/mobile';mobile_dir.mkdir(exist_ok=True)
 sizes=[]
 for photo in catalog:
     with Image.open(root/'public'/photo['src']) as image:
-        preview=image.copy();preview.thumbnail((96,96))
-        data=io.BytesIO();preview.save(data,format='WEBP',quality=35,method=6)
+        preview=image.copy();preview.thumbnail((32,32))
+        data=io.BytesIO();preview.save(data,format='WEBP',quality=25,method=6)
         photo['preview']='data:image/webp;base64,'+base64.b64encode(data.getvalue()).decode()
+        if '--previews-only' in sys.argv: continue
         mobile=image.copy();mobile.thumbnail((960,960))
         data=io.BytesIO();mobile.save(data,format='WEBP',quality=68,method=6)
         payload=data.getvalue()
@@ -25,4 +26,4 @@ for photo in catalog:
         (root/'public'/photo['mobile']).write_bytes(payload)
         sizes.append(len(payload))
 (root/'src/gallery.json').write_text(json.dumps(catalog,ensure_ascii=False,separators=(',',':'))+'\n')
-print({'count':len(sizes),'mobile_total_bytes':sum(sizes),'mobile_median_bytes':statistics.median(sizes),'mobile_max_bytes':max(sizes)})
+print({'count':len(sizes),'mobile_total_bytes':sum(sizes),'mobile_median_bytes':statistics.median(sizes) if sizes else None,'mobile_max_bytes':max(sizes) if sizes else None})

@@ -20,7 +20,7 @@ export function PhotoStage({ shot, target, viewport, phase, activity, paused }: 
 // Pointer state changes must not repeatedly lay out the two full-screen images.
 const PhotoScene = memo(function PhotoScene({ shot, viewport }: { shot: Shot; viewport: Size }) {
   const placement = placePhoto(shot.photo, shot.target, viewport);
-  return <div className="photo-scene" key={shot.sequence}>
+  return <div className={`photo-scene ${shot.quality === 'preview' ? 'is-preview' : ''}`} key={shot.sequence}>
     <img className="photo-backdrop" src={asset(shot.source)} alt="" aria-hidden="true" />
     <img className="aligned-photo" src={asset(shot.source)} alt={shot.photo.alt} style={placement} draggable={false} data-paw-x={shot.photo.paw.x} data-paw-y={shot.photo.paw.y} />
   </div>;
